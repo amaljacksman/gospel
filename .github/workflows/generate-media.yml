@@ -5,33 +5,90 @@ on:
       year:
         description: Content year
         required: true
+        type: choice
+        options: ['2026', '2027']
         default: '2027'
+      from:
+        description: 'First date (YYYY-MM-DD); leave both dates blank for the full year'
+        type: string
+      to:
+        description: 'Last date (YYYY-MM-DD); use the same date to test one day'
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: generate-media-r2
+  cancel-in-progress: false
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      YEAR: ${{ inputs.year }}
+      FROM: ${{ inputs.from }}
+      TO: ${{ inputs.to }}
+      DRY_RUN: 'true'
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - run: npm ci
-      - name: Download private source audio
+      - name: Check requested dates
         run: |
-          mkdir -p generator/audio
-          aws s3 cp "s3://${R2_BUCKET}/source-audio/" generator/audio/ \
-            --recursive \
-            --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: auto
-          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-          R2_BUCKET: ${{ secrets.R2_BUCKET }}
-      - run: npm run validate -- --year ${{ inputs.year }}
-      - run: npm run generate:year -- --year ${{ inputs.year }}
-      - run: npm run upload -- --year ${{ inputs.year }}
+          node --input-type=module <<'JS'
+          import { readFileSync } from 'node:fs';
+          const { YEAR, FROM, TO } = process.env;
+          if (!/^(2026|2027)$/.test(YEAR)) throw new Error('Unsupported year');
+          if (Boolean(FROM) !== Boolean(TO)) throw new Error('Provide both dates or neither');
+          for (const date of [FROM, TO].filter(Boolean)) {
+            if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !date.startsWith(`${YEAR}-`) ||
+                !Number.isFinite(Date.parse(date)) || new Date(date).toISOString().slice(0, 10) !== date)
+              throw new Error('Dates must be real YYYY-MM-DD dates in the selected year');
+          }
+          if (FROM > TO) throw new Error('First date must not follow last date');
+          const doc = JSON.parse(readFileSync(`content/${YEAR}.json`, 'utf8'));
+          const selected = doc.content.filter(d => !FROM || (d.date >= FROM && d.date <= TO));
+          if (!selected.length) throw new Error('No content in requested range');
+          if (FROM && (!selected.some(d => d.date === FROM) || !selected.some(d => d.date === TO)))
+            throw new Error('Range endpoints must exist in content');
+          JS
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: npm ci
+      - name: Restore licensed audio and verify checksums
+        run: npm run audio:download
+      - name: Validate content before rendering
+        run: npm run validate -- --year "$YEAR"
+      - name: Generate selected media
+        run: |
+          if [ -n "$FROM" ]; then
+            npm run generate:range -- --year "$YEAR" --from "$FROM" --to "$TO"
+          else
+            npm run generate:year -- --year "$YEAR"
+          fi
+          test -n "$(find generated -type f \( -name '*.jpg' -o -name '*.mp4' \) -print -quit)"
+      - name: Upload generated media and content JSON
+        run: npm run upload -- --year "$YEAR"
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      - name: Verify public media and content URLs
+        run: |
+          verify() {
+            local url="$1" expected="$2" headers
+            headers=$(curl --fail --silent --show-error --head --retry 5 --retry-all-errors "$url")
+            printf '%s\n' "$headers" | tr -d '\r' | grep -qi "^content-type: $expected"
+            echo "Verified $url ($expected)"
+          }
+          verify "https://gospel.networkt.in/content/$YEAR.json" application/json
+          while IFS= read -r file; do
+            case "$file" in
+              *.jpg) mime=image/jpeg ;;
+              *.mp4) mime=video/mp4 ;;
+              *) continue ;;
+            esac
+            verify "https://gospel.networkt.in/${file#generated/}" "$mime"
+          done < <(find generated -type f)
