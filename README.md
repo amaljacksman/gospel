@@ -111,4 +111,5 @@ npm run format:check
 If validation reports missing audio, add the licensed file named in the error. If FFmpeg fails, verify `libx264` and AAC are available with `ffmpeg -encoders`. For container failures, verify the R2 object is publicly reachable with the correct MIME type and inspect `last_error` through the admin endpoint. For 401/403 responses, rotate the token and confirm account permissions. Cron configuration can take several minutes to propagate.
 
 The optional `Generate Media` GitHub Actions workflow runs only by manual dispatch. Add the four R2 values as GitHub Secrets and provide licensed audio to the runner through your own private artifact or repository policy before enabling Reel generation.
+
 # gospel

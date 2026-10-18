@@ -56,6 +56,11 @@ jobs:
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm ci
+      - name: Restore cached licensed audio
+        uses: actions/cache@v4
+        with:
+          path: generator/audio/*.mp3
+          key: licensed-audio-${{ hashFiles('generator/audio/licenses/tracks.json') }}
       - name: Restore licensed audio and verify checksums
         run: npm run audio:download
       - name: Validate content before rendering

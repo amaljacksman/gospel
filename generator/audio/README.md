@@ -7,3 +7,5 @@ The original MP3s are kept here and ignored by Git. `licenses/tracks.json` recor
 Reel audio selections are explicit in `content/YYYY.json`. `npm run audio:rotate` cycles all 20 tracks over enabled reels in chronological order, continuing across year boundaries. Rendering uses those choices without randomness. `shared/audio-library.ts` provides credits; the scheduler places the selected credit and edit notice in the Reel caption. Keep those credits when posting manually. Existing queued jobs and already rendered media must be regenerated/requeued separately if their track changes.
 
 To restore the local library after a fresh checkout, run `npm run audio:download`. It verifies each downloaded file against the recorded SHA-256 checksum before saving it.
+
+The downloader requires `curl` (included on GitHub's Ubuntu runners), retries connection/HTTP failures, and verifies SHA-256 before replacing any track. GitHub Actions caches the MP3s by license manifest; every run still verifies cached files.
