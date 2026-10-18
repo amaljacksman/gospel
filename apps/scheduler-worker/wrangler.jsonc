@@ -1,0 +1,21 @@
+{
+  "name": "gospel-instagram-scheduler",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "gospel-instagram",
+      "database_id": "7381e6b9-ea78-40c1-93fc-050239d58aa1",
+      "migrations_dir": "../../database/migrations",
+    },
+  ],
+  "r2_buckets": [{ "binding": "CONTENT", "bucket_name": "gospel-content" }],
+  "queues": { "producers": [{ "binding": "PUBLISH_QUEUE", "queue": "gospel-publish" }] },
+  "vars": {
+    "TIMEZONE": "Asia/Kolkata",
+    "GRACE_WINDOW_MINUTES": "30",
+    "DRY_RUN": "true",
+  },
+}

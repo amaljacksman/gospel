@@ -1,0 +1,5 @@
+{
+  "name": "@gospel/publisher-worker",
+  "private": true,
+  "type": "module"
+}

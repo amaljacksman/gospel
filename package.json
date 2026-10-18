@@ -1,0 +1,49 @@
+{
+  "name": "gospel-instagram-automation",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "generator"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "validate": "tsx generator/src/cli.ts validate",
+    "generate:year": "tsx generator/src/cli.ts generate:year",
+    "generate:date": "tsx generator/src/cli.ts generate:date",
+    "generate:range": "tsx generator/src/cli.ts generate:range",
+    "generate:story": "tsx generator/src/cli.ts generate:story",
+    "generate:post": "tsx generator/src/cli.ts generate:post",
+    "generate:reel": "tsx generator/src/cli.ts generate:reel",
+    "upload": "tsx generator/src/cli.ts upload",
+    "audio:rotate": "node --import tsx generator/src/rotate-audio.ts",
+    "audio:download": "node --import tsx generator/src/download-audio.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.883.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "luxon": "^3.7.2",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260911.1",
+    "@eslint/js": "^9.35.0",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^24.3.1",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.42.0",
+    "vitest": "^3.2.4",
+    "wrangler": "^4.129.1"
+  }
+}

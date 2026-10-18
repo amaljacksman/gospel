@@ -1,0 +1,9 @@
+node_modules/
+dist/
+generated/
+.dev.vars
+.env
+*.log
+.wrangler/
+generator/audio/*.mp3
+!generator/audio/README.md

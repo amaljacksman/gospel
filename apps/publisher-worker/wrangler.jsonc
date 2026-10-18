@@ -1,0 +1,32 @@
+{
+  "name": "gospel-instagram-publisher",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "gospel-instagram",
+      "database_id": "7381e6b9-ea78-40c1-93fc-050239d58aa1",
+      "migrations_dir": "../../database/migrations",
+    },
+  ],
+  "queues": {
+    "producers": [{ "binding": "PUBLISH_QUEUE", "queue": "gospel-publish" }],
+    "consumers": [
+      {
+        "queue": "gospel-publish",
+        "max_batch_size": 3,
+        "max_batch_timeout": 5,
+        "max_retries": 5,
+        "dead_letter_queue": "gospel-publish-dlq",
+      },
+    ],
+  },
+  "vars": {
+    "INSTAGRAM_API_VERSION": "v24.0",
+    "PUBLIC_R2_BASE_URL": "https://gospel.networkt.in",
+    "DRY_RUN": "true",
+    "MAX_ATTEMPTS": "5",
+    "TIMEZONE": "Asia/Kolkata",
+  },
+}

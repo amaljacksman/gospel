@@ -1,0 +1,5 @@
+{
+  "name": "@gospel/scheduler-worker",
+  "private": true,
+  "type": "module"
+}

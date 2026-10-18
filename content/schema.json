@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gospel.example/content.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["year", "timezone", "content"],
+  "properties": {
+    "year": { "type": "integer", "minimum": 2020, "maximum": 2200 },
+    "timezone": { "type": "string", "minLength": 1 },
+    "content": { "type": "array", "items": { "$ref": "#/$defs/day" } }
+  },
+  "$defs": {
+    "time": { "type": "string", "pattern": "^(?:[01]\\d|2[0-3]):[0-5]\\d$" },
+    "base": {
+      "type": "object",
+      "required": ["enabled", "publishTime"],
+      "properties": { "enabled": { "type": "boolean" }, "publishTime": { "$ref": "#/$defs/time" } }
+    },
+    "day": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "theme", "verse"],
+      "properties": {
+        "date": { "type": "string", "format": "date" },
+        "theme": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "verse": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["reference", "text"],
+          "properties": {
+            "reference": { "type": "string", "minLength": 2, "maxLength": 80 },
+            "text": { "type": "string", "minLength": 1, "maxLength": 1000 }
+          }
+        },
+        "story": {
+          "allOf": [
+            { "$ref": "#/$defs/base" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["enabled", "publishTime", "template", "headline", "footer"],
+              "properties": {
+                "enabled": { "type": "boolean" },
+                "publishTime": { "$ref": "#/$defs/time" },
+                "template": {
+                  "enum": [
+                    "minimal-cross",
+                    "verse-center",
+                    "morning-light",
+                    "prayer",
+                    "question",
+                    "psalm",
+                    "jesus-says",
+                    "night-prayer"
+                  ]
+                },
+                "headline": { "type": "string", "maxLength": 160 },
+                "footer": { "type": "string", "maxLength": 80 }
+              }
+            }
+          ]
+        },
+        "post": {
+          "allOf": [
+            { "$ref": "#/$defs/base" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["enabled", "publishTime", "template", "caption", "hashtags"],
+              "properties": {
+                "enabled": { "type": "boolean" },
+                "publishTime": { "$ref": "#/$defs/time" },
+                "template": {
+                  "enum": [
+                    "minimal-verse",
+                    "motivation",
+                    "prayer-card",
+                    "quote-card",
+                    "sunday-gospel"
+                  ]
+                },
+                "caption": { "type": "string", "maxLength": 2000 },
+                "hashtags": {
+                  "type": "array",
+                  "maxItems": 30,
+                  "uniqueItems": true,
+                  "items": { "type": "string", "pattern": "^#[A-Za-z0-9_]+$" }
+                }
+              }
+            }
+          ]
+        },
+        "reel": {
+          "allOf": [
+            { "$ref": "#/$defs/base" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "enabled",
+                "publishTime",
+                "template",
+                "headline",
+                "ending",
+                "durationSeconds",
+                "audio"
+              ],
+              "properties": {
+                "enabled": { "type": "boolean" },
+                "publishTime": { "$ref": "#/$defs/time" },
+                "template": {
+                  "enum": [
+                    "verse-center",
+                    "minimal-cross",
+                    "morning-light",
+                    "prayer",
+                    "night-prayer"
+                  ]
+                },
+                "headline": { "type": "string", "maxLength": 160 },
+                "ending": { "type": "string", "maxLength": 160 },
+                "durationSeconds": { "type": "number", "minimum": 10, "maximum": 15 },
+                "audio": {
+                  "enum": [
+                    "peaceful_01",
+                    "peaceful_02",
+                    "peaceful_03",
+                    "hopeful_01",
+                    "prayer_01",
+                    "night_01",
+                    "peaceful_04",
+                    "peaceful_05",
+                    "peaceful_06",
+                    "peaceful_07",
+                    "peaceful_08",
+                    "peaceful_09",
+                    "peaceful_10",
+                    "peaceful_11",
+                    "peaceful_12",
+                    "peaceful_13",
+                    "peaceful_14",
+                    "peaceful_15",
+                    "peaceful_16",
+                    "peaceful_17"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
