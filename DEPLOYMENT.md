@@ -368,18 +368,19 @@ R2_SECRET_ACCESS_KEY
 R2_BUCKET
 ```
 
-The workflow downloads licensed MP3 files from the bucket's `source-audio/` prefix before validation. Upload those source files once with the S3-compatible API, and use an R2 rule or separate private source bucket if your public custom domain exposes every object. Never make licensed source tracks publicly browsable merely to supply CI. The generated Reel contains the mixed audio; the source MP3 does not need public access.
+The workflow uses Node.js 22, installs FFmpeg, and runs `npm run audio:download` to restore the 20 licensed tracks with SHA-256 verification. It validates the selected year's JSON before rendering. Source audio does not need to be stored in R2.
 
-Example initial upload with the AWS CLI and the same scoped credentials:
+Add each value through GitHub **Settings → Secrets and variables → Actions → New repository secret**. Enter credentials directly into GitHub's secret-value field, never into chat, YAML, or a committed `.env`. Use an existing R2 Object Read & Write credential restricted to `gospel-content`. Set `R2_BUCKET` to `gospel-content`.
 
-```bash
-aws s3 cp generator/audio/ s3://gospel-content/source-audio/ \
-  --recursive \
-  --exclude "README.md" \
-  --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
-```
+Run **Actions → Generate Media → Run workflow** on `main`:
 
-Use a protected GitHub Environment for production R2 credentials and require review before the upload job if more than one person maintains the repository. Run **Actions → Generate Media → Run workflow**, enter the year, and inspect every step.
+- First test: year `2026`, from `2026-10-20`, to `2026-10-20` (a future date at setup).
+- Date range: select a year and supply both inclusive endpoints in that year.
+- Full year: leave both date fields blank. Large calendars must finish within the six-hour GitHub job limit; use monthly ranges if needed.
+
+The fresh runner generates only the requested dates. Upload runs only after successful validation and generation, using the existing `npm run upload -- --year` command. It uploads generated media and the corresponding **complete yearly JSON**, even for a one-day test. Missing media for other days is expected until those dates are generated. Keep both deployed Workers at `DRY_RUN=true` throughout this setup.
+
+The final step checks public HTTP success and MIME types for the JSON and every generated media file at `https://gospel.networkt.in`. The workflow does not deploy Workers or call Instagram. R2 credentials are scoped to the upload step; no credentials are written into files.
 
 ## 14. Normal operating procedure
 
