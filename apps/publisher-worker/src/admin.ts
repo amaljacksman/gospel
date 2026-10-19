@@ -1,7 +1,10 @@
+import { backfill } from './backfill.js';
 import type { QueueJob } from '../../../shared/types/content.js';
 import { localDate } from '../../../shared/utils/time.js';
 interface Env {
   DB: D1Database;
+  CONTENT?: R2Bucket;
+  DRY_RUN?: string;
   PUBLISH_QUEUE?: Queue<QueueJob>;
   ADMIN_API_KEY: string;
   TIMEZONE: string;
@@ -13,6 +16,10 @@ const auth = (r: Request, e: Env) =>
 export async function admin(request: Request, env: Env): Promise<Response> {
   if (!auth(request, env)) return json({ error: 'unauthorized' }, 401);
   const u = new URL(request.url);
+  if (u.pathname === '/api/jobs/backfill') {
+    if (request.method !== 'POST') return json({ error: 'method_not_allowed' }, 405);
+    return backfill(request, env);
+  }
   if (request.method === 'GET' && u.pathname === '/api/jobs/today')
     return json(
       await env.DB.prepare(

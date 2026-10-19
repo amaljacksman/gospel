@@ -10,6 +10,7 @@
       "migrations_dir": "../../database/migrations",
     },
   ],
+  "r2_buckets": [{ "binding": "CONTENT", "bucket_name": "gospel-content" }],
   "queues": {
     "producers": [{ "binding": "PUBLISH_QUEUE", "queue": "gospel-publish" }],
     "consumers": [

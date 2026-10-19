@@ -121,3 +121,5 @@ The publisher now uses Buffer for the connected `gospelsofdavid` Instagram chann
 A job is complete only when Buffer reports `sent`. Buffer processing is polled on queue retries; the existing retry limit applies. The legacy `instagram_container_id` column stores a `buffer:<post-id>` reference; `instagram_media_id` stores the external Instagram URL when available, otherwise the Buffer reference. A persisted `buffer:creating` marker means submission was interrupted or not confirmed. Inspect Buffer and reconcile the job before retrying; it will not automatically recreate an uncertain submission. Retrying an existing Buffer post checks its status and does not republish an errored post. Fix any delivery problem in Buffer first.
 
 Reference: https://developers.buffer.com/guides/posts-and-scheduling.html
+
+For manual catch-up publishing, use the protected [backfill API](BACKFILL.md). It supports date ranges, selected content types, and a preview mode while skipping existing jobs.

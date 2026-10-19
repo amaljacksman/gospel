@@ -13,6 +13,7 @@ interface Env extends ConsumerEnv {
   ADMIN_API_KEY: string;
   TIMEZONE: string;
   PUBLISH_QUEUE?: Queue<QueueJob>;
+  CONTENT?: R2Bucket;
 }
 const make = (e: Env) => {
   if (e.PUBLISHING_PROVIDER === 'buffer')

@@ -41,6 +41,7 @@ export async function enqueueCandidate(
   db: D1Database,
   queue: Queue<QueueJob>,
   c: Candidate,
+  onQueued?: (id: number) => void,
 ): Promise<boolean> {
   const now = new Date().toISOString();
   await db
@@ -58,6 +59,7 @@ export async function enqueueCandidate(
   if (!row) return false;
   try {
     await queue.send({ jobId: row.id });
+    onQueued?.(row.id);
     return true;
   } catch (e) {
     await db
