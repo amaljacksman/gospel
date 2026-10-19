@@ -1,0 +1,5 @@
+{
+  "name": "@gospel/privacy-worker",
+  "private": true,
+  "type": "module"
+}

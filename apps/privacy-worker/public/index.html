@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="How Gospel of Jesus Automation handles account information, publishing data, and privacy requests."
+    />
+    <title>Privacy Policy · Gospel of Jesus Automation</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f8f6f0;
+        --ink: #222c28;
+        --muted: #5e6860;
+        --accent: #32634c;
+        --line: #d9ded4;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font:
+          17px/1.75 system-ui,
+          sans-serif;
+      }
+      a {
+        color: var(--accent);
+        text-underline-offset: 4px;
+      }
+      a:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 5px;
+      }
+      .skip {
+        position: absolute;
+        top: -80px;
+        left: 20px;
+        background: white;
+        padding: 10px;
+      }
+      .skip:focus {
+        top: 12px;
+      }
+      header,
+      main,
+      footer {
+        max-width: 1080px;
+        margin: auto;
+        padding: 32px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+      }
+      .brand {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+      header a {
+        font-size: 14px;
+      }
+      main {
+        padding-top: 64px;
+      }
+      .eyebrow {
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+      h1 {
+        font-family: Georgia, serif;
+        font-size: clamp(44px, 7vw, 76px);
+        font-weight: 400;
+        line-height: 1.1;
+        margin: 16px 0 24px;
+        letter-spacing: -0.04em;
+      }
+      .intro {
+        max-width: 720px;
+        font-size: 21px;
+        color: var(--muted);
+      }
+      .date {
+        font-size: 14px;
+        color: var(--muted);
+        margin: 28px 0 44px;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 64px;
+        border-top: 1px solid var(--line);
+        padding-top: 36px;
+      }
+      nav {
+        font-size: 14px;
+      }
+      nav a {
+        display: block;
+        margin: 0 0 14px;
+        text-decoration: none;
+      }
+      section {
+        margin-bottom: 40px;
+        scroll-margin-top: 24px;
+      }
+      h2 {
+        font-size: 23px;
+        line-height: 1.35;
+        margin: 0 0 14px;
+        font-weight: 600;
+      }
+      p {
+        margin: 0 0 16px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      ul,
+      ol {
+        padding-left: 24px;
+      }
+      .note {
+        padding: 24px;
+        background: #edf1e8;
+        border-left: 3px solid var(--accent);
+      }
+      footer {
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+        padding-bottom: 48px;
+      }
+      @media (max-width: 720px) {
+        header,
+        main,
+        footer {
+          padding-left: 22px;
+          padding-right: 22px;
+        }
+        main {
+          padding-top: 40px;
+        }
+        .layout {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+        nav {
+          border-bottom: 1px solid var(--line);
+          padding-bottom: 12px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#policy">Skip to policy</a>
+    <header>
+      <span class="brand">Gospel of Jesus Automation</span>
+      <a href="#contact">Privacy contact ↗</a>
+    </header>
+    <main id="policy">
+      <div class="eyebrow">Your information</div>
+      <h1>Privacy policy</h1>
+      <p class="intro">
+        A clear account of the information used to prepare and publish Gospel content, and how to
+        request its removal.
+      </p>
+      <p class="date">Effective and last updated: October 19, 2026</p>
+      <div class="layout">
+        <nav aria-label="Policy sections">
+          <a href="#about">01 / About this service</a>
+          <a href="#information">02 / Information we handle</a>
+          <a href="#purpose">03 / How it is used</a>
+          <a href="#sharing">04 / Service providers</a>
+          <a href="#retention">05 / Storage &amp; retention</a>
+          <a href="#visitors">06 / Website visitors</a>
+          <a href="#data-deletion">07 / Your choices &amp; deletion</a>
+          <a href="#contact">08 / Contact</a>
+        </nav>
+        <article aria-label="Privacy policy details">
+          <section id="about">
+            <h2>About this service</h2>
+            <p>
+              Gospel of Jesus Automation is operated by the maintainer of the
+              <a href="https://github.com/amaljacksman/gospel">Gospel project</a>. It prepares
+              scripture images and videos and schedules publication to an operator-authorized
+              Instagram professional account using Meta’s official APIs.
+            </p>
+            <p>
+              The current service is an operator-managed publishing tool. This privacy website does
+              not offer visitor accounts or a public Instagram sign-in form.
+            </p>
+          </section>
+          <section id="information">
+            <h2>Information we handle</h2>
+            <ul>
+              <li>
+                <strong>Connected account information:</strong> the Instagram account identifier and
+                access credentials supplied by the account operator. Account information such as a
+                username may be accessed when checking the connection.
+              </li>
+              <li>
+                <strong>Publishing content:</strong> scripture text, captions, hashtags, images,
+                licensed audio, videos, dates, and publication times supplied for publishing.
+              </li>
+              <li>
+                <strong>Operational records:</strong> job status, attempt counts, timestamps, error
+                messages, and Meta media/container identifiers needed to track publication.
+              </li>
+              <li>
+                <strong>Privacy correspondence:</strong> information you choose to provide when
+                contacting the operator about access, correction, or deletion.
+              </li>
+            </ul>
+            <p>
+              The application’s publishing code does not request followers’ private messages,
+              contact lists, passwords, or browsing history. Do not send passwords or access tokens
+              with a privacy request.
+            </p>
+          </section>
+          <section id="purpose">
+            <h2>How information is used</h2>
+            <p>
+              We use this information to connect the authorized account, create and publish approved
+              media, schedule posts, record results, investigate failures, and respond to privacy
+              requests. Content selected for Instagram publication and the media URLs used for that
+              publication are public.
+            </p>
+            <p>
+              The service does not sell personal information or use it to build advertising
+              profiles.
+            </p>
+          </section>
+          <section id="sharing">
+            <h2>Service providers</h2>
+            <p>
+              <strong>Meta / Instagram</strong> receives the account credentials and publishing
+              requests required by its APIs, along with captions and media URLs. Its handling of
+              data is governed by
+              <a href="https://www.facebook.com/privacy/policy/">Meta’s Privacy Policy</a>.
+            </p>
+            <p>
+              <strong>Cloudflare</strong> hosts this page, the publishing Workers, media storage,
+              queues, and publication records. <strong>GitHub Actions</strong> runs media-generation
+              workflows and uploads media using credentials configured by the operator. These
+              providers may process data and technical records in countries other than your own
+              under their own terms and privacy policies.
+            </p>
+            <p>
+              Information may also be disclosed where required by applicable law or to protect the
+              service against misuse.
+            </p>
+          </section>
+          <section id="retention">
+            <h2>Storage, security &amp; retention</h2>
+            <p>
+              Deployed access credentials are stored as Cloudflare Worker secrets. Generation
+              credentials are configured separately for GitHub Actions. Local operator configuration
+              may also contain credentials. Access is intended to be limited to authorized
+              maintainers.
+            </p>
+            <p>
+              Publishing records and source media remain stored until the operator removes them; the
+              current implementation does not automatically expire these records. We retain
+              information while needed to operate the authorized integration, resolve publishing
+              issues, or meet applicable obligations. Privacy requests are reviewed individually,
+              including whether any limited retention is required.
+            </p>
+            <p>
+              We use access controls and HTTPS, but no storage or transmission method can guarantee
+              absolute security.
+            </p>
+          </section>
+          <section id="visitors">
+            <h2>Website visitors</h2>
+            <p>
+              This privacy page does not set application cookies, run analytics scripts, use
+              advertising trackers, or submit forms. Cloudflare may process technical request
+              information, such as IP addresses and request metadata, to deliver and protect the
+              website.
+            </p>
+            <p>
+              The service is not directed at children under 13 and does not intentionally solicit
+              personal information from them.
+            </p>
+          </section>
+          <section id="data-deletion" class="note">
+            <h2>Your choices &amp; data deletion</h2>
+            <p>
+              You may request access to, correction of, or deletion of information the operator
+              holds about you or your connected account, subject to applicable requirements.
+            </p>
+            <ol>
+              <li>
+                Contact the operator using the <a href="#contact">contact route below</a> and say
+                you are requesting removal of Gospel of Jesus Automation data.
+              </li>
+              <li>
+                Identify the connected Instagram account and describe the data involved. The
+                operator may ask you to verify control of the account using a private channel.
+              </li>
+              <li>
+                Once verified, the operator will review the request, stop the relevant integration
+                where appropriate, and remove eligible stored credentials and records. Any required
+                retention will be explained.
+              </li>
+            </ol>
+            <p>
+              You can also revoke the app’s access through the applicable Meta account, Apps and
+              Websites, or Business Integrations settings. Revoking access does not itself erase the
+              operator’s existing records; request deletion separately.
+            </p>
+            <p>
+              Removing data from this service does not automatically delete posts already published
+              to Instagram. The account owner can manage those posts directly on Instagram. This
+              page provides deletion instructions, not an automated deletion callback.
+            </p>
+          </section>
+          <section id="contact">
+            <h2>Contact &amp; policy updates</h2>
+            <p>
+              Contact the project operator through
+              <a href="https://github.com/amaljacksman/gospel/issues/new"
+                >the Gospel project’s contact issue</a
+              >
+              to request a private channel for a privacy or deletion request. GitHub issues are
+              public: do not include personal details, passwords, or credentials there.
+            </p>
+            <p>
+              We may update this policy as the service changes. The effective date above identifies
+              the current version.
+            </p>
+          </section>
+        </article>
+      </div>
+    </main>
+    <footer>
+      Gospel of Jesus Automation · Privacy &amp; data use<br />Public information page. No sign-in
+      required.
+    </footer>
+  </body>
+</html>
