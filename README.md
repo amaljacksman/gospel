@@ -113,3 +113,11 @@ If validation reports missing audio, add the licensed file named in the error. I
 The optional `Generate Media` GitHub Actions workflow runs only by manual dispatch. Add the four R2 values as GitHub Secrets and provide licensed audio to the runner through your own private artifact or repository policy before enabling Reel generation.
 
 # gospel
+
+## Buffer publishing
+
+The publisher now uses Buffer for the connected `gospelsofdavid` Instagram channel. Cloudflare keeps the existing schedule and sends due media using Buffer's `automatic` scheduling and `shareNow` mode. Set `BUFFER_API_KEY` as a publisher Worker secret; `PUBLISHING_PROVIDER=buffer` and `BUFFER_CHANNEL_ID` are in its Wrangler configuration. Meta credentials are needed only for the optional `meta` provider.
+
+A job is complete only when Buffer reports `sent`. Buffer processing is polled on queue retries; the existing retry limit applies. The legacy `instagram_container_id` column stores a `buffer:<post-id>` reference; `instagram_media_id` stores the external Instagram URL when available, otherwise the Buffer reference. A persisted `buffer:creating` marker means submission was interrupted or not confirmed. Inspect Buffer and reconcile the job before retrying; it will not automatically recreate an uncertain submission. Retrying an existing Buffer post checks its status and does not republish an errored post. Fix any delivery problem in Buffer first.
+
+Reference: https://developers.buffer.com/guides/posts-and-scheduling.html

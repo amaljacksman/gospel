@@ -1,5 +1,7 @@
 # Deployment Runbook
 
+The active publisher is configured for **Buffer**. Set `BUFFER_API_KEY` as a publisher Worker secret and configure `BUFFER_CHANNEL_ID` for the connected Instagram channel. Cloudflare scheduling and R2 uploads remain the same. The Meta setup below applies only if switching `PUBLISHING_PROVIDER` to `meta`. See the Buffer publishing section in README.md for delivery-status and retry behavior.
+
 This document takes Gospel of Jesus Automation from a local checkout to a safely tested production deployment. Complete the sections in order. Keep `DRY_RUN=true` until the production readiness checklist explicitly tells you to change it.
 
 ## 1. Understand how the modules connect

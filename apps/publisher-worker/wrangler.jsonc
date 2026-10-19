@@ -23,6 +23,8 @@
     ],
   },
   "vars": {
+    "PUBLISHING_PROVIDER": "buffer",
+    "BUFFER_CHANNEL_ID": "6ad5a71f778b240e2f543ed3",
     "INSTAGRAM_API_VERSION": "v26.0",
     "PUBLIC_R2_BASE_URL": "https://gospel.networkt.in",
     "DRY_RUN": "false",
