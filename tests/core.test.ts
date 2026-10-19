@@ -103,7 +103,7 @@ describe('Instagram', () => {
       return Promise.resolve(new Response(JSON.stringify(responses[calls++]), { status: 200 }));
     });
     try {
-      const api = new GraphInstagramPublisher('account', 'v24.0', {
+      const api = new GraphInstagramPublisher('account', 'v26.0', {
         getToken: async () => 'secret',
       });
       await expect(
@@ -130,7 +130,7 @@ describe('Instagram', () => {
       .mockResolvedValueOnce(new Response(JSON.stringify({ id: 'media' }), { status: 200 }));
     const api = new GraphInstagramPublisher(
       'account',
-      'v24.0',
+      'v26.0',
       { getToken: async () => 'secret' },
       fetcher,
     );
@@ -139,6 +139,11 @@ describe('Instagram', () => {
       mediaId: 'media',
     });
     expect(fetcher).toHaveBeenCalledTimes(3);
+    expect(fetcher.mock.calls.map((call) => call[0])).toEqual([
+      'https://graph.facebook.com/v26.0/account/media',
+      'https://graph.facebook.com/v26.0/container?fields=status_code',
+      'https://graph.facebook.com/v26.0/account/media_publish',
+    ]);
   });
   it('sends generated Stories as images', async () => {
     const fetcher = vi
@@ -150,7 +155,7 @@ describe('Instagram', () => {
       .mockResolvedValueOnce(new Response(JSON.stringify({ id: 'media' }), { status: 200 }));
     const api = new GraphInstagramPublisher(
       'account',
-      'v24.0',
+      'v26.0',
       { getToken: async () => 'secret' },
       fetcher,
     );

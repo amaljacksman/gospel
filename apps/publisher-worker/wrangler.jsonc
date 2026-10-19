@@ -23,7 +23,7 @@
     ],
   },
   "vars": {
-    "INSTAGRAM_API_VERSION": "v24.0",
+    "INSTAGRAM_API_VERSION": "v26.0",
     "PUBLIC_R2_BASE_URL": "https://gospel.networkt.in",
     "DRY_RUN": "false",
     "MAX_ATTEMPTS": "5",
