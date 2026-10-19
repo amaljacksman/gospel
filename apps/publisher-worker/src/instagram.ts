@@ -38,7 +38,7 @@ export class GraphInstagramPublisher implements InstagramPublisher {
     private readonly accountId: string,
     private readonly version: string,
     private readonly tokens: TokenProvider,
-    private readonly fetcher: typeof fetch = fetch,
+    private readonly fetcher: typeof fetch = (...args) => globalThis.fetch(...args),
   ) {}
   publishPost(i: PublishInput) {
     return this.publish(i);

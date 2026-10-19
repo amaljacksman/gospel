@@ -95,6 +95,26 @@ describe('idempotency', () => {
   });
 });
 describe('Instagram', () => {
+  it('calls the default Worker fetch with the global receiver for all publishing requests', async () => {
+    const responses = [{ id: 'container' }, { status_code: 'FINISHED' }, { id: 'media' }];
+    let calls = 0;
+    vi.stubGlobal('fetch', function (this: unknown) {
+      if (this !== globalThis) throw new TypeError('Illegal invocation');
+      return Promise.resolve(new Response(JSON.stringify(responses[calls++]), { status: 200 }));
+    });
+    try {
+      const api = new GraphInstagramPublisher('account', 'v24.0', {
+        getToken: async () => 'secret',
+      });
+      await expect(
+        api.publishPost({ type: 'post', mediaUrl: 'https://example.com/a.jpg' }),
+      ).resolves.toEqual({ containerId: 'container', mediaId: 'media' });
+      expect(calls).toBe(3);
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+
   it('parses graph errors', () =>
     expect(parseGraphError({ error: { message: 'bad', code: 100 } })).toEqual({
       message: 'bad',
