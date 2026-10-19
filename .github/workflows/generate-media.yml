@@ -56,6 +56,8 @@ jobs:
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm ci
+      - name: Verify visible text rendering
+        run: npx vitest run tests/render-card.test.ts
       - name: Restore cached licensed audio
         uses: actions/cache@v4
         with:

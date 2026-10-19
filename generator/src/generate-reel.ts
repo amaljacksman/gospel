@@ -4,7 +4,7 @@ import { dirname, resolve } from 'node:path';
 import { spawn } from 'node:child_process';
 import type { DailyContent } from '../../shared/types/content.js';
 import { r2Key } from '../../shared/utils/paths.js';
-import { cardSvg } from './svg.js';
+import { renderCard } from './render-card.js';
 import { AUDIO, audioPath } from './audio.js';
 function run(args: string[]): Promise<void> {
   return new Promise((ok, fail) => {
@@ -24,7 +24,7 @@ export async function generateReel(day: DailyContent): Promise<string> {
   await mkdir(dirname(out), { recursive: true });
   await writeFile(
     frame,
-    await sharp(cardSvg(day, 1080, 1920, 'reel'))
+    await sharp(renderCard(day, 1080, 1920, 'reel'))
       .png()
       .toBuffer(),
   );
