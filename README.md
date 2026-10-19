@@ -110,7 +110,7 @@ npm run format:check
 
 If validation reports missing audio, add the licensed file named in the error. If FFmpeg fails, verify `libx264` and AAC are available with `ffmpeg -encoders`. For container failures, verify the R2 object is publicly reachable with the correct MIME type and inspect `last_error` through the admin endpoint. For 401/403 responses, rotate the token and confirm account permissions. Cron configuration can take several minutes to propagate.
 
-The optional `Generate Media` GitHub Actions workflow runs only by manual dispatch. Add the four R2 values as GitHub Secrets and provide licensed audio to the runner through your own private artifact or repository policy before enabling Reel generation.
+The `Generate Media` GitHub Actions workflow automatically runs daily at 01:47 IST (20:17 UTC on the previous date), generating and uploading today plus the next two days of media. It also runs when content or the generation workflow/planner changes on `main`, and supports manual date ranges. Add the four R2 values as GitHub Secrets. Licensed audio is downloaded with checksum verification and cached. Content must be authored in advance; generation fails clearly when a required yearly file or date is missing. Existing Cloudflare scheduling publishes due items through Buffer. GitHub scheduled starts can be delayed; the two reserve days reduce dependence on a single run.
 
 # gospel
 

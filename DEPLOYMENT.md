@@ -361,7 +361,7 @@ Schedule one low-risk production item and monitor it. Confirm the post appears o
 
 ## 13. Configure GitHub Actions if desired
 
-The `Generate Media` workflow is manual only. Add these repository or environment secrets:
+The `Generate Media` workflow runs automatically each day at 01:47 IST, and when its workflow/planner or content changes on `main`. It generates the current local day and the following two days, splitting across years if necessary. Manual runs with a year and optional date range remain available. Add these repository or environment secrets:
 
 ```text
 R2_ACCOUNT_ID

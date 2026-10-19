@@ -1,5 +1,14 @@
 name: Generate Media
 on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/generate-media.yml
+      - generator/scripts/plan-media.mjs
+      - content/**
+  schedule:
+    # 01:47 IST daily. Generate today and the following two days.
+    - cron: '17 20 * * *'
   workflow_dispatch:
     inputs:
       year:
@@ -20,13 +29,35 @@ concurrency:
   group: generate-media-r2
   cancel-in-progress: false
 jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Plan and check content dates
+        id: plan
+        run: node generator/scripts/plan-media.mjs
+        env:
+          YEAR: ${{ inputs.year }}
+          FROM: ${{ inputs.from }}
+          TO: ${{ inputs.to }}
   generate:
+    needs: plan
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     runs-on: ubuntu-latest
     timeout-minutes: 360
     env:
-      YEAR: ${{ inputs.year }}
-      FROM: ${{ inputs.from }}
-      TO: ${{ inputs.to }}
+      YEAR: ${{ matrix.year }}
+      FROM: ${{ matrix.from }}
+      TO: ${{ matrix.to }}
       DRY_RUN: 'true'
     steps:
       - uses: actions/checkout@v4
@@ -34,25 +65,6 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
-      - name: Check requested dates
-        run: |
-          node --input-type=module <<'JS'
-          import { readFileSync } from 'node:fs';
-          const { YEAR, FROM, TO } = process.env;
-          if (!/^(2026|2027)$/.test(YEAR)) throw new Error('Unsupported year');
-          if (Boolean(FROM) !== Boolean(TO)) throw new Error('Provide both dates or neither');
-          for (const date of [FROM, TO].filter(Boolean)) {
-            if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !date.startsWith(`${YEAR}-`) ||
-                !Number.isFinite(Date.parse(date)) || new Date(date).toISOString().slice(0, 10) !== date)
-              throw new Error('Dates must be real YYYY-MM-DD dates in the selected year');
-          }
-          if (FROM > TO) throw new Error('First date must not follow last date');
-          const doc = JSON.parse(readFileSync(`content/${YEAR}.json`, 'utf8'));
-          const selected = doc.content.filter(d => !FROM || (d.date >= FROM && d.date <= TO));
-          if (!selected.length) throw new Error('No content in requested range');
-          if (FROM && (!selected.some(d => d.date === FROM) || !selected.some(d => d.date === TO)))
-            throw new Error('Range endpoints must exist in content');
-          JS
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm ci
