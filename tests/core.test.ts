@@ -32,12 +32,21 @@ describe('content', () => {
     };
     expect((await validateContent(content2026, false)).valid).toBe(true);
     expect((await validateContent(content2027, false)).valid).toBe(true);
-    expect(content2026.content).toHaveLength(108);
-    expect(content2026.content[0]?.date).toBe('2026-09-15');
+    expect(content2026.content).toHaveLength(105);
+    expect(content2026.content[0]?.date).toBe('2026-09-18');
     expect(content2026.content.at(-1)?.date).toBe('2026-12-31');
     expect(content2027.content).toHaveLength(365);
     expect(content2027.content[0]?.date).toBe('2027-01-01');
     expect(content2027.content.at(-1)?.date).toBe('2027-12-31');
+    const content2028 = JSON.parse(await readFile('content/2028.json', 'utf8')) as {
+      content: Array<{ date: string }>;
+    };
+    expect((await validateContent(content2028, false)).valid).toBe(true);
+    expect(content2028.content.map((d) => d.date)).toEqual([
+      '2028-01-01',
+      '2028-01-02',
+      '2028-01-03',
+    ]);
     const bad = { year: 2027, timezone: 'Bad/Zone', content: [day, day] };
     const result = await validateContent(bad, false);
     expect(result.valid).toBe(false);

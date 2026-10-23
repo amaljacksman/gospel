@@ -1,0 +1,99 @@
+{
+  "year": 2028,
+  "timezone": "Asia/Kolkata",
+  "content": [
+    {
+      "date": "2028-01-01",
+      "theme": "Renewal",
+      "verse": {
+        "reference": "Isaiah 40:31",
+        "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
+      },
+      "story": {
+        "enabled": true,
+        "template": "prayer",
+        "headline": "Wait faithfully on God and let Him renew your strength.",
+        "footer": "Gospel of Jesus",
+        "publishTime": "07:00"
+      },
+      "post": {
+        "enabled": true,
+        "template": "quote-card",
+        "caption": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.\n\nIsaiah 40:31 (KJV)\n\nReflection: Wait faithfully on God and let Him renew your strength.",
+        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+        "publishTime": "13:00"
+      },
+      "reel": {
+        "enabled": true,
+        "template": "night-prayer",
+        "headline": "Renewal",
+        "ending": "Wait faithfully on God and let Him renew your strength.",
+        "durationSeconds": 12,
+        "audio": "peaceful_08",
+        "publishTime": "20:30"
+      }
+    },
+    {
+      "date": "2028-01-02",
+      "theme": "Light",
+      "verse": {
+        "reference": "Matthew 5:16",
+        "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+      },
+      "story": {
+        "enabled": true,
+        "template": "question",
+        "headline": "Let your life point someone toward God today.",
+        "footer": "Gospel of Jesus",
+        "publishTime": "07:00"
+      },
+      "post": {
+        "enabled": true,
+        "template": "minimal-verse",
+        "caption": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.\n\nMatthew 5:16 (KJV)\n\nReflection: Let your life point someone toward God today.",
+        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+        "publishTime": "13:00"
+      },
+      "reel": {
+        "enabled": true,
+        "template": "verse-center",
+        "headline": "Light",
+        "ending": "Let your life point someone toward God today.",
+        "durationSeconds": 12,
+        "audio": "peaceful_09",
+        "publishTime": "20:30"
+      }
+    },
+    {
+      "date": "2028-01-03",
+      "theme": "Provision",
+      "verse": {
+        "reference": "Philippians 4:19",
+        "text": "But my God shall supply all your need according to his riches in glory by Christ Jesus."
+      },
+      "story": {
+        "enabled": true,
+        "template": "psalm",
+        "headline": "Trust God as your faithful provider.",
+        "footer": "Gospel of Jesus",
+        "publishTime": "07:00"
+      },
+      "post": {
+        "enabled": true,
+        "template": "motivation",
+        "caption": "But my God shall supply all your need according to his riches in glory by Christ Jesus.\n\nPhilippians 4:19 (KJV)\n\nReflection: Trust God as your faithful provider.",
+        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+        "publishTime": "13:00"
+      },
+      "reel": {
+        "enabled": true,
+        "template": "minimal-cross",
+        "headline": "Provision",
+        "ending": "Trust God as your faithful provider.",
+        "durationSeconds": 12,
+        "audio": "peaceful_10",
+        "publishTime": "20:30"
+      }
+    }
+  ]
+}

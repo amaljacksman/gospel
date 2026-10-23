@@ -15,7 +15,7 @@ on:
         description: Content year
         required: true
         type: choice
-        options: ['2026', '2027']
+        options: ['2026', '2027', '2028']
         default: '2027'
       from:
         description: 'First date (YYYY-MM-DD); leave both dates blank for the full year'

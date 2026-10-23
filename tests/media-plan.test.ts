@@ -52,8 +52,16 @@ it('retains manual one-day and whole-year runs', async () => {
   });
 });
 it('fails clearly when future content has not been authored', async () => {
-  await expect(plan({ MEDIA_PLAN_NOW: '2027-12-31T20:17:00Z' })).rejects.toThrow(
-    'content/2028.json',
+  await expect(plan({ MEDIA_PLAN_NOW: '2028-12-31T20:17:00Z' })).rejects.toThrow(
+    'content/2029.json',
+  );
+});
+it('includes rescheduled spillover content across the 2028 boundary', async () => {
+  expect(await plan({ MEDIA_PLAN_NOW: '2027-12-31T20:17:00Z' })).toEqual({
+    include: [{ year: '2028', from: '2028-01-01', to: '2028-01-03' }],
+  });
+  await expect(plan({ MEDIA_PLAN_NOW: '2028-01-02T20:17:00Z' })).rejects.toThrow(
+    'Content is incomplete',
   );
 });
 it('rejects an invalid manual date before rendering or uploading', async () => {

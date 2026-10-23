@@ -5,14 +5,22 @@ import { AUDIO_LIBRARY, audioCredit } from '../shared/audio-library.js';
 import { dueCandidates } from '../apps/scheduler-worker/src/scheduler.js';
 
 describe('licensed audio rotation', () => {
-  it('rotates all 20 tracks across enabled reels, including the year boundary', async () => {
+  it('preserves assigned tracks when content moves across year boundaries', async () => {
+    const reschedule = JSON.parse(await readFile('content/reschedule-2026-10-23.json', 'utf8')) as {
+      moves: Array<{ from: string; to: string }>;
+    };
+    const originalDates = new Map(reschedule.moves.map((move) => [move.to, move.from]));
     const days = [];
-    for (const year of [2026, 2027]) {
+    for (const year of [2026, 2027, 2028]) {
       const doc = JSON.parse(await readFile(`content/${year}.json`, 'utf8')) as YearContent;
       days.push(...doc.content.filter((day) => day.reel?.enabled));
     }
     expect(new Set(days.map((day) => day.reel!.audio)).size).toBe(20);
-    days.forEach((day, i) => expect(day.reel!.audio).toBe(AUDIO_KEYS[i % 20]));
+    days.forEach((day) => {
+      const originalDate = originalDates.get(day.date) ?? day.date;
+      const index = (Date.parse(originalDate) - Date.parse('2026-09-15')) / 86400000;
+      expect(day.reel!.audio).toBe(AUDIO_KEYS[index % 20]);
+    });
     expect(Object.keys(AUDIO_LIBRARY)).toEqual([...AUDIO_KEYS]);
   });
 

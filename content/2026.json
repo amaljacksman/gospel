@@ -3,99 +3,6 @@
   "timezone": "Asia/Kolkata",
   "content": [
     {
-      "date": "2026-09-15",
-      "theme": "New Beginnings",
-      "verse": {
-        "reference": "Isaiah 43:19",
-        "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it?"
-      },
-      "story": {
-        "enabled": true,
-        "template": "minimal-cross",
-        "headline": "God is making a way. Trust Him with what comes next.",
-        "footer": "Gospel of Jesus",
-        "publishTime": "07:00"
-      },
-      "post": {
-        "enabled": true,
-        "template": "minimal-verse",
-        "caption": "God is making a way. Trust Him with what comes next.\n\nIsaiah 43:19 (KJV)",
-        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
-        "publishTime": "13:00"
-      },
-      "reel": {
-        "enabled": true,
-        "template": "verse-center",
-        "headline": "New Beginnings",
-        "ending": "God is making a way. Trust Him with what comes next.",
-        "durationSeconds": 12,
-        "audio": "peaceful_01",
-        "publishTime": "20:30"
-      }
-    },
-    {
-      "date": "2026-09-16",
-      "theme": "Trust",
-      "verse": {
-        "reference": "Proverbs 3:5",
-        "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
-      },
-      "story": {
-        "enabled": true,
-        "template": "verse-center",
-        "headline": "Place your whole confidence in God today.",
-        "footer": "Gospel of Jesus",
-        "publishTime": "07:00"
-      },
-      "post": {
-        "enabled": true,
-        "template": "motivation",
-        "caption": "Place your whole confidence in God today.\n\nProverbs 3:5 (KJV)",
-        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
-        "publishTime": "13:00"
-      },
-      "reel": {
-        "enabled": true,
-        "template": "minimal-cross",
-        "headline": "Trust",
-        "ending": "Place your whole confidence in God today.",
-        "durationSeconds": 12,
-        "audio": "peaceful_02",
-        "publishTime": "20:30"
-      }
-    },
-    {
-      "date": "2026-09-17",
-      "theme": "Direction",
-      "verse": {
-        "reference": "Proverbs 3:6",
-        "text": "In all thy ways acknowledge him, and he shall direct thy paths."
-      },
-      "story": {
-        "enabled": true,
-        "template": "morning-light",
-        "headline": "Invite God into every decision and follow where He leads.",
-        "footer": "Gospel of Jesus",
-        "publishTime": "07:00"
-      },
-      "post": {
-        "enabled": true,
-        "template": "prayer-card",
-        "caption": "Invite God into every decision and follow where He leads.\n\nProverbs 3:6 (KJV)",
-        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
-        "publishTime": "13:00"
-      },
-      "reel": {
-        "enabled": true,
-        "template": "morning-light",
-        "headline": "Direction",
-        "ending": "Invite God into every decision and follow where He leads.",
-        "durationSeconds": 12,
-        "audio": "peaceful_03",
-        "publishTime": "20:30"
-      }
-    },
-    {
       "date": "2026-09-18",
       "theme": "Strength",
       "verse": {
@@ -112,7 +19,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Christ will give you strength for the work before you.\n\nPhilippians 4:13 (KJV)",
+        "caption": "I can do all things through Christ which strengtheneth me.\n\nPhilippians 4:13 (KJV)\n\nReflection: Christ will give you strength for the work before you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -131,7 +38,7 @@
       "theme": "Peace",
       "verse": {
         "reference": "John 14:27",
-        "text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you."
+        "text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid."
       },
       "story": {
         "enabled": true,
@@ -143,7 +50,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Receive the lasting peace that Jesus gives.\n\nJohn 14:27 (KJV)",
+        "caption": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.\n\nJohn 14:27 (KJV)\n\nReflection: Receive the lasting peace that Jesus gives.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -162,7 +69,7 @@
       "theme": "Hope",
       "verse": {
         "reference": "Romans 15:13",
-        "text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope."
+        "text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost."
       },
       "story": {
         "enabled": true,
@@ -174,7 +81,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Let faith fill your heart with joy, peace, and hope.\n\nRomans 15:13 (KJV)",
+        "caption": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.\n\nRomans 15:13 (KJV)\n\nReflection: Let faith fill your heart with joy, peace, and hope.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -205,7 +112,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Bring every burden to Jesus and receive His rest.\n\nMatthew 11:28 (KJV)",
+        "caption": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.\n\nMatthew 11:28 (KJV)\n\nReflection: Bring every burden to Jesus and receive His rest.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -224,7 +131,7 @@
       "theme": "Courage",
       "verse": {
         "reference": "Joshua 1:9",
-        "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed."
+        "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest."
       },
       "story": {
         "enabled": true,
@@ -236,7 +143,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Walk forward with courage because God is with you.\n\nJoshua 1:9 (KJV)",
+        "caption": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.\n\nJoshua 1:9 (KJV)\n\nReflection: Walk forward with courage because God is with you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -267,7 +174,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Keep believing even when you cannot yet see the answer.\n\nHebrews 11:1 (KJV)",
+        "caption": "Now faith is the substance of things hoped for, the evidence of things not seen.\n\nHebrews 11:1 (KJV)\n\nReflection: Keep believing even when you cannot yet see the answer.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -298,7 +205,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Turn every worry into prayer and thanksgiving.\n\nPhilippians 4:6 (KJV)",
+        "caption": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.\n\nPhilippians 4:6 (KJV)\n\nReflection: Turn every worry into prayer and thanksgiving.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -329,7 +236,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "God is your refuge. Rest securely in His care.\n\nPsalm 91:2 (KJV)",
+        "caption": "I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust.\n\nPsalm 91:2 (KJV)\n\nReflection: God is your refuge. Rest securely in His care.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -360,7 +267,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Let the Word of God guide your next step.\n\nPsalm 119:105 (KJV)",
+        "caption": "Thy word is a lamp unto my feet, and a light unto my path.\n\nPsalm 119:105 (KJV)\n\nReflection: Let the Word of God guide your next step.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -379,7 +286,7 @@
       "theme": "Grace",
       "verse": {
         "reference": "2 Corinthians 12:9",
-        "text": "My grace is sufficient for thee: for my strength is made perfect in weakness."
+        "text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me."
       },
       "story": {
         "enabled": true,
@@ -391,7 +298,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "God’s grace is enough, even in your weakest moment.\n\n2 Corinthians 12:9 (KJV)",
+        "caption": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.\n\n2 Corinthians 12:9 (KJV)\n\nReflection: God’s grace is enough, even in your weakest moment.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -422,7 +329,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Choose the way of Christlike love today.\n\n1 Corinthians 13:13 (KJV)",
+        "caption": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.\n\n1 Corinthians 13:13 (KJV)\n\nReflection: Choose the way of Christlike love today.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -453,7 +360,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Trust God to work through every part of your story.\n\nRomans 8:28 (KJV)",
+        "caption": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.\n\nRomans 8:28 (KJV)\n\nReflection: Trust God to work through every part of your story.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -472,7 +379,7 @@
       "theme": "Renewal",
       "verse": {
         "reference": "Isaiah 40:31",
-        "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles."
+        "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
       },
       "story": {
         "enabled": true,
@@ -484,7 +391,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Wait faithfully on God and let Him renew your strength.\n\nIsaiah 40:31 (KJV)",
+        "caption": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.\n\nIsaiah 40:31 (KJV)\n\nReflection: Wait faithfully on God and let Him renew your strength.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -515,7 +422,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Let your life point someone toward God today.\n\nMatthew 5:16 (KJV)",
+        "caption": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.\n\nMatthew 5:16 (KJV)\n\nReflection: Let your life point someone toward God today.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -546,7 +453,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Trust God as your faithful provider.\n\nPhilippians 4:19 (KJV)",
+        "caption": "But my God shall supply all your need according to his riches in glory by Christ Jesus.\n\nPhilippians 4:19 (KJV)\n\nReflection: Trust God as your faithful provider.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -577,7 +484,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "God is present and ready to help you.\n\nPsalm 46:1 (KJV)",
+        "caption": "God is our refuge and strength, a very present help in trouble.\n\nPsalm 46:1 (KJV)\n\nReflection: God is present and ready to help you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -596,7 +503,7 @@
       "theme": "Stillness",
       "verse": {
         "reference": "Psalm 46:10",
-        "text": "Be still, and know that I am God."
+        "text": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth."
       },
       "story": {
         "enabled": true,
@@ -608,7 +515,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Quiet your heart and remember who God is.\n\nPsalm 46:10 (KJV)",
+        "caption": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.\n\nPsalm 46:10 (KJV)\n\nReflection: Quiet your heart and remember who God is.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -639,7 +546,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Receive today as God’s gift and choose joy.\n\nPsalm 118:24 (KJV)",
+        "caption": "This is the day which the LORD hath made; we will rejoice and be glad in it.\n\nPsalm 118:24 (KJV)\n\nReflection: Receive today as God’s gift and choose joy.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -658,7 +565,7 @@
       "theme": "Mercy",
       "verse": {
         "reference": "Lamentations 3:22-23",
-        "text": "It is of the LORD’S mercies that we are not consumed, because his compassions fail not. They are new every morning."
+        "text": "It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness."
       },
       "story": {
         "enabled": true,
@@ -670,7 +577,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "God’s compassion meets you afresh this morning.\n\nLamentations 3:22-23 (KJV)",
+        "caption": "It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.\n\nLamentations 3:22-23 (KJV)\n\nReflection: God’s compassion meets you afresh this morning.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -689,7 +596,7 @@
       "theme": "Confidence",
       "verse": {
         "reference": "Psalm 27:1",
-        "text": "The LORD is my light and my salvation; whom shall I fear?"
+        "text": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?"
       },
       "story": {
         "enabled": true,
@@ -701,7 +608,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Stand confidently in the light and salvation of God.\n\nPsalm 27:1 (KJV)",
+        "caption": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?\n\nPsalm 27:1 (KJV)\n\nReflection: Stand confidently in the light and salvation of God.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -732,7 +639,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Look to the Creator; your help comes from Him.\n\nPsalm 121:2 (KJV)",
+        "caption": "My help cometh from the LORD, which made heaven and earth.\n\nPsalm 121:2 (KJV)\n\nReflection: Look to the Creator; your help comes from Him.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -751,7 +658,7 @@
       "theme": "Wisdom",
       "verse": {
         "reference": "James 1:5",
-        "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not."
+        "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him."
       },
       "story": {
         "enabled": true,
@@ -763,7 +670,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Ask God for wisdom and expect His generous help.\n\nJames 1:5 (KJV)",
+        "caption": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.\n\nJames 1:5 (KJV)\n\nReflection: Ask God for wisdom and expect His generous help.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -794,7 +701,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Walk today in the freedom Jesus gives.\n\nJohn 8:36 (KJV)",
+        "caption": "If the Son therefore shall make you free, ye shall be free indeed.\n\nJohn 8:36 (KJV)\n\nReflection: Walk today in the freedom Jesus gives.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -825,7 +732,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Remember the immeasurable love of God revealed in Jesus.\n\nJohn 3:16 (KJV)",
+        "caption": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\n\nJohn 3:16 (KJV)\n\nReflection: Remember the immeasurable love of God revealed in Jesus.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -856,7 +763,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Follow the Shepherd who faithfully cares for you.\n\nPsalm 23:1 (KJV)",
+        "caption": "The LORD is my shepherd; I shall not want.\n\nPsalm 23:1 (KJV)\n\nReflection: Follow the Shepherd who faithfully cares for you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -875,7 +782,7 @@
       "theme": "Comfort",
       "verse": {
         "reference": "Psalm 34:18",
-        "text": "The LORD is nigh unto them that are of a broken heart."
+        "text": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit."
       },
       "story": {
         "enabled": true,
@@ -887,7 +794,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "God draws near when your heart is hurting.\n\nPsalm 34:18 (KJV)",
+        "caption": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.\n\nPsalm 34:18 (KJV)\n\nReflection: God draws near when your heart is hurting.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -918,7 +825,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Seek God and place every fear in His hands.\n\nPsalm 34:4 (KJV)",
+        "caption": "I sought the LORD, and he heard me, and delivered me from all my fears.\n\nPsalm 34:4 (KJV)\n\nReflection: Seek God and place every fear in His hands.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -949,7 +856,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Find a reason to thank God in this moment.\n\n1 Thessalonians 5:18 (KJV)",
+        "caption": "In every thing give thanks: for this is the will of God in Christ Jesus concerning you.\n\n1 Thessalonians 5:18 (KJV)\n\nReflection: Find a reason to thank God in this moment.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -980,7 +887,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Keep doing good; the harvest belongs to God’s timing.\n\nGalatians 6:9 (KJV)",
+        "caption": "And let us not be weary in well doing: for in due season we shall reap, if we faint not.\n\nGalatians 6:9 (KJV)\n\nReflection: Keep doing good; the harvest belongs to God’s timing.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1011,7 +918,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Come honestly to God and receive His forgiveness.\n\n1 John 1:9 (KJV)",
+        "caption": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.\n\n1 John 1:9 (KJV)\n\nReflection: Come honestly to God and receive His forgiveness.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1030,7 +937,7 @@
       "theme": "Assurance",
       "verse": {
         "reference": "Romans 8:1",
-        "text": "There is therefore now no condemnation to them which are in Christ Jesus."
+        "text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit."
       },
       "story": {
         "enabled": true,
@@ -1042,7 +949,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Live in the freedom of belonging to Christ.\n\nRomans 8:1 (KJV)",
+        "caption": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.\n\nRomans 8:1 (KJV)\n\nReflection: Live in the freedom of belonging to Christ.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1061,7 +968,7 @@
       "theme": "Endurance",
       "verse": {
         "reference": "Psalm 55:22",
-        "text": "Cast thy burden upon the LORD, and he shall sustain thee."
+        "text": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved."
       },
       "story": {
         "enabled": true,
@@ -1073,7 +980,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Give God the weight you were never meant to carry alone.\n\nPsalm 55:22 (KJV)",
+        "caption": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved.\n\nPsalm 55:22 (KJV)\n\nReflection: Give God the weight you were never meant to carry alone.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1104,7 +1011,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Put God first and trust Him with everything else.\n\nMatthew 6:33 (KJV)",
+        "caption": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.\n\nMatthew 6:33 (KJV)\n\nReflection: Put God first and trust Him with everything else.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1123,7 +1030,7 @@
       "theme": "Possibility",
       "verse": {
         "reference": "Mark 10:27",
-        "text": "With men it is impossible, but not with God: for with God all things are possible."
+        "text": "And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible."
       },
       "story": {
         "enabled": true,
@@ -1135,7 +1042,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "What is impossible for you is still possible with God.\n\nMark 10:27 (KJV)",
+        "caption": "And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible.\n\nMark 10:27 (KJV)\n\nReflection: What is impossible for you is still possible with God.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1166,7 +1073,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Notice God’s goodness and take refuge in Him.\n\nPsalm 34:8 (KJV)",
+        "caption": "O taste and see that the LORD is good: blessed is the man that trusteth in him.\n\nPsalm 34:8 (KJV)\n\nReflection: Notice God’s goodness and take refuge in Him.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1197,7 +1104,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Call on God today and remain open to His answer.\n\nJeremiah 33:3 (KJV)",
+        "caption": "Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.\n\nJeremiah 33:3 (KJV)\n\nReflection: Call on God today and remain open to His answer.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1213,6 +1120,99 @@
     },
     {
       "date": "2026-10-24",
+      "theme": "New Beginnings",
+      "verse": {
+        "reference": "Isaiah 43:19",
+        "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert."
+      },
+      "story": {
+        "enabled": true,
+        "template": "minimal-cross",
+        "headline": "God is making a way. Trust Him with what comes next.",
+        "footer": "Gospel of Jesus",
+        "publishTime": "07:00"
+      },
+      "post": {
+        "enabled": true,
+        "template": "minimal-verse",
+        "caption": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert.\n\nIsaiah 43:19 (KJV)\n\nReflection: God is making a way. Trust Him with what comes next.",
+        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+        "publishTime": "13:00"
+      },
+      "reel": {
+        "enabled": true,
+        "template": "verse-center",
+        "headline": "New Beginnings",
+        "ending": "God is making a way. Trust Him with what comes next.",
+        "durationSeconds": 12,
+        "audio": "peaceful_01",
+        "publishTime": "20:30"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "Trust",
+      "verse": {
+        "reference": "Proverbs 3:5",
+        "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
+      },
+      "story": {
+        "enabled": true,
+        "template": "verse-center",
+        "headline": "Place your whole confidence in God today.",
+        "footer": "Gospel of Jesus",
+        "publishTime": "07:00"
+      },
+      "post": {
+        "enabled": true,
+        "template": "motivation",
+        "caption": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.\n\nProverbs 3:5 (KJV)\n\nReflection: Place your whole confidence in God today.",
+        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+        "publishTime": "13:00"
+      },
+      "reel": {
+        "enabled": true,
+        "template": "minimal-cross",
+        "headline": "Trust",
+        "ending": "Place your whole confidence in God today.",
+        "durationSeconds": 12,
+        "audio": "peaceful_02",
+        "publishTime": "20:30"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "Direction",
+      "verse": {
+        "reference": "Proverbs 3:6",
+        "text": "In all thy ways acknowledge him, and he shall direct thy paths."
+      },
+      "story": {
+        "enabled": true,
+        "template": "morning-light",
+        "headline": "Invite God into every decision and follow where He leads.",
+        "footer": "Gospel of Jesus",
+        "publishTime": "07:00"
+      },
+      "post": {
+        "enabled": true,
+        "template": "prayer-card",
+        "caption": "In all thy ways acknowledge him, and he shall direct thy paths.\n\nProverbs 3:6 (KJV)\n\nReflection: Invite God into every decision and follow where He leads.",
+        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+        "publishTime": "13:00"
+      },
+      "reel": {
+        "enabled": true,
+        "template": "morning-light",
+        "headline": "Direction",
+        "ending": "Invite God into every decision and follow where He leads.",
+        "durationSeconds": 12,
+        "audio": "peaceful_03",
+        "publishTime": "20:30"
+      }
+    },
+    {
+      "date": "2026-10-27",
       "theme": "Steadfast Heart",
       "verse": {
         "reference": "Psalm 51:10",
@@ -1228,7 +1228,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Ask God to renew your heart and spirit.\n\nPsalm 51:10 (KJV)",
+        "caption": "Create in me a clean heart, O God; and renew a right spirit within me.\n\nPsalm 51:10 (KJV)\n\nReflection: Ask God to renew your heart and spirit.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1243,11 +1243,11 @@
       }
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-10-28",
       "theme": "Abiding",
       "verse": {
         "reference": "John 15:5",
-        "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit."
+        "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
       },
       "story": {
         "enabled": true,
@@ -1259,7 +1259,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Stay close to Jesus and let your life bear good fruit.\n\nJohn 15:5 (KJV)",
+        "caption": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.\n\nJohn 15:5 (KJV)\n\nReflection: Stay close to Jesus and let your life bear good fruit.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1274,7 +1274,7 @@
       }
     },
     {
-      "date": "2026-10-26",
+      "date": "2026-10-29",
       "theme": "Boldness",
       "verse": {
         "reference": "2 Timothy 1:7",
@@ -1290,7 +1290,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Choose power, love, and a sound mind over fear.\n\n2 Timothy 1:7 (KJV)",
+        "caption": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.\n\n2 Timothy 1:7 (KJV)\n\nReflection: Choose power, love, and a sound mind over fear.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1305,11 +1305,11 @@
       }
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-10-30",
       "theme": "Faithfulness",
       "verse": {
         "reference": "Deuteronomy 7:9",
-        "text": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy."
+        "text": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;"
       },
       "story": {
         "enabled": true,
@@ -1321,7 +1321,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Rest in the unchanging faithfulness of God.\n\nDeuteronomy 7:9 (KJV)",
+        "caption": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;\n\nDeuteronomy 7:9 (KJV)\n\nReflection: Rest in the unchanging faithfulness of God.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1336,7 +1336,7 @@
       }
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-10-31",
       "theme": "Surrender",
       "verse": {
         "reference": "Psalm 37:5",
@@ -1352,7 +1352,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Commit your plans to God and trust His direction.\n\nPsalm 37:5 (KJV)",
+        "caption": "Commit thy way unto the LORD; trust also in him; and he shall bring it to pass.\n\nPsalm 37:5 (KJV)\n\nReflection: Commit your plans to God and trust His direction.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1367,7 +1367,7 @@
       }
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-11-01",
       "theme": "Together",
       "verse": {
         "reference": "Matthew 18:20",
@@ -1383,7 +1383,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Gather in the name of Jesus and welcome His presence.\n\nMatthew 18:20 (KJV)",
+        "caption": "For where two or three are gathered together in my name, there am I in the midst of them.\n\nMatthew 18:20 (KJV)\n\nReflection: Gather in the name of Jesus and welcome His presence.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1398,7 +1398,7 @@
       }
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-11-02",
       "theme": "Eternal Life",
       "verse": {
         "reference": "John 11:25",
@@ -1414,7 +1414,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Place your hope in Jesus, the resurrection and the life.\n\nJohn 11:25 (KJV)",
+        "caption": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live.\n\nJohn 11:25 (KJV)\n\nReflection: Place your hope in Jesus, the resurrection and the life.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1429,7 +1429,7 @@
       }
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-11-03",
       "theme": "God’s Care",
       "verse": {
         "reference": "1 Peter 5:7",
@@ -1445,7 +1445,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Give every concern to God because He cares for you.\n\n1 Peter 5:7 (KJV)",
+        "caption": "Casting all your care upon him; for he careth for you.\n\n1 Peter 5:7 (KJV)\n\nReflection: Give every concern to God because He cares for you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1460,11 +1460,11 @@
       }
     },
     {
-      "date": "2026-11-01",
+      "date": "2026-11-04",
       "theme": "Contentment",
       "verse": {
         "reference": "Psalm 23:4",
-        "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me."
+        "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
       },
       "story": {
         "enabled": true,
@@ -1476,7 +1476,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "You do not walk through the valley alone.\n\nPsalm 23:4 (KJV)",
+        "caption": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.\n\nPsalm 23:4 (KJV)\n\nReflection: You do not walk through the valley alone.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1491,7 +1491,7 @@
       }
     },
     {
-      "date": "2026-11-02",
+      "date": "2026-11-05",
       "theme": "Victory",
       "verse": {
         "reference": "Romans 8:37",
@@ -1507,7 +1507,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Face today from the victory of Christ’s love.\n\nRomans 8:37 (KJV)",
+        "caption": "Nay, in all these things we are more than conquerors through him that loved us.\n\nRomans 8:37 (KJV)\n\nReflection: Face today from the victory of Christ’s love.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1522,7 +1522,7 @@
       }
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-06",
       "theme": "Peaceful Mind",
       "verse": {
         "reference": "Isaiah 26:3",
@@ -1538,7 +1538,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Keep your thoughts on God and receive His peace.\n\nIsaiah 26:3 (KJV)",
+        "caption": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.\n\nIsaiah 26:3 (KJV)\n\nReflection: Keep your thoughts on God and receive His peace.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1553,11 +1553,11 @@
       }
     },
     {
-      "date": "2026-11-04",
+      "date": "2026-11-07",
       "theme": "A Good Work",
       "verse": {
         "reference": "Philippians 1:6",
-        "text": "He which hath begun a good work in you will perform it until the day of Jesus Christ."
+        "text": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:"
       },
       "story": {
         "enabled": true,
@@ -1569,7 +1569,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Trust God to continue the work He began in you.\n\nPhilippians 1:6 (KJV)",
+        "caption": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:\n\nPhilippians 1:6 (KJV)\n\nReflection: Trust God to continue the work He began in you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1584,11 +1584,11 @@
       }
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-08",
       "theme": "Nearness",
       "verse": {
         "reference": "James 4:8",
-        "text": "Draw nigh to God, and he will draw nigh to you."
+        "text": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded."
       },
       "story": {
         "enabled": true,
@@ -1600,7 +1600,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Take one sincere step closer to God today.\n\nJames 4:8 (KJV)",
+        "caption": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded.\n\nJames 4:8 (KJV)\n\nReflection: Take one sincere step closer to God today.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1615,11 +1615,11 @@
       }
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "theme": "New Beginnings",
       "verse": {
         "reference": "Isaiah 43:19",
-        "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it?"
+        "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert."
       },
       "story": {
         "enabled": true,
@@ -1631,7 +1631,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "God is making a way. Trust Him with what comes next.\n\nIsaiah 43:19 (KJV)",
+        "caption": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert.\n\nIsaiah 43:19 (KJV)\n\nReflection: God is making a way. Trust Him with what comes next.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1646,7 +1646,7 @@
       }
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-10",
       "theme": "Trust",
       "verse": {
         "reference": "Proverbs 3:5",
@@ -1662,7 +1662,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Place your whole confidence in God today.\n\nProverbs 3:5 (KJV)",
+        "caption": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.\n\nProverbs 3:5 (KJV)\n\nReflection: Place your whole confidence in God today.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1677,7 +1677,7 @@
       }
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-11",
       "theme": "Direction",
       "verse": {
         "reference": "Proverbs 3:6",
@@ -1693,7 +1693,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Invite God into every decision and follow where He leads.\n\nProverbs 3:6 (KJV)",
+        "caption": "In all thy ways acknowledge him, and he shall direct thy paths.\n\nProverbs 3:6 (KJV)\n\nReflection: Invite God into every decision and follow where He leads.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1708,7 +1708,7 @@
       }
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-12",
       "theme": "Strength",
       "verse": {
         "reference": "Philippians 4:13",
@@ -1724,7 +1724,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Christ will give you strength for the work before you.\n\nPhilippians 4:13 (KJV)",
+        "caption": "I can do all things through Christ which strengtheneth me.\n\nPhilippians 4:13 (KJV)\n\nReflection: Christ will give you strength for the work before you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1739,11 +1739,11 @@
       }
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-13",
       "theme": "Peace",
       "verse": {
         "reference": "John 14:27",
-        "text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you."
+        "text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid."
       },
       "story": {
         "enabled": true,
@@ -1755,7 +1755,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Receive the lasting peace that Jesus gives.\n\nJohn 14:27 (KJV)",
+        "caption": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.\n\nJohn 14:27 (KJV)\n\nReflection: Receive the lasting peace that Jesus gives.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1770,11 +1770,11 @@
       }
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-14",
       "theme": "Hope",
       "verse": {
         "reference": "Romans 15:13",
-        "text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope."
+        "text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost."
       },
       "story": {
         "enabled": true,
@@ -1786,7 +1786,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Let faith fill your heart with joy, peace, and hope.\n\nRomans 15:13 (KJV)",
+        "caption": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.\n\nRomans 15:13 (KJV)\n\nReflection: Let faith fill your heart with joy, peace, and hope.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1801,7 +1801,7 @@
       }
     },
     {
-      "date": "2026-11-12",
+      "date": "2026-11-15",
       "theme": "Rest",
       "verse": {
         "reference": "Matthew 11:28",
@@ -1817,7 +1817,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Bring every burden to Jesus and receive His rest.\n\nMatthew 11:28 (KJV)",
+        "caption": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.\n\nMatthew 11:28 (KJV)\n\nReflection: Bring every burden to Jesus and receive His rest.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1832,11 +1832,11 @@
       }
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-16",
       "theme": "Courage",
       "verse": {
         "reference": "Joshua 1:9",
-        "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed."
+        "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest."
       },
       "story": {
         "enabled": true,
@@ -1848,7 +1848,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Walk forward with courage because God is with you.\n\nJoshua 1:9 (KJV)",
+        "caption": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.\n\nJoshua 1:9 (KJV)\n\nReflection: Walk forward with courage because God is with you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1863,7 +1863,7 @@
       }
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-17",
       "theme": "Faith",
       "verse": {
         "reference": "Hebrews 11:1",
@@ -1879,7 +1879,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Keep believing even when you cannot yet see the answer.\n\nHebrews 11:1 (KJV)",
+        "caption": "Now faith is the substance of things hoped for, the evidence of things not seen.\n\nHebrews 11:1 (KJV)\n\nReflection: Keep believing even when you cannot yet see the answer.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1894,7 +1894,7 @@
       }
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-18",
       "theme": "Prayer",
       "verse": {
         "reference": "Philippians 4:6",
@@ -1910,7 +1910,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Turn every worry into prayer and thanksgiving.\n\nPhilippians 4:6 (KJV)",
+        "caption": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.\n\nPhilippians 4:6 (KJV)\n\nReflection: Turn every worry into prayer and thanksgiving.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1925,7 +1925,7 @@
       }
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-19",
       "theme": "Protection",
       "verse": {
         "reference": "Psalm 91:2",
@@ -1941,7 +1941,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "God is your refuge. Rest securely in His care.\n\nPsalm 91:2 (KJV)",
+        "caption": "I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust.\n\nPsalm 91:2 (KJV)\n\nReflection: God is your refuge. Rest securely in His care.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1956,7 +1956,7 @@
       }
     },
     {
-      "date": "2026-11-17",
+      "date": "2026-11-20",
       "theme": "Guidance",
       "verse": {
         "reference": "Psalm 119:105",
@@ -1972,7 +1972,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Let the Word of God guide your next step.\n\nPsalm 119:105 (KJV)",
+        "caption": "Thy word is a lamp unto my feet, and a light unto my path.\n\nPsalm 119:105 (KJV)\n\nReflection: Let the Word of God guide your next step.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -1987,11 +1987,11 @@
       }
     },
     {
-      "date": "2026-11-18",
+      "date": "2026-11-21",
       "theme": "Grace",
       "verse": {
         "reference": "2 Corinthians 12:9",
-        "text": "My grace is sufficient for thee: for my strength is made perfect in weakness."
+        "text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me."
       },
       "story": {
         "enabled": true,
@@ -2003,7 +2003,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "God’s grace is enough, even in your weakest moment.\n\n2 Corinthians 12:9 (KJV)",
+        "caption": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.\n\n2 Corinthians 12:9 (KJV)\n\nReflection: God’s grace is enough, even in your weakest moment.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2018,7 +2018,7 @@
       }
     },
     {
-      "date": "2026-11-19",
+      "date": "2026-11-22",
       "theme": "Love",
       "verse": {
         "reference": "1 Corinthians 13:13",
@@ -2034,7 +2034,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Choose the way of Christlike love today.\n\n1 Corinthians 13:13 (KJV)",
+        "caption": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.\n\n1 Corinthians 13:13 (KJV)\n\nReflection: Choose the way of Christlike love today.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2049,7 +2049,7 @@
       }
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "theme": "Purpose",
       "verse": {
         "reference": "Romans 8:28",
@@ -2065,7 +2065,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Trust God to work through every part of your story.\n\nRomans 8:28 (KJV)",
+        "caption": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.\n\nRomans 8:28 (KJV)\n\nReflection: Trust God to work through every part of your story.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2080,11 +2080,11 @@
       }
     },
     {
-      "date": "2026-11-21",
+      "date": "2026-11-24",
       "theme": "Renewal",
       "verse": {
         "reference": "Isaiah 40:31",
-        "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles."
+        "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
       },
       "story": {
         "enabled": true,
@@ -2096,7 +2096,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Wait faithfully on God and let Him renew your strength.\n\nIsaiah 40:31 (KJV)",
+        "caption": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.\n\nIsaiah 40:31 (KJV)\n\nReflection: Wait faithfully on God and let Him renew your strength.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2111,7 +2111,7 @@
       }
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-25",
       "theme": "Light",
       "verse": {
         "reference": "Matthew 5:16",
@@ -2127,7 +2127,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Let your life point someone toward God today.\n\nMatthew 5:16 (KJV)",
+        "caption": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.\n\nMatthew 5:16 (KJV)\n\nReflection: Let your life point someone toward God today.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2142,7 +2142,7 @@
       }
     },
     {
-      "date": "2026-11-23",
+      "date": "2026-11-26",
       "theme": "Provision",
       "verse": {
         "reference": "Philippians 4:19",
@@ -2158,7 +2158,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Trust God as your faithful provider.\n\nPhilippians 4:19 (KJV)",
+        "caption": "But my God shall supply all your need according to his riches in glory by Christ Jesus.\n\nPhilippians 4:19 (KJV)\n\nReflection: Trust God as your faithful provider.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2173,7 +2173,7 @@
       }
     },
     {
-      "date": "2026-11-24",
+      "date": "2026-11-27",
       "theme": "Presence",
       "verse": {
         "reference": "Psalm 46:1",
@@ -2189,7 +2189,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "God is present and ready to help you.\n\nPsalm 46:1 (KJV)",
+        "caption": "God is our refuge and strength, a very present help in trouble.\n\nPsalm 46:1 (KJV)\n\nReflection: God is present and ready to help you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2204,11 +2204,11 @@
       }
     },
     {
-      "date": "2026-11-25",
+      "date": "2026-11-28",
       "theme": "Stillness",
       "verse": {
         "reference": "Psalm 46:10",
-        "text": "Be still, and know that I am God."
+        "text": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth."
       },
       "story": {
         "enabled": true,
@@ -2220,7 +2220,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Quiet your heart and remember who God is.\n\nPsalm 46:10 (KJV)",
+        "caption": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.\n\nPsalm 46:10 (KJV)\n\nReflection: Quiet your heart and remember who God is.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2235,7 +2235,7 @@
       }
     },
     {
-      "date": "2026-11-26",
+      "date": "2026-11-29",
       "theme": "Joy",
       "verse": {
         "reference": "Psalm 118:24",
@@ -2251,7 +2251,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Receive today as God’s gift and choose joy.\n\nPsalm 118:24 (KJV)",
+        "caption": "This is the day which the LORD hath made; we will rejoice and be glad in it.\n\nPsalm 118:24 (KJV)\n\nReflection: Receive today as God’s gift and choose joy.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2266,11 +2266,11 @@
       }
     },
     {
-      "date": "2026-11-27",
+      "date": "2026-11-30",
       "theme": "Mercy",
       "verse": {
         "reference": "Lamentations 3:22-23",
-        "text": "It is of the LORD’S mercies that we are not consumed, because his compassions fail not. They are new every morning."
+        "text": "It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness."
       },
       "story": {
         "enabled": true,
@@ -2282,7 +2282,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "God’s compassion meets you afresh this morning.\n\nLamentations 3:22-23 (KJV)",
+        "caption": "It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.\n\nLamentations 3:22-23 (KJV)\n\nReflection: God’s compassion meets you afresh this morning.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2297,11 +2297,11 @@
       }
     },
     {
-      "date": "2026-11-28",
+      "date": "2026-12-01",
       "theme": "Confidence",
       "verse": {
         "reference": "Psalm 27:1",
-        "text": "The LORD is my light and my salvation; whom shall I fear?"
+        "text": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?"
       },
       "story": {
         "enabled": true,
@@ -2313,7 +2313,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Stand confidently in the light and salvation of God.\n\nPsalm 27:1 (KJV)",
+        "caption": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?\n\nPsalm 27:1 (KJV)\n\nReflection: Stand confidently in the light and salvation of God.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2328,7 +2328,7 @@
       }
     },
     {
-      "date": "2026-11-29",
+      "date": "2026-12-02",
       "theme": "Help",
       "verse": {
         "reference": "Psalm 121:2",
@@ -2344,7 +2344,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Look to the Creator; your help comes from Him.\n\nPsalm 121:2 (KJV)",
+        "caption": "My help cometh from the LORD, which made heaven and earth.\n\nPsalm 121:2 (KJV)\n\nReflection: Look to the Creator; your help comes from Him.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2359,11 +2359,11 @@
       }
     },
     {
-      "date": "2026-11-30",
+      "date": "2026-12-03",
       "theme": "Wisdom",
       "verse": {
         "reference": "James 1:5",
-        "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not."
+        "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him."
       },
       "story": {
         "enabled": true,
@@ -2375,7 +2375,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Ask God for wisdom and expect His generous help.\n\nJames 1:5 (KJV)",
+        "caption": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.\n\nJames 1:5 (KJV)\n\nReflection: Ask God for wisdom and expect His generous help.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2390,7 +2390,7 @@
       }
     },
     {
-      "date": "2026-12-01",
+      "date": "2026-12-04",
       "theme": "Freedom",
       "verse": {
         "reference": "John 8:36",
@@ -2406,7 +2406,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Walk today in the freedom Jesus gives.\n\nJohn 8:36 (KJV)",
+        "caption": "If the Son therefore shall make you free, ye shall be free indeed.\n\nJohn 8:36 (KJV)\n\nReflection: Walk today in the freedom Jesus gives.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2421,7 +2421,7 @@
       }
     },
     {
-      "date": "2026-12-02",
+      "date": "2026-12-05",
       "theme": "Salvation",
       "verse": {
         "reference": "John 3:16",
@@ -2437,7 +2437,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Remember the immeasurable love of God revealed in Jesus.\n\nJohn 3:16 (KJV)",
+        "caption": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\n\nJohn 3:16 (KJV)\n\nReflection: Remember the immeasurable love of God revealed in Jesus.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2452,7 +2452,7 @@
       }
     },
     {
-      "date": "2026-12-03",
+      "date": "2026-12-06",
       "theme": "Good Shepherd",
       "verse": {
         "reference": "Psalm 23:1",
@@ -2468,7 +2468,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Follow the Shepherd who faithfully cares for you.\n\nPsalm 23:1 (KJV)",
+        "caption": "The LORD is my shepherd; I shall not want.\n\nPsalm 23:1 (KJV)\n\nReflection: Follow the Shepherd who faithfully cares for you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2483,11 +2483,11 @@
       }
     },
     {
-      "date": "2026-12-04",
+      "date": "2026-12-07",
       "theme": "Comfort",
       "verse": {
         "reference": "Psalm 34:18",
-        "text": "The LORD is nigh unto them that are of a broken heart."
+        "text": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit."
       },
       "story": {
         "enabled": true,
@@ -2499,7 +2499,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "God draws near when your heart is hurting.\n\nPsalm 34:18 (KJV)",
+        "caption": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.\n\nPsalm 34:18 (KJV)\n\nReflection: God draws near when your heart is hurting.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2514,7 +2514,7 @@
       }
     },
     {
-      "date": "2026-12-05",
+      "date": "2026-12-08",
       "theme": "Deliverance",
       "verse": {
         "reference": "Psalm 34:4",
@@ -2530,7 +2530,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Seek God and place every fear in His hands.\n\nPsalm 34:4 (KJV)",
+        "caption": "I sought the LORD, and he heard me, and delivered me from all my fears.\n\nPsalm 34:4 (KJV)\n\nReflection: Seek God and place every fear in His hands.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2545,7 +2545,7 @@
       }
     },
     {
-      "date": "2026-12-06",
+      "date": "2026-12-09",
       "theme": "Thanksgiving",
       "verse": {
         "reference": "1 Thessalonians 5:18",
@@ -2561,7 +2561,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Find a reason to thank God in this moment.\n\n1 Thessalonians 5:18 (KJV)",
+        "caption": "In every thing give thanks: for this is the will of God in Christ Jesus concerning you.\n\n1 Thessalonians 5:18 (KJV)\n\nReflection: Find a reason to thank God in this moment.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2576,7 +2576,7 @@
       }
     },
     {
-      "date": "2026-12-07",
+      "date": "2026-12-10",
       "theme": "Perseverance",
       "verse": {
         "reference": "Galatians 6:9",
@@ -2592,7 +2592,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Keep doing good; the harvest belongs to God’s timing.\n\nGalatians 6:9 (KJV)",
+        "caption": "And let us not be weary in well doing: for in due season we shall reap, if we faint not.\n\nGalatians 6:9 (KJV)\n\nReflection: Keep doing good; the harvest belongs to God’s timing.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2607,7 +2607,7 @@
       }
     },
     {
-      "date": "2026-12-08",
+      "date": "2026-12-11",
       "theme": "Forgiveness",
       "verse": {
         "reference": "1 John 1:9",
@@ -2623,7 +2623,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Come honestly to God and receive His forgiveness.\n\n1 John 1:9 (KJV)",
+        "caption": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.\n\n1 John 1:9 (KJV)\n\nReflection: Come honestly to God and receive His forgiveness.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2638,11 +2638,11 @@
       }
     },
     {
-      "date": "2026-12-09",
+      "date": "2026-12-12",
       "theme": "Assurance",
       "verse": {
         "reference": "Romans 8:1",
-        "text": "There is therefore now no condemnation to them which are in Christ Jesus."
+        "text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit."
       },
       "story": {
         "enabled": true,
@@ -2654,7 +2654,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Live in the freedom of belonging to Christ.\n\nRomans 8:1 (KJV)",
+        "caption": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.\n\nRomans 8:1 (KJV)\n\nReflection: Live in the freedom of belonging to Christ.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2669,11 +2669,11 @@
       }
     },
     {
-      "date": "2026-12-10",
+      "date": "2026-12-13",
       "theme": "Endurance",
       "verse": {
         "reference": "Psalm 55:22",
-        "text": "Cast thy burden upon the LORD, and he shall sustain thee."
+        "text": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved."
       },
       "story": {
         "enabled": true,
@@ -2685,7 +2685,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Give God the weight you were never meant to carry alone.\n\nPsalm 55:22 (KJV)",
+        "caption": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved.\n\nPsalm 55:22 (KJV)\n\nReflection: Give God the weight you were never meant to carry alone.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2700,7 +2700,7 @@
       }
     },
     {
-      "date": "2026-12-11",
+      "date": "2026-12-14",
       "theme": "Seeking",
       "verse": {
         "reference": "Matthew 6:33",
@@ -2716,7 +2716,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Put God first and trust Him with everything else.\n\nMatthew 6:33 (KJV)",
+        "caption": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.\n\nMatthew 6:33 (KJV)\n\nReflection: Put God first and trust Him with everything else.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2731,11 +2731,11 @@
       }
     },
     {
-      "date": "2026-12-12",
+      "date": "2026-12-15",
       "theme": "Possibility",
       "verse": {
         "reference": "Mark 10:27",
-        "text": "With men it is impossible, but not with God: for with God all things are possible."
+        "text": "And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible."
       },
       "story": {
         "enabled": true,
@@ -2747,7 +2747,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "What is impossible for you is still possible with God.\n\nMark 10:27 (KJV)",
+        "caption": "And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible.\n\nMark 10:27 (KJV)\n\nReflection: What is impossible for you is still possible with God.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2762,7 +2762,7 @@
       }
     },
     {
-      "date": "2026-12-13",
+      "date": "2026-12-16",
       "theme": "Goodness",
       "verse": {
         "reference": "Psalm 34:8",
@@ -2778,7 +2778,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Notice God’s goodness and take refuge in Him.\n\nPsalm 34:8 (KJV)",
+        "caption": "O taste and see that the LORD is good: blessed is the man that trusteth in him.\n\nPsalm 34:8 (KJV)\n\nReflection: Notice God’s goodness and take refuge in Him.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2793,7 +2793,7 @@
       }
     },
     {
-      "date": "2026-12-14",
+      "date": "2026-12-17",
       "theme": "Invitation",
       "verse": {
         "reference": "Jeremiah 33:3",
@@ -2809,7 +2809,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Call on God today and remain open to His answer.\n\nJeremiah 33:3 (KJV)",
+        "caption": "Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.\n\nJeremiah 33:3 (KJV)\n\nReflection: Call on God today and remain open to His answer.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2824,7 +2824,7 @@
       }
     },
     {
-      "date": "2026-12-15",
+      "date": "2026-12-18",
       "theme": "Steadfast Heart",
       "verse": {
         "reference": "Psalm 51:10",
@@ -2840,7 +2840,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Ask God to renew your heart and spirit.\n\nPsalm 51:10 (KJV)",
+        "caption": "Create in me a clean heart, O God; and renew a right spirit within me.\n\nPsalm 51:10 (KJV)\n\nReflection: Ask God to renew your heart and spirit.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2855,11 +2855,11 @@
       }
     },
     {
-      "date": "2026-12-16",
+      "date": "2026-12-19",
       "theme": "Abiding",
       "verse": {
         "reference": "John 15:5",
-        "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit."
+        "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
       },
       "story": {
         "enabled": true,
@@ -2871,7 +2871,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Stay close to Jesus and let your life bear good fruit.\n\nJohn 15:5 (KJV)",
+        "caption": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.\n\nJohn 15:5 (KJV)\n\nReflection: Stay close to Jesus and let your life bear good fruit.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2886,7 +2886,7 @@
       }
     },
     {
-      "date": "2026-12-17",
+      "date": "2026-12-20",
       "theme": "Boldness",
       "verse": {
         "reference": "2 Timothy 1:7",
@@ -2902,7 +2902,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Choose power, love, and a sound mind over fear.\n\n2 Timothy 1:7 (KJV)",
+        "caption": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.\n\n2 Timothy 1:7 (KJV)\n\nReflection: Choose power, love, and a sound mind over fear.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2917,11 +2917,11 @@
       }
     },
     {
-      "date": "2026-12-18",
+      "date": "2026-12-21",
       "theme": "Faithfulness",
       "verse": {
         "reference": "Deuteronomy 7:9",
-        "text": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy."
+        "text": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;"
       },
       "story": {
         "enabled": true,
@@ -2933,7 +2933,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Rest in the unchanging faithfulness of God.\n\nDeuteronomy 7:9 (KJV)",
+        "caption": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;\n\nDeuteronomy 7:9 (KJV)\n\nReflection: Rest in the unchanging faithfulness of God.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2948,7 +2948,7 @@
       }
     },
     {
-      "date": "2026-12-19",
+      "date": "2026-12-22",
       "theme": "Surrender",
       "verse": {
         "reference": "Psalm 37:5",
@@ -2964,7 +2964,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "Commit your plans to God and trust His direction.\n\nPsalm 37:5 (KJV)",
+        "caption": "Commit thy way unto the LORD; trust also in him; and he shall bring it to pass.\n\nPsalm 37:5 (KJV)\n\nReflection: Commit your plans to God and trust His direction.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -2979,7 +2979,7 @@
       }
     },
     {
-      "date": "2026-12-20",
+      "date": "2026-12-23",
       "theme": "Together",
       "verse": {
         "reference": "Matthew 18:20",
@@ -2995,7 +2995,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Gather in the name of Jesus and welcome His presence.\n\nMatthew 18:20 (KJV)",
+        "caption": "For where two or three are gathered together in my name, there am I in the midst of them.\n\nMatthew 18:20 (KJV)\n\nReflection: Gather in the name of Jesus and welcome His presence.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3010,7 +3010,7 @@
       }
     },
     {
-      "date": "2026-12-21",
+      "date": "2026-12-24",
       "theme": "Eternal Life",
       "verse": {
         "reference": "John 11:25",
@@ -3026,7 +3026,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Place your hope in Jesus, the resurrection and the life.\n\nJohn 11:25 (KJV)",
+        "caption": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live.\n\nJohn 11:25 (KJV)\n\nReflection: Place your hope in Jesus, the resurrection and the life.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3041,7 +3041,7 @@
       }
     },
     {
-      "date": "2026-12-22",
+      "date": "2026-12-25",
       "theme": "God’s Care",
       "verse": {
         "reference": "1 Peter 5:7",
@@ -3057,7 +3057,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Give every concern to God because He cares for you.\n\n1 Peter 5:7 (KJV)",
+        "caption": "Casting all your care upon him; for he careth for you.\n\n1 Peter 5:7 (KJV)\n\nReflection: Give every concern to God because He cares for you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3072,11 +3072,11 @@
       }
     },
     {
-      "date": "2026-12-23",
+      "date": "2026-12-26",
       "theme": "Contentment",
       "verse": {
         "reference": "Psalm 23:4",
-        "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me."
+        "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
       },
       "story": {
         "enabled": true,
@@ -3088,7 +3088,7 @@
       "post": {
         "enabled": true,
         "template": "quote-card",
-        "caption": "You do not walk through the valley alone.\n\nPsalm 23:4 (KJV)",
+        "caption": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.\n\nPsalm 23:4 (KJV)\n\nReflection: You do not walk through the valley alone.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3103,7 +3103,7 @@
       }
     },
     {
-      "date": "2026-12-24",
+      "date": "2026-12-27",
       "theme": "Victory",
       "verse": {
         "reference": "Romans 8:37",
@@ -3119,7 +3119,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "Face today from the victory of Christ’s love.\n\nRomans 8:37 (KJV)",
+        "caption": "Nay, in all these things we are more than conquerors through him that loved us.\n\nRomans 8:37 (KJV)\n\nReflection: Face today from the victory of Christ’s love.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3134,7 +3134,7 @@
       }
     },
     {
-      "date": "2026-12-25",
+      "date": "2026-12-28",
       "theme": "Peaceful Mind",
       "verse": {
         "reference": "Isaiah 26:3",
@@ -3150,7 +3150,7 @@
       "post": {
         "enabled": true,
         "template": "motivation",
-        "caption": "Keep your thoughts on God and receive His peace.\n\nIsaiah 26:3 (KJV)",
+        "caption": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.\n\nIsaiah 26:3 (KJV)\n\nReflection: Keep your thoughts on God and receive His peace.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3165,11 +3165,11 @@
       }
     },
     {
-      "date": "2026-12-26",
+      "date": "2026-12-29",
       "theme": "A Good Work",
       "verse": {
         "reference": "Philippians 1:6",
-        "text": "He which hath begun a good work in you will perform it until the day of Jesus Christ."
+        "text": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:"
       },
       "story": {
         "enabled": true,
@@ -3181,7 +3181,7 @@
       "post": {
         "enabled": true,
         "template": "prayer-card",
-        "caption": "Trust God to continue the work He began in you.\n\nPhilippians 1:6 (KJV)",
+        "caption": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:\n\nPhilippians 1:6 (KJV)\n\nReflection: Trust God to continue the work He began in you.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3196,11 +3196,11 @@
       }
     },
     {
-      "date": "2026-12-27",
+      "date": "2026-12-30",
       "theme": "Nearness",
       "verse": {
         "reference": "James 4:8",
-        "text": "Draw nigh to God, and he will draw nigh to you."
+        "text": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded."
       },
       "story": {
         "enabled": true,
@@ -3212,7 +3212,7 @@
       "post": {
         "enabled": true,
         "template": "sunday-gospel",
-        "caption": "Take one sincere step closer to God today.\n\nJames 4:8 (KJV)",
+        "caption": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded.\n\nJames 4:8 (KJV)\n\nReflection: Take one sincere step closer to God today.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3227,11 +3227,11 @@
       }
     },
     {
-      "date": "2026-12-28",
+      "date": "2026-12-31",
       "theme": "New Beginnings",
       "verse": {
         "reference": "Isaiah 43:19",
-        "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it?"
+        "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert."
       },
       "story": {
         "enabled": true,
@@ -3243,7 +3243,7 @@
       "post": {
         "enabled": true,
         "template": "minimal-verse",
-        "caption": "God is making a way. Trust Him with what comes next.\n\nIsaiah 43:19 (KJV)",
+        "caption": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert.\n\nIsaiah 43:19 (KJV)\n\nReflection: God is making a way. Trust Him with what comes next.",
         "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
         "publishTime": "13:00"
       },
@@ -3254,99 +3254,6 @@
         "ending": "God is making a way. Trust Him with what comes next.",
         "durationSeconds": 12,
         "audio": "prayer_01",
-        "publishTime": "20:30"
-      }
-    },
-    {
-      "date": "2026-12-29",
-      "theme": "Trust",
-      "verse": {
-        "reference": "Proverbs 3:5",
-        "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
-      },
-      "story": {
-        "enabled": true,
-        "template": "verse-center",
-        "headline": "Place your whole confidence in God today.",
-        "footer": "Gospel of Jesus",
-        "publishTime": "07:00"
-      },
-      "post": {
-        "enabled": true,
-        "template": "motivation",
-        "caption": "Place your whole confidence in God today.\n\nProverbs 3:5 (KJV)",
-        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
-        "publishTime": "13:00"
-      },
-      "reel": {
-        "enabled": true,
-        "template": "verse-center",
-        "headline": "Trust",
-        "ending": "Place your whole confidence in God today.",
-        "durationSeconds": 12,
-        "audio": "night_01",
-        "publishTime": "20:30"
-      }
-    },
-    {
-      "date": "2026-12-30",
-      "theme": "Direction",
-      "verse": {
-        "reference": "Proverbs 3:6",
-        "text": "In all thy ways acknowledge him, and he shall direct thy paths."
-      },
-      "story": {
-        "enabled": true,
-        "template": "morning-light",
-        "headline": "Invite God into every decision and follow where He leads.",
-        "footer": "Gospel of Jesus",
-        "publishTime": "07:00"
-      },
-      "post": {
-        "enabled": true,
-        "template": "prayer-card",
-        "caption": "Invite God into every decision and follow where He leads.\n\nProverbs 3:6 (KJV)",
-        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
-        "publishTime": "13:00"
-      },
-      "reel": {
-        "enabled": true,
-        "template": "minimal-cross",
-        "headline": "Direction",
-        "ending": "Invite God into every decision and follow where He leads.",
-        "durationSeconds": 12,
-        "audio": "peaceful_04",
-        "publishTime": "20:30"
-      }
-    },
-    {
-      "date": "2026-12-31",
-      "theme": "Strength",
-      "verse": {
-        "reference": "Philippians 4:13",
-        "text": "I can do all things through Christ which strengtheneth me."
-      },
-      "story": {
-        "enabled": true,
-        "template": "prayer",
-        "headline": "Christ will give you strength for the work before you.",
-        "footer": "Gospel of Jesus",
-        "publishTime": "07:00"
-      },
-      "post": {
-        "enabled": true,
-        "template": "quote-card",
-        "caption": "Christ will give you strength for the work before you.\n\nPhilippians 4:13 (KJV)",
-        "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
-        "publishTime": "13:00"
-      },
-      "reel": {
-        "enabled": true,
-        "template": "morning-light",
-        "headline": "Strength",
-        "ending": "Christ will give you strength for the work before you.",
-        "durationSeconds": 12,
-        "audio": "peaceful_05",
         "publishTime": "20:30"
       }
     }

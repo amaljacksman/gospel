@@ -28,7 +28,7 @@ The local `generator/audio/` library contains 20 free instrumental tracks by Kev
 
 ## Content and local generation
 
-`content/schema.json` is the machine-readable contract. `content/2026.json` covers September 15 through December 31, and `content/2027.json` covers the full year. The included scripture quotations use the public-domain King James Version (KJV). Times are IANA-local wall times. Luxon converts them using timezone rules, including DST where applicable.
+`content/schema.json` is the machine-readable contract. `content/2026.json` covers September 18 through December 31, `content/2027.json` covers the full year, and `content/2028.json` covers January 1–3 after rescheduling. September 15–17 content was moved to October 24–26, 2026, with subsequent content shifted three days; the date mapping is in `content/reschedule-2026-10-23.json`. The included scripture quotations use the public-domain King James Version (KJV). Times are IANA-local wall times. Luxon converts them using timezone rules, including DST where applicable.
 
 ```bash
 npm run validate -- --year 2027
@@ -123,3 +123,5 @@ A job is complete only when Buffer reports `sent`. Buffer processing is polled o
 Reference: https://developers.buffer.com/guides/posts-and-scheduling.html
 
 For manual catch-up publishing, use the protected [backfill API](BACKFILL.md). It supports date ranges, selected content types, and a preview mode while skipping existing jobs.
+
+Cards rotate through six original vector backgrounds (sunset, morning, garden, clouds, mountains, and ocean), with dark panels behind complete KJV quotations. Post captions include the complete quotation and a separately labeled devotional reflection. Calendar JSON uses a 60-second cache lifetime and regenerated media uses five minutes because their R2 keys are replaceable.

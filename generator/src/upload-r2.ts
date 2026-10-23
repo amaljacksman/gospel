@@ -46,7 +46,8 @@ export async function uploadYear(year: number): Promise<number> {
         Key: key,
         Body: await readFile(path),
         ContentType: contentType,
-        CacheControl: 'public, max-age=31536000, immutable',
+        // Calendar JSON and regenerated media use stable, replaceable keys.
+        CacheControl: key.endsWith('.json') ? 'public, max-age=60' : 'public, max-age=300',
       }),
     );
     console.log(`Uploaded ${key}`);
