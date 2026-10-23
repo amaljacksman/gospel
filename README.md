@@ -124,4 +124,4 @@ Reference: https://developers.buffer.com/guides/posts-and-scheduling.html
 
 For manual catch-up publishing, use the protected [backfill API](BACKFILL.md). It supports date ranges, selected content types, and a preview mode while skipping existing jobs.
 
-Cards rotate through six original vector backgrounds (sunset, morning, garden, clouds, mountains, and ocean), with dark panels behind complete KJV quotations. Post captions include the complete quotation and a separately labeled devotional reflection. Calendar JSON uses a 60-second cache lifetime and regenerated media uses five minutes because their R2 keys are replaceable.
+Cards rotate through 26 original vector backgrounds, including sunsets, gardens, mountains, forests, lakes, lavender fields, cherry blossoms, waterfalls, auroras, snowy woods, tropical shores, and wildflowers, with dark panels behind complete KJV quotations. Post captions include the complete quotation and a separately labeled devotional reflection. Calendar JSON uses a 60-second cache lifetime and regenerated media uses five minutes because their R2 keys are replaceable.
