@@ -125,3 +125,24 @@ Reference: https://developers.buffer.com/guides/posts-and-scheduling.html
 For manual catch-up publishing, use the protected [backfill API](BACKFILL.md). It supports date ranges, selected content types, and a preview mode while skipping existing jobs.
 
 Cards rotate through 26 locally stored AI-generated photorealistic backgrounds, including sunsets, gardens, mountains, forests, lakes, lavender fields, cherry blossoms, waterfalls, auroras, snowy woods, tropical shores, and wildflowers, with dark panels behind complete KJV quotations. JPEG assets and their generation prompts are stored in `generator/backgrounds/`; rendering works offline. Post captions include the complete quotation and a separately labeled devotional reflection. Calendar JSON uses a 60-second cache lifetime and regenerated media uses five minutes because their R2 keys are replaceable.
+
+## R2 image retention
+
+The `gospel-content` bucket has native R2 lifecycle rules `expire-stories-after-15-days` and `expire-posts-after-15-days`. They permanently delete objects under `stories/` and `posts/` after 15 days from upload (last modification). Replacing an object restarts its age. These rules also apply to existing images. R2 typically completes deletion within 24 hours after expiration, rather than at an exact second.
+
+The `content/` calendars, `reels/` videos, and reusable background assets are outside these image-expiry prefixes. The default seven-day cleanup for incomplete multipart uploads is preserved. Daily generation uploads today and two reserve days, so upcoming images are refreshed before publishing. For a manual backfill after expiration, regenerate and upload the media first; avoid generating media more than 15 days before its publication date without refreshing it.
+
+Inspect the active server-side rules (Node.js 22+ and authenticated Wrangler):
+
+```bash
+npx wrangler r2 bucket lifecycle list gospel-content --config apps/publisher-worker/wrangler.jsonc
+```
+
+To recreate either missing image rule, add it individually so other bucket rules remain intact:
+
+```bash
+npx wrangler r2 bucket lifecycle add gospel-content expire-stories-after-15-days stories/ --expire-days 15 --config apps/publisher-worker/wrangler.jsonc
+npx wrangler r2 bucket lifecycle add gospel-content expire-posts-after-15-days posts/ --expire-days 15 --config apps/publisher-worker/wrangler.jsonc
+```
+
+Lifecycle rules are bucket settings, not HTTP cache TTLs; they require no AI calls or scheduled cleanup code. See [Cloudflare's lifecycle documentation](https://developers.cloudflare.com/r2/buckets/object-lifecycles/).
