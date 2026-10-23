@@ -1,0 +1,110 @@
+{
+  "generator": "Built-in image_gen tool",
+  "description": "AI-generated photorealistic landscapes; not photographs documenting specific real locations.",
+  "images": [
+    {
+      "file": "sunset.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card, no text. Scene: a peaceful sunset over rolling countryside hills, warm peach and rose sky with realistic wispy clouds, golden sunlight through atmospheric haze, natural grasses in foreground. Professional landscape photography, believable textures and light, restrained natural color grading, quiet spiritual mood. Vertical 9:16 composition with calm uncluttered middle area for a verse overlay added later. No typography, no logos, no borders, no people, no buildings. Create a single full-bleed photograph, not illustration or vector art."
+    },
+    {
+      "file": "morning.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: soft golden sunrise over a dew-covered meadow, low morning mist, delicate distant trees. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "garden.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a lush flowering garden with roses, ferns and a winding stone path, soft morning light. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "clouds.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: majestic soft white cumulus clouds over distant rolling hills, blue sky and gentle sun rays. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "mountains.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: snow-capped alpine mountain peaks above a quiet valley, clear early morning atmosphere. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "ocean.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a tranquil blue ocean with gently breaking waves and a pale golden horizon, evening light. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "forest.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: sunlight filtering through a lush green woodland, textured tree bark, ferns and natural moss. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "lake.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a calm alpine lake reflecting a mountain ridge and pine trees in the early morning. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "meadow.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: rolling green meadow with grasses swaying in warm sunlight and distant tree-lined hills. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "desert.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: sweeping pristine sand dunes with fine wind-sculpted ripples in warm late afternoon light. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "lavender.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: blooming lavender fields with deep purple rows fading toward a softly lit distant hill. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "cherry.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: delicate pink cherry blossoms on a natural arching branch beside a tranquil spring garden. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "waterfall.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a graceful waterfall cascading over dark mossy rocks into a clear green pool, lush forest. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "aurora.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a realistic green aurora borealis ribbon above a still northern mountain lake at night. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "starry.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a natural star-filled night sky with a subtle Milky Way above a quiet dark mountain ridge. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "moonlight.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a luminous full moon reflecting gently on a calm lake with a distant treeline at blue hour. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "autumn.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a quiet woodland path lined with golden and copper autumn leaves, soft warm afternoon light. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "winter.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: snow-covered spruce woodland and distant mountains with soft cold blue morning light. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "tropical.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a quiet tropical beach, natural palm fronds to one side, turquoise water and soft warm light. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "river.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a clear winding river flowing between green hills with river stones and gentle morning haze. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "valley.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a deep green mountain valley with layered forested ridges and subtle shafts of morning sun. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "rain.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a peaceful rainy landscape, raindrops on foreground leaves, misty hills and a reflective puddle. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "mist.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: layers of forested hills disappearing into pale morning mist, restrained green-blue tones. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "coast.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: rugged coastal cliffs above a calm sea with pale sandy coves, soft golden afternoon light. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "wildflowers.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: natural wildflower meadow with daisies, poppies and small purple blossoms, distant soft hills. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    },
+    {
+      "file": "twilight.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait background for a Bible verse card. Scene: a quiet landscape at twilight, violet-pink sky and a realistic thin crescent moon above hills. Professional landscape photography with believable natural textures, realistic light, restrained color grading, peaceful reflective mood. Vertical 9:16 full-bleed composition with a calm uncluttered middle area for a separate verse overlay. No text, typography, logos, borders, people or buildings. Single photograph, never illustration or vector art."
+    }
+  ]
+}
