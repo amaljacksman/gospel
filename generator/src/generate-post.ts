@@ -5,7 +5,7 @@ import type { DailyContent } from '../../shared/types/content.js';
 import { r2Key } from '../../shared/utils/paths.js';
 import { renderCard } from './render-card.js';
 export async function generatePost(day: DailyContent): Promise<string> {
-  const out = resolve('generated', r2Key('post', day.date));
+  const out = resolve('generated', r2Key('post', day.date, day.slot));
   await mkdir(dirname(out), { recursive: true });
   await sharp(renderCard(day, 1080, 1350, 'post'))
     .jpeg({ quality: 92, chromaSubsampling: '4:2:0' })

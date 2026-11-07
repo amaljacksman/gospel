@@ -1,3 +1,4 @@
+import { publications } from '../../shared/utils/publications.js';
 import { DateTime } from 'luxon';
 import { loadYear, findDay } from './content.js';
 import { validateContent } from './validate-content.js';
@@ -38,7 +39,10 @@ async function main() {
         : command === 'generate:post'
           ? generatePost
           : generateReel;
-    console.log(await fn(day));
+    for (const item of publications(day)) {
+      const type = command.slice('generate:'.length) as 'story' | 'post' | 'reel';
+      if (item[type]?.enabled) console.log(await fn(item));
+    }
     return;
   }
   let days = doc.content;

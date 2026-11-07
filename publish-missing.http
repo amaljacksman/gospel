@@ -1,0 +1,31 @@
+# Open with the VS Code REST Client extension and click "Send Request".
+# Keep this file at the project root so REST Client can load .env.
+# ADMIN_API_KEY is read from .env; never paste the key into this file.
+# Change the date below. Dates must be today or earlier (Asia/Kolkata).
+@date = 2026-10-19
+@baseUrl = https://gospel-instagram-publisher.amal-c-babu457.workers.dev
+
+### Publish missing items immediately for this date
+# Existing jobs are skipped. Media must already be uploaded to R2.
+# Choose any combination of "story", "post", and "reel".
+POST {{baseUrl}}/api/jobs/backfill
+Authorization: Bearer {{$dotenv ADMIN_API_KEY}}
+Content-Type: application/json
+
+{
+  "from": "{{date}}",
+  "to": "{{date}}",
+  "types": ["story", "post", "reel"]
+}
+
+### Preview missing items without publishing
+POST {{baseUrl}}/api/jobs/backfill
+Authorization: Bearer {{$dotenv ADMIN_API_KEY}}
+Content-Type: application/json
+
+{
+  "from": "{{date}}",
+  "to": "{{date}}",
+  "types": ["story", "post", "reel"],
+  "preview": true
+}

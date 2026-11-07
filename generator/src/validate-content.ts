@@ -1,3 +1,4 @@
+import { publications } from '../../shared/utils/publications.js';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
 import { readFile, access } from 'node:fs/promises';
@@ -19,6 +20,7 @@ export async function validateContent(
   const errors: string[] = [];
   if (!validate(value))
     errors.push(...(validate.errors ?? []).map((e) => `${e.instancePath || '/'} ${e.message}`));
+  if (errors.length) return { valid: false, errors };
   if (value && typeof value === 'object' && Array.isArray((value as YearContent).content)) {
     const doc = value as YearContent;
     try {
@@ -33,13 +35,22 @@ export async function validateContent(
       seen.add(day.date);
       if (day.date.slice(0, 4) !== String(doc.year))
         errors.push(`/content/${i}/date does not belong to ${doc.year}`);
-      if (day.post && `${day.post.caption}\n\n${day.post.hashtags.join(' ')}`.length > 2200)
-        errors.push(`/content/${i}/post exceeds Instagram caption limit`);
-      if (checkAssets && day.reel?.enabled) {
-        try {
-          await access(audioPath(day.reel.audio));
-        } catch {
-          errors.push(`/content/${i}/reel/audio missing asset ${day.reel.audio}.mp3`);
+      const slots = new Set<string>();
+      for (const item of day.additional ?? []) {
+        if (slots.has(item.slot!))
+          errors.push(`/content/${i}/additional duplicate slot ${item.slot}`);
+        slots.add(item.slot!);
+        if (item.date !== day.date) errors.push(`/content/${i}/additional date must match parent`);
+      }
+      for (const day of publications(doc.content[i]!)) {
+        if (day.post && `${day.post.caption}\n\n${day.post.hashtags.join(' ')}`.length > 2200)
+          errors.push(`/content/${i}/post exceeds Instagram caption limit`);
+        if (checkAssets && day.reel?.enabled) {
+          try {
+            await access(audioPath(day.reel.audio));
+          } catch {
+            errors.push(`/content/${i}/reel/audio missing asset ${day.reel.audio}.mp3`);
+          }
         }
       }
     }

@@ -1,3 +1,4 @@
+import { renderMalayalam } from './render-malayalam.js';
 import { fileURLToPath } from 'node:url';
 import { Resvg } from '@resvg/resvg-js';
 import type { DailyContent } from '../../shared/types/content.js';
@@ -13,6 +14,7 @@ export function renderCard(
   height: number,
   kind: 'story' | 'post' | 'reel',
 ): Buffer {
+  if (day.language === 'ml') return renderMalayalam(day, width, height, kind);
   return new Resvg(cardSvg(day, width, height, kind), {
     font: {
       fontFiles: [fontFile],

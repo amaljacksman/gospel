@@ -31,6 +31,7 @@
     "@resvg/resvg-js": "^2.6.2",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
+    "harfbuzzjs": "^1.6.4",
     "luxon": "^3.7.2",
     "sharp": "^0.35.4"
   },

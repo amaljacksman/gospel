@@ -19,7 +19,7 @@ function run(args: string[]): Promise<void> {
 }
 export async function generateReel(day: DailyContent): Promise<string> {
   if (!day.reel) throw new Error('Reel is absent');
-  const out = resolve('generated', r2Key('reel', day.date));
+  const out = resolve('generated', r2Key('reel', day.date, day.slot));
   const frame = `${out}.png`;
   await mkdir(dirname(out), { recursive: true });
   await writeFile(

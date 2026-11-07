@@ -31,7 +31,115 @@
         "durationSeconds": 12,
         "audio": "peaceful_08",
         "publishTime": "20:30"
-      }
+      },
+      "additional": [
+        {
+          "theme": "Perseverance",
+          "verse": {
+            "reference": "Galatians 6:9",
+            "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not."
+          },
+          "post": {
+            "enabled": true,
+            "template": "quote-card",
+            "caption": "And let us not be weary in well doing: for in due season we shall reap, if we faint not.\n\nGalatians 6:9 (KJV)\n\nReflection: Keep doing good; the harvest belongs to God’s timing.",
+            "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+            "publishTime": "16:30"
+          },
+          "date": "2028-01-01",
+          "slot": "afternoon-verse"
+        },
+        {
+          "theme": "Forgiveness",
+          "verse": {
+            "reference": "1 John 1:9",
+            "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
+          },
+          "story": {
+            "enabled": true,
+            "template": "minimal-cross",
+            "headline": "Come honestly to God and receive His forgiveness.",
+            "footer": "Gospel of Jesus",
+            "publishTime": "22:00"
+          },
+          "date": "2028-01-01",
+          "slot": "evening-story"
+        },
+        {
+          "theme": "Hope",
+          "verse": {
+            "reference": "Romans 15:13",
+            "text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost."
+          },
+          "post": {
+            "enabled": true,
+            "template": "motivation",
+            "caption": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.\n\nRomans 15:13 (KJV)\n\nReflection: Let faith fill your heart with joy, peace, and hope.",
+            "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+            "publishTime": "10:00"
+          },
+          "date": "2028-01-01",
+          "slot": "morning-verse"
+        },
+        {
+          "theme": "Rest",
+          "verse": {
+            "reference": "Matthew 11:28",
+            "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+          },
+          "story": {
+            "enabled": true,
+            "template": "morning-light",
+            "headline": "Bring every burden to Jesus and receive His rest.",
+            "footer": "Gospel of Jesus",
+            "publishTime": "18:00"
+          },
+          "date": "2028-01-01",
+          "slot": "afternoon-story"
+        },
+        {
+          "date": "2028-01-01",
+          "slot": "malayalam-morning",
+          "language": "ml",
+          "theme": "സമാധാനം",
+          "verse": {
+            "reference": "Isaiah 40:31",
+            "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
+          },
+          "devotional": {
+            "text": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "label": "പ്രാർത്ഥന"
+          },
+          "post": {
+            "enabled": true,
+            "publishTime": "08:30",
+            "template": "prayer-card",
+            "caption": "പ്രാർത്ഥന · സമാധാനം\n\nയേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.\n\nആമേൻ.",
+            "hashtags": ["#യേശു", "#പ്രാർത്ഥന", "#മലയാളം", "#Jesus", "#GospelOfJesus"]
+          }
+        },
+        {
+          "date": "2028-01-01",
+          "slot": "malayalam-evening",
+          "language": "ml",
+          "theme": "കുടുംബം",
+          "verse": {
+            "reference": "Isaiah 40:31",
+            "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
+          },
+          "devotional": {
+            "text": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
+            "label": "പ്രാർത്ഥന"
+          },
+          "post": {
+            "enabled": true,
+            "publishTime": "19:00",
+            "template": "prayer-card",
+            "caption": "പ്രാർത്ഥന · കുടുംബം\n\nയേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.\n\nആമേൻ.",
+            "hashtags": ["#യേശു", "#പ്രാർത്ഥന", "#മലയാളം", "#Jesus", "#GospelOfJesus"]
+          }
+        }
+      ]
     },
     {
       "date": "2028-01-02",
@@ -62,7 +170,115 @@
         "durationSeconds": 12,
         "audio": "peaceful_09",
         "publishTime": "20:30"
-      }
+      },
+      "additional": [
+        {
+          "theme": "Forgiveness",
+          "verse": {
+            "reference": "1 John 1:9",
+            "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
+          },
+          "post": {
+            "enabled": true,
+            "template": "minimal-verse",
+            "caption": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.\n\n1 John 1:9 (KJV)\n\nReflection: Come honestly to God and receive His forgiveness.",
+            "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+            "publishTime": "16:30"
+          },
+          "date": "2028-01-02",
+          "slot": "afternoon-verse"
+        },
+        {
+          "theme": "Assurance",
+          "verse": {
+            "reference": "Romans 8:1",
+            "text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit."
+          },
+          "story": {
+            "enabled": true,
+            "template": "verse-center",
+            "headline": "Live in the freedom of belonging to Christ.",
+            "footer": "Gospel of Jesus",
+            "publishTime": "22:00"
+          },
+          "date": "2028-01-02",
+          "slot": "evening-story"
+        },
+        {
+          "theme": "Rest",
+          "verse": {
+            "reference": "Matthew 11:28",
+            "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+          },
+          "post": {
+            "enabled": true,
+            "template": "prayer-card",
+            "caption": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.\n\nMatthew 11:28 (KJV)\n\nReflection: Bring every burden to Jesus and receive His rest.",
+            "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+            "publishTime": "10:00"
+          },
+          "date": "2028-01-02",
+          "slot": "morning-verse"
+        },
+        {
+          "theme": "Courage",
+          "verse": {
+            "reference": "Joshua 1:9",
+            "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest."
+          },
+          "story": {
+            "enabled": true,
+            "template": "prayer",
+            "headline": "Walk forward with courage because God is with you.",
+            "footer": "Gospel of Jesus",
+            "publishTime": "18:00"
+          },
+          "date": "2028-01-02",
+          "slot": "afternoon-story"
+        },
+        {
+          "date": "2028-01-02",
+          "slot": "malayalam-morning",
+          "language": "ml",
+          "theme": "സ്നേഹം",
+          "verse": {
+            "reference": "Matthew 5:16",
+            "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+          },
+          "devotional": {
+            "text": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "label": "പ്രാർത്ഥന"
+          },
+          "post": {
+            "enabled": true,
+            "publishTime": "08:30",
+            "template": "prayer-card",
+            "caption": "പ്രാർത്ഥന · സ്നേഹം\n\nയേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.\n\nആമേൻ.",
+            "hashtags": ["#യേശു", "#പ്രാർത്ഥന", "#മലയാളം", "#Jesus", "#GospelOfJesus"]
+          }
+        },
+        {
+          "date": "2028-01-02",
+          "slot": "malayalam-evening",
+          "language": "ml",
+          "theme": "ധൈര്യം",
+          "verse": {
+            "reference": "Matthew 5:16",
+            "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+          },
+          "devotional": {
+            "text": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
+            "label": "പ്രാർത്ഥന"
+          },
+          "post": {
+            "enabled": true,
+            "publishTime": "19:00",
+            "template": "prayer-card",
+            "caption": "പ്രാർത്ഥന · ധൈര്യം\n\nകർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.\n\nആമേൻ.",
+            "hashtags": ["#യേശു", "#പ്രാർത്ഥന", "#മലയാളം", "#Jesus", "#GospelOfJesus"]
+          }
+        }
+      ]
     },
     {
       "date": "2028-01-03",
@@ -93,7 +309,115 @@
         "durationSeconds": 12,
         "audio": "peaceful_10",
         "publishTime": "20:30"
-      }
+      },
+      "additional": [
+        {
+          "theme": "Assurance",
+          "verse": {
+            "reference": "Romans 8:1",
+            "text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit."
+          },
+          "post": {
+            "enabled": true,
+            "template": "sunday-gospel",
+            "caption": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.\n\nRomans 8:1 (KJV)\n\nReflection: Live in the freedom of belonging to Christ.",
+            "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+            "publishTime": "16:30"
+          },
+          "date": "2028-01-03",
+          "slot": "afternoon-verse"
+        },
+        {
+          "theme": "Endurance",
+          "verse": {
+            "reference": "Psalm 55:22",
+            "text": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved."
+          },
+          "story": {
+            "enabled": true,
+            "template": "morning-light",
+            "headline": "Give God the weight you were never meant to carry alone.",
+            "footer": "Gospel of Jesus",
+            "publishTime": "22:00"
+          },
+          "date": "2028-01-03",
+          "slot": "evening-story"
+        },
+        {
+          "theme": "Courage",
+          "verse": {
+            "reference": "Joshua 1:9",
+            "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest."
+          },
+          "post": {
+            "enabled": true,
+            "template": "quote-card",
+            "caption": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.\n\nJoshua 1:9 (KJV)\n\nReflection: Walk forward with courage because God is with you.",
+            "hashtags": ["#Jesus", "#Bible", "#Faith", "#Christian", "#GospelOfJesus"],
+            "publishTime": "10:00"
+          },
+          "date": "2028-01-03",
+          "slot": "morning-verse"
+        },
+        {
+          "theme": "Faith",
+          "verse": {
+            "reference": "Hebrews 11:1",
+            "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+          },
+          "story": {
+            "enabled": true,
+            "template": "question",
+            "headline": "Keep believing even when you cannot yet see the answer.",
+            "footer": "Gospel of Jesus",
+            "publishTime": "18:00"
+          },
+          "date": "2028-01-03",
+          "slot": "afternoon-story"
+        },
+        {
+          "date": "2028-01-03",
+          "slot": "malayalam-morning",
+          "language": "ml",
+          "theme": "പ്രത്യാശ",
+          "verse": {
+            "reference": "Philippians 4:19",
+            "text": "But my God shall supply all your need according to his riches in glory by Christ Jesus."
+          },
+          "devotional": {
+            "text": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
+            "label": "പ്രാർത്ഥന"
+          },
+          "post": {
+            "enabled": true,
+            "publishTime": "08:30",
+            "template": "prayer-card",
+            "caption": "പ്രാർത്ഥന · പ്രത്യാശ\n\nകർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.\n\nആമേൻ.",
+            "hashtags": ["#യേശു", "#പ്രാർത്ഥന", "#മലയാളം", "#Jesus", "#GospelOfJesus"]
+          }
+        },
+        {
+          "date": "2028-01-03",
+          "slot": "malayalam-evening",
+          "language": "ml",
+          "theme": "വിനയം",
+          "verse": {
+            "reference": "Philippians 4:19",
+            "text": "But my God shall supply all your need according to his riches in glory by Christ Jesus."
+          },
+          "devotional": {
+            "text": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
+            "label": "പ്രാർത്ഥന"
+          },
+          "post": {
+            "enabled": true,
+            "publishTime": "19:00",
+            "template": "prayer-card",
+            "caption": "പ്രാർത്ഥന · വിനയം\n\nയേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.\n\nആമേൻ.",
+            "hashtags": ["#യേശു", "#പ്രാർത്ഥന", "#മലയാളം", "#Jesus", "#GospelOfJesus"]
+          }
+        }
+      ]
     }
   ]
 }

@@ -79,6 +79,12 @@ export interface ReelContent extends EnabledBase {
   audio: (typeof AUDIO_KEYS)[number];
 }
 export interface DailyContent {
+  language?: 'en' | 'ml';
+  /** Original devotional text, displayed instead of the contextual scripture. */
+  devotional?: { text: string; label: string };
+  /** Stable slot identifier; omitted for the original daily publications. */
+  slot?: string;
+  additional?: DailyContent[];
   date: string;
   theme: string;
   verse: Verse;
@@ -98,6 +104,7 @@ export interface PublishingJob {
   id: number;
   content_date: string;
   content_type: ContentType;
+  content_slot?: string;
   scheduled_at: string;
   status: JobStatus;
   r2_key: string;

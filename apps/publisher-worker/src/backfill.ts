@@ -1,3 +1,4 @@
+import { publications } from '../../../shared/utils/publications.js';
 import { DateTime } from 'luxon';
 import type {
   ContentType,
@@ -85,21 +86,22 @@ export async function backfill(request: Request, env: BackfillEnv): Promise<Resp
   }
   const results: Array<Record<string, unknown>> = [];
   const now = new Date().toISOString();
-  for (const day of days)
+  for (const day of days.flatMap(publications))
     for (const type of types as ContentType[]) {
       if (!day[type]?.enabled) {
-        results.push({ date: day.date, type, status: 'disabled' });
+        results.push({ date: day.date, slot: day.slot ?? '', type, status: 'disabled' });
         continue;
       }
       const existing = await env.DB.prepare(
-        'SELECT id,status FROM publishing_jobs WHERE content_date=? AND content_type=?',
+        'SELECT id,status FROM publishing_jobs WHERE content_date=? AND content_type=? AND content_slot=?',
       )
-        .bind(day.date, type)
+        .bind(day.date, type, day.slot ?? '')
         .first<Pick<PublishingJob, 'id' | 'status'>>();
       // Failed jobs require explicit /retry, preserving ambiguous provider history.
       if (existing && existing.status !== 'pending') {
         results.push({
           date: day.date,
+          slot: day.slot ?? '',
           type,
           id: existing.id,
           status: 'skipped',
@@ -110,13 +112,13 @@ export async function backfill(request: Request, env: BackfillEnv): Promise<Resp
         });
         continue;
       }
-      const key = r2Key(type, day.date);
+      const key = r2Key(type, day.date, day.slot);
       if (!(await env.CONTENT.head(key))) {
-        results.push({ date: day.date, type, status: 'missing_media', key });
+        results.push({ date: day.date, slot: day.slot ?? '', type, status: 'missing_media', key });
         continue;
       }
       if (preview) {
-        results.push({ date: day.date, type, status: 'would_queue' });
+        results.push({ date: day.date, slot: day.slot ?? '', type, status: 'would_queue' });
         continue;
       }
       try {
@@ -126,6 +128,7 @@ export async function backfill(request: Request, env: BackfillEnv): Promise<Resp
           env.PUBLISH_QUEUE,
           {
             date: day.date,
+            slot: day.slot ?? '',
             type,
             scheduledAt: now,
             r2Key: key,
@@ -140,9 +143,15 @@ export async function backfill(request: Request, env: BackfillEnv): Promise<Resp
             id = jobId;
           },
         );
-        results.push({ date: day.date, type, id, status: queued ? 'queued' : 'skipped' });
+        results.push({
+          date: day.date,
+          slot: day.slot ?? '',
+          type,
+          id,
+          status: queued ? 'queued' : 'skipped',
+        });
       } catch {
-        results.push({ date: day.date, type, status: 'queue_error' });
+        results.push({ date: day.date, slot: day.slot ?? '', type, status: 'queue_error' });
       }
     }
   const hasErrors = results.some((r) =>
