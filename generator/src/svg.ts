@@ -38,7 +38,7 @@ export function cardSvg(
     )
     .join('');
   const accent = '#f2d9ac';
-  const background = selectBackground(day.date, kind);
+  const background = selectBackground(day.date, kind, day.slot);
   const theme = lines(day.theme.toUpperCase(), 38);
   return Buffer.from(
     `<svg width="${width}" height="${height}" viewBox="0 0 1080 ${logicalHeight}" xmlns="http://www.w3.org/2000/svg">${backgroundSvg(background, logicalHeight)}<text x="540" y="${kind === 'story' ? 260 : 180}" fill="${accent}" font-size="24" font-family="${fontFamily}" text-anchor="middle" letter-spacing="5">+  GOSPEL OF JESUS</text><rect x="70" y="${start - fontSize - 36}" width="940" height="${verse.length * lineHeight + 155}" rx="30" fill="#081421" opacity=".68"/>${text}<text x="540" y="${start + verse.length * lineHeight + 40}" fill="${accent}" font-size="30" font-family="${fontFamily}" text-anchor="middle">${escape(day.devotional?.label ?? day.verse.reference)}</text><line x1="420" x2="660" y1="${logicalHeight - 250}" y2="${logicalHeight - 250}" stroke="${accent}"/>${theme.map((line, i) => `<text x="540" y="${logicalHeight - 190 + i * 36}" fill="${accent}" font-size="24" font-family="${fontFamily}" text-anchor="middle" letter-spacing="${malayalam ? 0 : 3}">${escape(line)}</text>`).join('')}</svg>`,

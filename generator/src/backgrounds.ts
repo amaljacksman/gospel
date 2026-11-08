@@ -31,13 +31,51 @@ export const BACKGROUNDS = [
 ] as const;
 export type Background = (typeof BACKGROUNDS)[number];
 
-// Calendar-day rotation reaches every scene, unlike a sum of date characters.
-export function selectBackground(date: string, kind: 'story' | 'post' | 'reel'): Background {
+const PUBLICATION_ORDER = [
+  'story',
+  'post',
+  'reel',
+  'morning-verse:post',
+  'afternoon-verse:post',
+  'afternoon-story:story',
+  'malayalam-morning:post',
+  'malayalam-evening:post',
+  'evening-story:story',
+] as const;
+const PUBLICATION_OFFSETS = [0, 9, 18, 1, 2, 3, 4, 5, 6] as const;
+
+function hash(value: string): number {
+  let result = 2166136261;
+  for (let i = 0; i < value.length; i++) {
+    result ^= value.charCodeAt(i);
+    result = Math.imul(result, 16777619);
+  }
+  return result >>> 0;
+}
+
+function publicationRank(slot: string | undefined, kind: 'story' | 'post' | 'reel'): number {
+  const identity = slot ? `${slot}:${kind}` : kind;
+  const known = PUBLICATION_ORDER.indexOf(identity as (typeof PUBLICATION_ORDER)[number]);
+  if (known >= 0) return known;
+  return (
+    PUBLICATION_ORDER.length + (hash(identity) % (BACKGROUNDS.length - PUBLICATION_ORDER.length))
+  );
+}
+
+// Keep the original format rotation stable while assigning extra slots distinct
+// deterministic offsets on the same date. Rerunning a date produces the same image.
+export function selectBackground(
+  date: string,
+  kind: 'story' | 'post' | 'reel',
+  slot?: string,
+): Background {
   const day = Math.floor(Date.parse(`${date}T00:00:00Z`) / 86400000);
-  const offset = { story: 0, post: 9, reel: 18 }[kind];
-  return BACKGROUNDS[
-    (((day + offset) % BACKGROUNDS.length) + BACKGROUNDS.length) % BACKGROUNDS.length
-  ]!;
+  const rank = publicationRank(slot, kind);
+  const offset =
+    PUBLICATION_OFFSETS[rank] ??
+    PUBLICATION_ORDER.length + (hash(`${date}:${slot ?? ''}:${kind}`) % 17);
+  const index = (((day + offset) % BACKGROUNDS.length) + BACKGROUNDS.length) % BACKGROUNDS.length;
+  return BACKGROUNDS[index]!;
 }
 
 const images = new Map<Background, string>();

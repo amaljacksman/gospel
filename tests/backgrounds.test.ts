@@ -39,6 +39,24 @@ it('cycles through all 26 scenes in each format, including across a year boundar
   ).toBe(3);
 });
 
+it('uses distinct deterministic backgrounds for the expanded daily schedule', () => {
+  const day = '2026-11-08';
+  const publications = [
+    ['story', undefined],
+    ['post', undefined],
+    ['reel', undefined],
+    ['post', 'afternoon-verse'],
+    ['story', 'evening-story'],
+    ['post', 'morning-verse'],
+    ['story', 'afternoon-story'],
+    ['post', 'malayalam-morning'],
+    ['post', 'malayalam-evening'],
+  ] as const;
+  const selected = publications.map(([kind, slot]) => selectBackground(day, kind, slot));
+  expect(new Set(selected).size).toBe(selected.length);
+  expect(selected).toEqual(publications.map(([kind, slot]) => selectBackground(day, kind, slot)));
+});
+
 it('rasterizes 26 distinct scenes at both supported aspect ratios', () => {
   for (const height of [1350, 1920]) {
     const hashes = BACKGROUNDS.map((style) => {

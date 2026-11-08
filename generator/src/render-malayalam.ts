@@ -78,7 +78,7 @@ export function renderMalayalam(
     '#f2d9ac',
   );
   const theme = textPaths(day.theme, 28, logicalHeight - 190, '#f2d9ac');
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 1080 ${logicalHeight}">${backgroundSvg(selectBackground(day.date, kind), logicalHeight)}<text x="540" y="180" text-anchor="middle" fill="#f2d9ac" font-size="24" font-family="DejaVu Sans" letter-spacing="5">+ GOSPEL OF JESUS</text><rect x="70" y="${top}" width="940" height="${boxHeight}" rx="30" fill="#081421" opacity=".68"/>${body}${label}${theme}</svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 1080 ${logicalHeight}">${backgroundSvg(selectBackground(day.date, kind, day.slot), logicalHeight)}<text x="540" y="180" text-anchor="middle" fill="#f2d9ac" font-size="24" font-family="DejaVu Sans" letter-spacing="5">+ GOSPEL OF JESUS</text><rect x="70" y="${top}" width="940" height="${boxHeight}" rx="30" fill="#081421" opacity=".68"/>${body}${label}${theme}</svg>`;
   return new Resvg(svg, {
     font: {
       fontFiles: [fileURLToPath(new URL('../fonts/DejaVuSans.ttf', import.meta.url))],
