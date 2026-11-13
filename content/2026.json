@@ -1674,8 +1674,8 @@
           "language": "ml",
           "theme": "കുടുംബം",
           "verse": {
-            "reference": "Philippians 1:6",
-            "text": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:"
+            "reference": "ഉല്‍പത്തി 5:29",
+            "text": "കര്‍ത്താവു ശപിച്ച ഈ ഭൂമിയിലെ ക്ലേശകരമായ അധ്വാനത്തില്‍ അവന്‍ നമുക്ക് ആശ്വാസംനേടിത്തരും എന്നു പറഞ്ഞ് അവനെ നോഹ എന്നു വിളിച്ചു."
           },
           "devotional": {
             "text": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
@@ -1690,9 +1690,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കുടുംബം",
-            "ending": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 5:29",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 5:29",
             "durationSeconds": 12,
             "audio": "peaceful_01",
             "publishTime": "21:30"
@@ -1822,8 +1822,8 @@
           "language": "ml",
           "theme": "ധൈര്യം",
           "verse": {
-            "reference": "James 4:8",
-            "text": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded."
+            "reference": "ഉല്‍പത്തി 18:19",
+            "text": "ഞാന്‍ അവനെ തിരഞ്ഞെടുത്തിരിക്കുന്നത്, നീതിയുംന്യായവും പ്രവര്‍ത്തിച്ച കര്‍ത്താവിന്‍റെ വഴിയിലൂടെ നടക്കാന്‍ തന്‍റെ മക്കളോടും പിന്‍മുറക്കാരോടും അവന്‍ കല്‍പിക്കുന്നതിനും അങ്ങനെ കര്‍ത്താവ് അവനോടു ചെയ്ത വാഗ്ദാനം പൂര്‍ത്തിയാക്കുന്നതിനും വേണ്ടിയാണ്."
           },
           "devotional": {
             "text": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
@@ -1838,9 +1838,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ധൈര്യം",
-            "ending": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 18:19",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 18:19",
             "durationSeconds": 12,
             "audio": "peaceful_01",
             "publishTime": "21:30"
@@ -1970,8 +1970,8 @@
           "language": "ml",
           "theme": "വിനയം",
           "verse": {
-            "reference": "Isaiah 43:19",
-            "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert."
+            "reference": "ഉല്‍പത്തി 1:22",
+            "text": "ദൈവം അവയെ ഇങ്ങനെ അനുഗ്രഹിച്ചു: സമൃദ്ധമായി പെരുകി കടലില്‍ നിറയുവിന്‍; പക്ഷികള്‍ ഭൂമിയില്‍ പെരുകട്ടെ."
           },
           "devotional": {
             "text": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
@@ -1986,9 +1986,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിനയം",
-            "ending": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 1:22",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 1:22",
             "durationSeconds": 12,
             "audio": "peaceful_02",
             "publishTime": "21:30"
@@ -2118,8 +2118,8 @@
           "language": "ml",
           "theme": "സൗഖ്യം",
           "verse": {
-            "reference": "Proverbs 3:5",
-            "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding."
+            "reference": "ഉല്‍പത്തി 13:4",
+            "text": "ആദ്യമായി ബലിപീഠം പണിതതുമായ സ്ഥലംവരെയുംയാത്രചെയ്തു. അവിടെ അബ്രാം കര്‍ത്താവിന്‍റെ നാമം വിളിച്ചപേക്ഷിച്ചു."
           },
           "devotional": {
             "text": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
@@ -2134,9 +2134,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സൗഖ്യം",
-            "ending": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 13:4",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 13:4",
             "durationSeconds": 12,
             "audio": "peaceful_03",
             "publishTime": "21:30"
@@ -2266,8 +2266,8 @@
           "language": "ml",
           "theme": "മാർഗദർശനം",
           "verse": {
-            "reference": "Proverbs 3:6",
-            "text": "In all thy ways acknowledge him, and he shall direct thy paths."
+            "reference": "ഉല്‍പത്തി 24:3",
+            "text": "ഞാന്‍ പാര്‍ക്കുന്ന ഈ നാട്ടിലെ കാനാന്യരുടെ പെണ്‍മക്കളില്‍നിന്ന് എന്‍റെ മകനു ഭാര്യയെ തിരഞ്ഞെടുക്കയില്ലെന്ന് ആകാശത്തിന്‍റെയും ഭൂമിയുടെയും ദൈവമായ കര്‍ത്താവിന്‍റെ നാമത്തില്‍ നിന്നെക്കൊണ്ടു ഞാന്‍ സത്യംചെയ്യിക്കും."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
@@ -2282,9 +2282,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "മാർഗദർശനം",
-            "ending": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:3",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:3",
             "durationSeconds": 12,
             "audio": "hopeful_01",
             "publishTime": "21:30"
@@ -2414,8 +2414,8 @@
           "language": "ml",
           "theme": "വിശ്രമം",
           "verse": {
-            "reference": "Philippians 4:13",
-            "text": "I can do all things through Christ which strengtheneth me."
+            "reference": "ഉല്‍പത്തി 4:8",
+            "text": "ഒരു ദിവസം കായേന്‍ തന്‍റെ സഹോദരന്‍ ആബേലിനോടു പറഞ്ഞു: നമുക്കു വയലിലേക്കു പോകാം. അവര്‍ വയലിലായിരിക്കേ കായേന്‍ ആബേലിനോടു കയര്‍ത്ത് അവനെകൊന്നു."
           },
           "devotional": {
             "text": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -2430,9 +2430,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്രമം",
-            "ending": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 4:8",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 4:8",
             "durationSeconds": 12,
             "audio": "prayer_01",
             "publishTime": "21:30"
@@ -2562,8 +2562,8 @@
           "language": "ml",
           "theme": "സേവനം",
           "verse": {
-            "reference": "John 14:27",
-            "text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid."
+            "reference": "ബാറൂക്ക് 3:23",
+            "text": "ഭൂമിയില്‍ ജ്ഞാനം അന്വേഷിക്കുന്ന ഹാഗാറിന്‍റെ പുത്രന്‍മാരോ മിദിയാനിലെയും തേമാനിലെയും വ്യാപാരികളോ ജ്ഞാനാന്വേഷികളോ, കഥ ചമയ്ക്കുന്നവരോ ജ്ഞാനത്തിലേക്കുള്ള മാര്‍ഗം മനസ്സിലാക്കിയിട്ടില്ല; അവളുടെ പാതകളെക്കുറിച്ചു ചിന്തിച്ചിട്ടുമില്ല."
           },
           "devotional": {
             "text": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -2578,9 +2578,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സേവനം",
-            "ending": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ബാറൂക്ക് 3:23",
+            "ending": "ബൈബിൾ വചനം · ബാറൂക്ക് 3:23",
             "durationSeconds": 12,
             "audio": "night_01",
             "publishTime": "21:30"
@@ -2710,8 +2710,8 @@
           "language": "ml",
           "theme": "സമാധാനം",
           "verse": {
-            "reference": "Romans 15:13",
-            "text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost."
+            "reference": "ഉല്‍പത്തി 1:7",
+            "text": "ദൈവം വിതാനമുണ്ടാക്കുകയും അതിനു താഴെയുള്ള ജലത്തെ മുകളിലുള്ള ജലത്തില്‍നിന്നു വേര്‍തിരിക്കുകയും ചെയ്തു. അപ്രകാരം സംഭവിച്ചു."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -2726,9 +2726,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സമാധാനം",
-            "ending": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 1:7",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 1:7",
             "durationSeconds": 12,
             "audio": "peaceful_04",
             "publishTime": "21:30"
@@ -2858,8 +2858,8 @@
           "language": "ml",
           "theme": "സ്നേഹം",
           "verse": {
-            "reference": "Matthew 11:28",
-            "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+            "reference": "ഉല്‍പത്തി 14:23",
+            "text": "നിങ്ങളുടേതായ ഒരു ചരടോ ചെരുപ്പിന്‍റെ വാറോ ഒന്നും തന്നെ ഞാന്‍ എടുക്കുകയില്ല. ഞാന്‍ അബ്രാമിനെ സമ്പന്നനാക്കി എന്നു നിങ്ങള്‍ പറയരുതല്ലോ."
           },
           "devotional": {
             "text": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -2874,9 +2874,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സ്നേഹം",
-            "ending": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 14:23",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 14:23",
             "durationSeconds": 12,
             "audio": "peaceful_02",
             "publishTime": "21:30"
@@ -3006,8 +3006,8 @@
           "language": "ml",
           "theme": "പ്രത്യാശ",
           "verse": {
-            "reference": "Joshua 1:9",
-            "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest."
+            "reference": "ഉല്‍പത്തി 2:17",
+            "text": "എന്നാല്‍, നന്‍മതിന്‍മകളെക്കുറിച്ചുള്ള അറിവിന്‍റെ വൃക്ഷത്തിലെ ഫലം നീ തിന്നരുത്; തിന്നുന്ന ദിവസം നീ മരിക്കും."
           },
           "devotional": {
             "text": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
@@ -3022,9 +3022,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "പ്രത്യാശ",
-            "ending": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 2:17",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 2:17",
             "durationSeconds": 12,
             "audio": "peaceful_05",
             "publishTime": "21:30"
@@ -3154,8 +3154,8 @@
           "language": "ml",
           "theme": "നന്ദി",
           "verse": {
-            "reference": "Hebrews 11:1",
-            "text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+            "reference": "ഉല്‍പത്തി 15:1",
+            "text": "അബ്രാമിനു ദര്‍ശനത്തില്‍ കര്‍ത്താവിന്‍റെ അരുളപ്പാടുണ്ടായി: അബ്രാം, ഭയപ്പെടേണ്ടാ. ഞാന്‍ നിനക്കു പരിചയാണ്. നിന്‍റെ പ്രതിഫലം വളരെ വലുതായിരിക്കും."
           },
           "devotional": {
             "text": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
@@ -3170,9 +3170,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "നന്ദി",
-            "ending": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 15:1",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 15:1",
             "durationSeconds": 12,
             "audio": "peaceful_06",
             "publishTime": "21:30"
@@ -3302,8 +3302,8 @@
           "language": "ml",
           "theme": "ക്ഷമ",
           "verse": {
-            "reference": "Philippians 4:6",
-            "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God."
+            "reference": "ഉല്‍പത്തി 24:3",
+            "text": "ഞാന്‍ പാര്‍ക്കുന്ന ഈ നാട്ടിലെ കാനാന്യരുടെ പെണ്‍മക്കളില്‍നിന്ന് എന്‍റെ മകനു ഭാര്യയെ തിരഞ്ഞെടുക്കയില്ലെന്ന് ആകാശത്തിന്‍റെയും ഭൂമിയുടെയും ദൈവമായ കര്‍ത്താവിന്‍റെ നാമത്തില്‍ നിന്നെക്കൊണ്ടു ഞാന്‍ സത്യംചെയ്യിക്കും."
           },
           "devotional": {
             "text": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
@@ -3318,9 +3318,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ക്ഷമ",
-            "ending": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:3",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:3",
             "durationSeconds": 12,
             "audio": "peaceful_07",
             "publishTime": "21:30"
@@ -3450,8 +3450,8 @@
           "language": "ml",
           "theme": "വിശ്വാസം",
           "verse": {
-            "reference": "Psalm 91:2",
-            "text": "I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust."
+            "reference": "ഉല്‍പത്തി 1:28",
+            "text": "ദൈവം അവരെ ഇങ്ങനെ അനുഗ്രഹിച്ചു: സന്താനപുഷ്ടിയുള്ളവരായി പെരുകുവിന്‍. ഭൂമിയില്‍ നിറഞ്ഞ് അതിനെ കീഴടക്കുവിന്‍. കടലിലെ മത്സ്യങ്ങളുടെയും ആകാശത്തിലെ പറവകളുടെയും ഭൂമിയില്‍ ചരിക്കുന്ന സകല ജീവികളുടെയും മേല്‍ നിങ്ങള്‍ക്ക് ആധിപത്യം ഉണ്ടായിരിക്കട്ടെ."
           },
           "devotional": {
             "text": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -3466,9 +3466,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്വാസം",
-            "ending": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 1:28",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 1:28",
             "durationSeconds": 12,
             "audio": "peaceful_08",
             "publishTime": "21:30"
@@ -3598,8 +3598,8 @@
           "language": "ml",
           "theme": "കരുണ",
           "verse": {
-            "reference": "Psalm 119:105",
-            "text": "Thy word is a lamp unto my feet, and a light unto my path."
+            "reference": "ഉല്‍പത്തി 15:8",
+            "text": "അവന്‍ ചോദിച്ചു: ദൈവമായ കര്‍ത്താവേ, ഇതു സംഭവിക്കുമെന്നു ഞാനെങ്ങനെ അറിയും?"
           },
           "devotional": {
             "text": "കർത്താവേ, ഒറ്റപ്പെടുന്നവരെയും വേദനിക്കുന്നവരെയും കാണാൻ എന്റെ കണ്ണുകൾ തുറക്കണമേ. അവർക്കൊരു ആശ്വാസമാകാൻ എന്നെ സഹായിക്കണമേ.",
@@ -3614,9 +3614,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കരുണ",
-            "ending": "കർത്താവേ, ഒറ്റപ്പെടുന്നവരെയും വേദനിക്കുന്നവരെയും കാണാൻ എന്റെ കണ്ണുകൾ തുറക്കണമേ. അവർക്കൊരു ആശ്വാസമാകാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 15:8",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 15:8",
             "durationSeconds": 12,
             "audio": "peaceful_09",
             "publishTime": "21:30"
@@ -3746,8 +3746,8 @@
           "language": "ml",
           "theme": "കുടുംബം",
           "verse": {
-            "reference": "2 Corinthians 12:9",
-            "text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me."
+            "reference": "ഉല്‍പത്തി 24:9",
+            "text": "തന്‍റെ യജമാന നായ അബ്രാഹത്തിന്‍റെ തുടയ്ക്കു കീഴെ കൈവച്ചു ഭൃത്യന്‍ സത്യംചെയ്തു."
           },
           "devotional": {
             "text": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
@@ -3762,9 +3762,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കുടുംബം",
-            "ending": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:9",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:9",
             "durationSeconds": 12,
             "audio": "peaceful_10",
             "publishTime": "21:30"
@@ -3894,8 +3894,8 @@
           "language": "ml",
           "theme": "ധൈര്യം",
           "verse": {
-            "reference": "1 Corinthians 13:13",
-            "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity."
+            "reference": "ഉല്‍പത്തി 4:9",
+            "text": "കര്‍ത്താവു കായേനോടു ചോദിച്ചു: നിന്‍റെ സഹോദരന്‍ ആബേല്‍ എവിടെ? അവന്‍ പറഞ്ഞു: എനിക്കറിഞ്ഞുകൂടാ. സഹോദരന്‍റെ കാവല്‍ക്കാരനാണോ ഞാന്‍ ?"
           },
           "devotional": {
             "text": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
@@ -3910,9 +3910,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ധൈര്യം",
-            "ending": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 4:9",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 4:9",
             "durationSeconds": 12,
             "audio": "peaceful_03",
             "publishTime": "21:30"
@@ -4042,8 +4042,8 @@
           "language": "ml",
           "theme": "വിനയം",
           "verse": {
-            "reference": "Romans 8:28",
-            "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose."
+            "reference": "മത്തായി 11:16",
+            "text": "ഈ തലമുറയെ എന്തിനോടാണു ഞാന്‍ ഉപമിക്കേണ്ടത്?"
           },
           "devotional": {
             "text": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
@@ -4058,9 +4058,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിനയം",
-            "ending": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "മത്തായി 11:16",
+            "ending": "ബൈബിൾ വചനം · മത്തായി 11:16",
             "durationSeconds": 12,
             "audio": "peaceful_11",
             "publishTime": "21:30"
@@ -4190,8 +4190,8 @@
           "language": "ml",
           "theme": "സൗഖ്യം",
           "verse": {
-            "reference": "Isaiah 40:31",
-            "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
+            "reference": "ഉല്‍പത്തി 1:9",
+            "text": "ദൈവം വീണ്ടും അരുളിച്ചെയ്തു: ആകാശത്തിനു കീഴിലുള്ള വെള്ളമെല്ലാം ഒരിടത്ത് ഒരുമിച്ചുകൂടട്ടെ, കര പ്രത്യക്ഷപ്പെടട്ടെ. അങ്ങനെ സംഭവിച്ചു."
           },
           "devotional": {
             "text": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
@@ -4206,9 +4206,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സൗഖ്യം",
-            "ending": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 1:9",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 1:9",
             "durationSeconds": 12,
             "audio": "peaceful_12",
             "publishTime": "21:30"
@@ -4338,8 +4338,8 @@
           "language": "ml",
           "theme": "മാർഗദർശനം",
           "verse": {
-            "reference": "Matthew 5:16",
-            "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+            "reference": "ഉല്‍പത്തി 18:5",
+            "text": "നിങ്ങള്‍ ഈ ദാസന്‍റെ യടുക്കല്‍ വന്ന നിലയ്ക്ക് ഞാന്‍ കുറേഅപ്പം കൊണ്ടുവരാം. വിശപ്പടക്കിയിട്ടുയാത്ര തുടരാം. നീ പറഞ്ഞതുപോലെ ചെയ്യുക എന്ന് അവര്‍ പറഞ്ഞു."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
@@ -4354,9 +4354,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "മാർഗദർശനം",
-            "ending": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 18:5",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 18:5",
             "durationSeconds": 12,
             "audio": "peaceful_13",
             "publishTime": "21:30"
@@ -4486,8 +4486,8 @@
           "language": "ml",
           "theme": "വിശ്രമം",
           "verse": {
-            "reference": "Philippians 4:19",
-            "text": "But my God shall supply all your need according to his riches in glory by Christ Jesus."
+            "reference": "ഉല്‍പത്തി 3:3",
+            "text": "എന്നാല്‍, തോട്ടത്തിന്‍റെ നടുവിലുള്ള മരത്തിന്‍റെ പഴം ഭക്ഷിക്കുകയോ തൊടുകപോലുമോ അരുത്; ഭക്ഷിച്ചാല്‍ നിങ്ങള്‍ മരിക്കും എന്നു ദൈവം പറഞ്ഞിട്ടുണ്ട്."
           },
           "devotional": {
             "text": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -4502,9 +4502,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്രമം",
-            "ending": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 3:3",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 3:3",
             "durationSeconds": 12,
             "audio": "peaceful_14",
             "publishTime": "21:30"
@@ -4634,8 +4634,8 @@
           "language": "ml",
           "theme": "സേവനം",
           "verse": {
-            "reference": "Psalm 46:1",
-            "text": "God is our refuge and strength, a very present help in trouble."
+            "reference": "ഉല്‍പത്തി 19:9",
+            "text": "പരദേശിയായി വന്നവന്‍ന്യായം വിധിക്കുവാന്‍ ഒരുങ്ങുന്നു! അവരോടെന്നതിനെക്കാള്‍ മോശമായി നിന്നോടും ഞങ്ങള്‍ പെരുമാറും. അവര്‍ ലോത്തിനെ ശക്തിയായി തള്ളിമാറ്റി വാതില്‍തല്ലിപ്പൊളിക്കാന്‍ ചെന്നു."
           },
           "devotional": {
             "text": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -4650,9 +4650,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സേവനം",
-            "ending": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 19:9",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 19:9",
             "durationSeconds": 12,
             "audio": "peaceful_15",
             "publishTime": "21:30"
@@ -4782,8 +4782,8 @@
           "language": "ml",
           "theme": "സമാധാനം",
           "verse": {
-            "reference": "Psalm 46:10",
-            "text": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth."
+            "reference": "ഉല്‍പത്തി 24:9",
+            "text": "തന്‍റെ യജമാന നായ അബ്രാഹത്തിന്‍റെ തുടയ്ക്കു കീഴെ കൈവച്ചു ഭൃത്യന്‍ സത്യംചെയ്തു."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -4798,9 +4798,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സമാധാനം",
-            "ending": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:9",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:9",
             "durationSeconds": 12,
             "audio": "peaceful_16",
             "publishTime": "21:30"
@@ -4930,8 +4930,8 @@
           "language": "ml",
           "theme": "സ്നേഹം",
           "verse": {
-            "reference": "Psalm 118:24",
-            "text": "This is the day which the LORD hath made; we will rejoice and be glad in it."
+            "reference": "ഉല്‍പത്തി 2:3",
+            "text": "സൃഷ്ടികര്‍മം പൂര്‍ത്തിയാക്കി, തന്‍റെ പ്രവൃത്തികളില്‍നിന്നു വിരമിച്ച് വിശ്രമിച്ച ഏഴാം ദിവസത്തെ ദൈവം അനുഗ്രഹിച്ചു വിശുദ്ധമാക്കി."
           },
           "devotional": {
             "text": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -4946,9 +4946,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സ്നേഹം",
-            "ending": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 2:3",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 2:3",
             "durationSeconds": 12,
             "audio": "hopeful_01",
             "publishTime": "21:30"
@@ -5078,8 +5078,8 @@
           "language": "ml",
           "theme": "പ്രത്യാശ",
           "verse": {
-            "reference": "Lamentations 3:22-23",
-            "text": "It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness."
+            "reference": "ഉല്‍പത്തി 18:2",
+            "text": "അവന്‍ തലയുയര്‍ത്തിനോക്കിയപ്പോള്‍ മൂന്നാളുകള്‍ തനിക്കെതിരേ നില്‍ക്കുന്നതുകണ്ടു. അവരെക്കണ്ട് അവന്‍ കൂടാരവാതില്‍ക്കല്‍ നിന്നെഴുന്നേറ്റ് അവരെ എതിരേല്‍ക്കാന്‍ ഓടിച്ചെന്ന്, നിലംപറ്റെതാണ്, അവരെ വണങ്ങി."
           },
           "devotional": {
             "text": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
@@ -5094,9 +5094,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "പ്രത്യാശ",
-            "ending": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 18:2",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 18:2",
             "durationSeconds": 12,
             "audio": "peaceful_17",
             "publishTime": "21:30"
@@ -5226,8 +5226,8 @@
           "language": "ml",
           "theme": "നന്ദി",
           "verse": {
-            "reference": "Psalm 27:1",
-            "text": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?"
+            "reference": "ഉല്‍പത്തി 24:37",
+            "text": "എന്‍റെ യജമാനന്‍ എന്നെക്കൊണ്ട് ഒരു സത്യം ചെയ്യിച്ചു: ഞാന്‍ പാര്‍ക്കുന്ന കാനാന്‍കാരുടെ നാട്ടില്‍നിന്ന് എന്‍റെ മകനു നീയൊരു വധുവിനെ തിരഞ്ഞെടുക്കരുത്."
           },
           "devotional": {
             "text": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
@@ -5242,9 +5242,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "നന്ദി",
-            "ending": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:37",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:37",
             "durationSeconds": 12,
             "audio": "peaceful_01",
             "publishTime": "21:30"
@@ -5374,8 +5374,8 @@
           "language": "ml",
           "theme": "ക്ഷമ",
           "verse": {
-            "reference": "Psalm 121:2",
-            "text": "My help cometh from the LORD, which made heaven and earth."
+            "reference": "ഉല്‍പത്തി 4:10",
+            "text": "എന്നാല്‍ കര്‍ത്താവു പറഞ്ഞു: നീയെന്താണു ചെയ്തത്? നിന്‍റെ സഹോദരന്‍റെ രക്തം മണ്ണില്‍നിന്ന് എന്നെ വിളിച്ചു കരയുന്നു."
           },
           "devotional": {
             "text": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
@@ -5390,9 +5390,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ക്ഷമ",
-            "ending": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 4:10",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 4:10",
             "durationSeconds": 12,
             "audio": "peaceful_02",
             "publishTime": "21:30"
@@ -5522,8 +5522,8 @@
           "language": "ml",
           "theme": "വിശ്വാസം",
           "verse": {
-            "reference": "James 1:5",
-            "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him."
+            "reference": "മത്തായി 13:3",
+            "text": "അപ്പോള്‍ അവന്‍ വളരെക്കാര്യങ്ങള്‍ ഉപമകള്‍വഴി അവരോടു പറഞ്ഞു: വിതക്കാരന്‍ വിതയ്ക്കാന്‍ പുറപ്പെട്ടു."
           },
           "devotional": {
             "text": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -5538,9 +5538,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്വാസം",
-            "ending": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "മത്തായി 13:3",
+            "ending": "ബൈബിൾ വചനം · മത്തായി 13:3",
             "durationSeconds": 12,
             "audio": "peaceful_03",
             "publishTime": "21:30"
@@ -5670,8 +5670,8 @@
           "language": "ml",
           "theme": "കരുണ",
           "verse": {
-            "reference": "John 8:36",
-            "text": "If the Son therefore shall make you free, ye shall be free indeed."
+            "reference": "ഉല്‍പത്തി 1:11",
+            "text": "ദൈവം അരുളിച്ചെയ്തു: ഭൂമി എല്ലാത്തരം ഹരിതസസ്യങ്ങളും ധാന്യച്ചെടികളും വിത്തുള്‍ക്കൊള്ളുന്ന ഫലങ്ങള്‍ കായ്ക്കുന്ന വൃക്ഷങ്ങളും മുളപ്പിക്കട്ടെ. അങ്ങനെ സംഭവിച്ചു."
           },
           "devotional": {
             "text": "കർത്താവേ, ഒറ്റപ്പെടുന്നവരെയും വേദനിക്കുന്നവരെയും കാണാൻ എന്റെ കണ്ണുകൾ തുറക്കണമേ. അവർക്കൊരു ആശ്വാസമാകാൻ എന്നെ സഹായിക്കണമേ.",
@@ -5686,9 +5686,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കരുണ",
-            "ending": "കർത്താവേ, ഒറ്റപ്പെടുന്നവരെയും വേദനിക്കുന്നവരെയും കാണാൻ എന്റെ കണ്ണുകൾ തുറക്കണമേ. അവർക്കൊരു ആശ്വാസമാകാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 1:11",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 1:11",
             "durationSeconds": 12,
             "audio": "hopeful_01",
             "publishTime": "21:30"
@@ -5818,8 +5818,8 @@
           "language": "ml",
           "theme": "കുടുംബം",
           "verse": {
-            "reference": "John 3:16",
-            "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+            "reference": "ഉല്‍പത്തി 19:8",
+            "text": "പുരുഷസ്പര്‍ശമേല്‍ക്കാത്ത രണ്ടു പെണ്‍മക്കള്‍ എനിക്കുണ്ട്. അവരെ നിങ്ങള്‍ക്കു വിട്ടുതരാം. ഇഷ്ടംപോലെ അവരോടു ചെയ്തുകൊള്ളുക. പക്ഷേ, ഈ പുരുഷന്‍മാരെ മാത്രം ഒന്നും ചെയ്യരുത്. എന്തെന്നാല്‍, അവര്‍ എന്‍റെ അതിഥികളാണ്. മാറിനില്‍ക്കൂ, അവര്‍ അട്ടഹസിച്ചു."
           },
           "devotional": {
             "text": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
@@ -5834,9 +5834,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കുടുംബം",
-            "ending": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 19:8",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 19:8",
             "durationSeconds": 12,
             "audio": "prayer_01",
             "publishTime": "21:30"
@@ -5966,8 +5966,8 @@
           "language": "ml",
           "theme": "ധൈര്യം",
           "verse": {
-            "reference": "Psalm 23:1",
-            "text": "The LORD is my shepherd; I shall not want."
+            "reference": "ഉല്‍പത്തി 3:14",
+            "text": "ദൈവമായ കര്‍ത്താവ് സര്‍പ്പത്തോടു പറഞ്ഞു: ഇതുചെയ്തതുകൊണ്ട് നീ എല്ലാ കന്നുകാലികളുടെയും വന്യമൃഗങ്ങളുടെയുമിടയില്‍ ശപിക്കപ്പെട്ടതായിരിക്കും. നീ മണ്ണില്‍ ഇഴഞ്ഞു നടക്കും. ജീവിതകാലം മുഴുവന്‍ നീ പൊടി തിന്നും."
           },
           "devotional": {
             "text": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
@@ -5982,9 +5982,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ധൈര്യം",
-            "ending": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 3:14",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 3:14",
             "durationSeconds": 12,
             "audio": "prayer_01",
             "publishTime": "21:30"
@@ -6114,8 +6114,8 @@
           "language": "ml",
           "theme": "വിനയം",
           "verse": {
-            "reference": "Psalm 34:18",
-            "text": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit."
+            "reference": "ഉല്‍പത്തി 24:12",
+            "text": "അനന്തരം, അവന്‍ പ്രാര്‍ഥിച്ചു: എന്‍റെ യജ മാനനായ അബ്രാഹത്തിന്‍റെ ദൈവമായ കര്‍ത്താവേ, ഇന്ന് എന്‍റെ ദൗത്യം അങ്ങു വിജയിപ്പിക്കണമേ!"
           },
           "devotional": {
             "text": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
@@ -6130,9 +6130,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിനയം",
-            "ending": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:12",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:12",
             "durationSeconds": 12,
             "audio": "night_01",
             "publishTime": "21:30"
@@ -6262,8 +6262,8 @@
           "language": "ml",
           "theme": "സൗഖ്യം",
           "verse": {
-            "reference": "Psalm 34:4",
-            "text": "I sought the LORD, and he heard me, and delivered me from all my fears."
+            "reference": "ഉല്‍പത്തി 24:37",
+            "text": "എന്‍റെ യജമാനന്‍ എന്നെക്കൊണ്ട് ഒരു സത്യം ചെയ്യിച്ചു: ഞാന്‍ പാര്‍ക്കുന്ന കാനാന്‍കാരുടെ നാട്ടില്‍നിന്ന് എന്‍റെ മകനു നീയൊരു വധുവിനെ തിരഞ്ഞെടുക്കരുത്."
           },
           "devotional": {
             "text": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
@@ -6278,9 +6278,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സൗഖ്യം",
-            "ending": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:37",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:37",
             "durationSeconds": 12,
             "audio": "peaceful_04",
             "publishTime": "21:30"
@@ -6410,8 +6410,8 @@
           "language": "ml",
           "theme": "മാർഗദർശനം",
           "verse": {
-            "reference": "1 Thessalonians 5:18",
-            "text": "In every thing give thanks: for this is the will of God in Christ Jesus concerning you."
+            "reference": "ഉല്‍പത്തി 2:15",
+            "text": "ഏദന്‍തോട്ടം കൃഷിചെയ്യാനും സംരക്ഷിക്കാനും ദൈവമായ കര്‍ത്താവ് മനുഷ്യനെ അവിടെയാക്കി."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
@@ -6426,9 +6426,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "മാർഗദർശനം",
-            "ending": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 2:15",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 2:15",
             "durationSeconds": 12,
             "audio": "peaceful_05",
             "publishTime": "21:30"
@@ -6558,8 +6558,8 @@
           "language": "ml",
           "theme": "വിശ്രമം",
           "verse": {
-            "reference": "Galatians 6:9",
-            "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not."
+            "reference": "ഉല്‍പത്തി 18:32",
+            "text": "അവന്‍ പറഞ്ഞു: കര്‍ത്താവേ, കോപിക്കരുതേ! ഒരു തവണകൂടി മാത്രം ഞാന്‍ സംസാരിക്കട്ടെ. പത്തുപേരെ അവിടെയുള്ളുവെങ്കിലോ? അവിടുന്ന് അരുളിച്ചെയ്തു: ആ പത്തുപേരെപ്രതി ഞാന്‍ അതു നശിപ്പിക്കുകയില്ല."
           },
           "devotional": {
             "text": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -6574,9 +6574,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്രമം",
-            "ending": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 18:32",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 18:32",
             "durationSeconds": 12,
             "audio": "peaceful_06",
             "publishTime": "21:30"
@@ -6706,8 +6706,8 @@
           "language": "ml",
           "theme": "സേവനം",
           "verse": {
-            "reference": "1 John 1:9",
-            "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
+            "reference": "ഉല്‍പത്തി 26:28",
+            "text": "അവര്‍ പറഞ്ഞു: കര്‍ത്താവ് നിന്നോടുകൂടെയുണ്ടെന്ന് ഞങ്ങള്‍ക്കു വ്യക്തമായിരിക്കുന്നു. അതുകൊണ്ട് നാം തമ്മില്‍ സത്യംചെയ്ത് ഒരുടമ്പടി ഉണ്ടാക്കുക നല്ലതെന്നു ഞങ്ങള്‍ക്കു തോന്നി."
           },
           "devotional": {
             "text": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -6722,9 +6722,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സേവനം",
-            "ending": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 26:28",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 26:28",
             "durationSeconds": 12,
             "audio": "peaceful_07",
             "publishTime": "21:30"
@@ -6854,8 +6854,8 @@
           "language": "ml",
           "theme": "സമാധാനം",
           "verse": {
-            "reference": "Romans 8:1",
-            "text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit."
+            "reference": "ഉല്‍പത്തി 4:11",
+            "text": "നിന്‍റെ കൈയില്‍നിന്നു നിന്‍റെ സഹോദരന്‍റെ രക്തം കുടിക്കാന്‍ വായ് പിളര്‍ന്ന ഭൂമിയില്‍ നീ ശപിക്കപ്പെട്ടവനായിരിക്കും."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -6870,9 +6870,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സമാധാനം",
-            "ending": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 4:11",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 4:11",
             "durationSeconds": 12,
             "audio": "peaceful_08",
             "publishTime": "21:30"
@@ -7002,8 +7002,8 @@
           "language": "ml",
           "theme": "സ്നേഹം",
           "verse": {
-            "reference": "Psalm 55:22",
-            "text": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved."
+            "reference": "മത്തായി 13:10",
+            "text": "അപ്പോള്‍ ശിഷ്യന്‍മാര്‍ അടുത്തെത്തി അവനോടു ചോദിച്ചു: നീ അവരോട് ഉപമകള്‍ വഴി സംസാരിക്കുന്നതെന്തുകൊണ്ട്?"
           },
           "devotional": {
             "text": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -7018,9 +7018,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സ്നേഹം",
-            "ending": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "മത്തായി 13:10",
+            "ending": "ബൈബിൾ വചനം · മത്തായി 13:10",
             "durationSeconds": 12,
             "audio": "night_01",
             "publishTime": "21:30"
@@ -7150,8 +7150,8 @@
           "language": "ml",
           "theme": "പ്രത്യാശ",
           "verse": {
-            "reference": "Matthew 6:33",
-            "text": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you."
+            "reference": "ഉല്‍പത്തി 1:15",
+            "text": "ഭൂമിയില്‍ പ്രകാശം ചൊരിയാന്‍വേണ്ടി അവ ആകാശവിതാനത്തില്‍ ദീപങ്ങളായി നില്‍ക്കട്ടെ. അങ്ങനെ സംഭവിച്ചു."
           },
           "devotional": {
             "text": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
@@ -7166,9 +7166,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "പ്രത്യാശ",
-            "ending": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 1:15",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 1:15",
             "durationSeconds": 12,
             "audio": "peaceful_09",
             "publishTime": "21:30"
@@ -7298,8 +7298,8 @@
           "language": "ml",
           "theme": "നന്ദി",
           "verse": {
-            "reference": "Mark 10:27",
-            "text": "And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible."
+            "reference": "ഉല്‍പത്തി 21:12",
+            "text": "എന്നാല്‍, ദൈവം അബ്രാഹത്തോട് അരുളിച്ചെയ്തു: കുട്ടിയെക്കുറിച്ചും നിന്‍റെ അടിമപ്പെണ്ണിനെക്കുറിച്ചും നീ ക്ലേശിക്കേണ്ട. സാറാ പറയുന്നതുപോലെ ചെയ്യുക. കാരണം, ഇസഹാക്കിലൂടെയാണു നിന്‍റെ സന്തതികള്‍ അറിയപ്പെടുക."
           },
           "devotional": {
             "text": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
@@ -7314,9 +7314,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "നന്ദി",
-            "ending": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 21:12",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 21:12",
             "durationSeconds": 12,
             "audio": "peaceful_10",
             "publishTime": "21:30"
@@ -7446,8 +7446,8 @@
           "language": "ml",
           "theme": "ക്ഷമ",
           "verse": {
-            "reference": "Psalm 34:8",
-            "text": "O taste and see that the LORD is good: blessed is the man that trusteth in him."
+            "reference": "ഉല്‍പത്തി 3:17",
+            "text": "ആദത്തോട് അവിടുന്നു പറഞ്ഞു: തിന്നരുതെന്നു ഞാന്‍ പറഞ്ഞപഴം സ്ത്രീയുടെ വാക്കു കേട്ടു നീ തിന്നതുകൊണ്ട് നീ മൂലം മണ്ണു ശപിക്കപ്പെട്ടതായിരിക്കും. ആയുഷ്കാലം മുഴുവന്‍ കഠിനാധ്വാനംകൊണ്ട് നീ അതില്‍നിന്നു കാലയാപനം ചെയ്യും."
           },
           "devotional": {
             "text": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
@@ -7462,9 +7462,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ക്ഷമ",
-            "ending": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 3:17",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 3:17",
             "durationSeconds": 12,
             "audio": "peaceful_11",
             "publishTime": "21:30"
@@ -7594,8 +7594,8 @@
           "language": "ml",
           "theme": "വിശ്വാസം",
           "verse": {
-            "reference": "Jeremiah 33:3",
-            "text": "Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not."
+            "reference": "ഉല്‍പത്തി 24:67",
+            "text": "ഇസഹാക്ക് അവളെ തന്‍റെ അമ്മ സാറായുടെ കൂടാരത്തിലേക്കു കൂട്ടിക്കൊണ്ടുപോയി. അവന്‍ അവളെ ഭാര്യയായി സ്വീകരിച്ചു. അവന്‍ അവളെ സ്നേഹിച്ചു. അങ്ങനെ അമ്മയുടെ വേര്‍പാടില്‍ ദുഃഖിച്ചിരുന്ന അവന് ആശ്വാസം ലഭിച്ചു."
           },
           "devotional": {
             "text": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -7610,9 +7610,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്വാസം",
-            "ending": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 24:67",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 24:67",
             "durationSeconds": 12,
             "audio": "peaceful_12",
             "publishTime": "21:30"
@@ -7742,8 +7742,8 @@
           "language": "ml",
           "theme": "കരുണ",
           "verse": {
-            "reference": "Psalm 51:10",
-            "text": "Create in me a clean heart, O God; and renew a right spirit within me."
+            "reference": "ഉല്‍പത്തി 26:28",
+            "text": "അവര്‍ പറഞ്ഞു: കര്‍ത്താവ് നിന്നോടുകൂടെയുണ്ടെന്ന് ഞങ്ങള്‍ക്കു വ്യക്തമായിരിക്കുന്നു. അതുകൊണ്ട് നാം തമ്മില്‍ സത്യംചെയ്ത് ഒരുടമ്പടി ഉണ്ടാക്കുക നല്ലതെന്നു ഞങ്ങള്‍ക്കു തോന്നി."
           },
           "devotional": {
             "text": "കർത്താവേ, ഒറ്റപ്പെടുന്നവരെയും വേദനിക്കുന്നവരെയും കാണാൻ എന്റെ കണ്ണുകൾ തുറക്കണമേ. അവർക്കൊരു ആശ്വാസമാകാൻ എന്നെ സഹായിക്കണമേ.",
@@ -7758,9 +7758,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കരുണ",
-            "ending": "കർത്താവേ, ഒറ്റപ്പെടുന്നവരെയും വേദനിക്കുന്നവരെയും കാണാൻ എന്റെ കണ്ണുകൾ തുറക്കണമേ. അവർക്കൊരു ആശ്വാസമാകാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 26:28",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 26:28",
             "durationSeconds": 12,
             "audio": "peaceful_13",
             "publishTime": "21:30"
@@ -7890,8 +7890,8 @@
           "language": "ml",
           "theme": "കുടുംബം",
           "verse": {
-            "reference": "John 15:5",
-            "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
+            "reference": "ഉല്‍പത്തി 5:2",
+            "text": "സ്ത്രീയും പുരുഷനുമായി അവരെ സൃഷ്ടിച്ചു. അവിടുന്ന് അവരെ അനുഗ്രഹിക്കുകയും മനുഷ്യന്‍ എന്നു വിളിക്കുകയുംചെയ്തു."
           },
           "devotional": {
             "text": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
@@ -7906,9 +7906,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കുടുംബം",
-            "ending": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 5:2",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 5:2",
             "durationSeconds": 12,
             "audio": "peaceful_14",
             "publishTime": "21:30"
@@ -8038,8 +8038,8 @@
           "language": "ml",
           "theme": "ധൈര്യം",
           "verse": {
-            "reference": "2 Timothy 1:7",
-            "text": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind."
+            "reference": "ഉല്‍പത്തി 19:1",
+            "text": "വൈകുന്നേരമായപ്പോള്‍ ആ രണ്ടു ദൂതന്‍മാര്‍ സോദോമില്‍ ചെന്നു. ലോത്ത് നഗരവാതില്‍ക്കല്‍ ഇരിക്കുകയായിരുന്നു. അവരെക്കണ്ടപ്പോള്‍ ലോത്ത് അവരെ എതിരേല്‍ക്കാനായി എഴുന്നേറ്റുചെന്ന് നിലംപറ്റെ താണുവണങ്ങി."
           },
           "devotional": {
             "text": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
@@ -8054,9 +8054,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ധൈര്യം",
-            "ending": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 19:1",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 19:1",
             "durationSeconds": 12,
             "audio": "peaceful_04",
             "publishTime": "21:30"
@@ -8186,8 +8186,8 @@
           "language": "ml",
           "theme": "വിനയം",
           "verse": {
-            "reference": "Deuteronomy 7:9",
-            "text": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;"
+            "reference": "ഉല്‍പത്തി 26:31",
+            "text": "രാവിലെ അവര്‍ എഴുന്നേറ്റ് അന്യോന്യം സത്യംചെയ്തു. ഇസഹാക്ക് അവരെയാത്രയാക്കി. അവര്‍ സമാധാനത്തോടെ അവനെ വിട്ടുപോയി."
           },
           "devotional": {
             "text": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
@@ -8202,9 +8202,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിനയം",
-            "ending": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 26:31",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 26:31",
             "durationSeconds": 12,
             "audio": "peaceful_15",
             "publishTime": "21:30"
@@ -8334,8 +8334,8 @@
           "language": "ml",
           "theme": "സൗഖ്യം",
           "verse": {
-            "reference": "Psalm 37:5",
-            "text": "Commit thy way unto the LORD; trust also in him; and he shall bring it to pass."
+            "reference": "ഉല്‍പത്തി 4:21",
+            "text": "അവന്‍റെ സഹോദരന്‍റെ പേര്യൂബാല്‍. കിന്നരവുംവേണുവും വായിക്കുന്നവരുടെ പിതാവായിരുന്നു അവന്‍ ."
           },
           "devotional": {
             "text": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
@@ -8350,9 +8350,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സൗഖ്യം",
-            "ending": "കർത്താവേ, രോഗത്തിലും വേദനയിലും കഴിയുന്നവരെ ആശ്വസിപ്പിക്കണമേ. അവരെ പരിചരിക്കുന്നവർക്ക് ശക്തിയും ക്ഷമയും നൽകണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 4:21",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 4:21",
             "durationSeconds": 12,
             "audio": "peaceful_16",
             "publishTime": "21:30"
@@ -8482,8 +8482,8 @@
           "language": "ml",
           "theme": "മാർഗദർശനം",
           "verse": {
-            "reference": "Matthew 18:20",
-            "text": "For where two or three are gathered together in my name, there am I in the midst of them."
+            "reference": "മത്തായി 13:13",
+            "text": "അതുകൊണ്ടാണ് ഞാന്‍ അവരോട് ഉപമകള്‍വഴി സംസാരിക്കുന്നത്. കാരണം, അവര്‍ കണ്ടിട്ടും കാണുന്നില്ല, കേട്ടിട്ടും കേള്‍ക്കുന്നില്ല, ഗ്രഹിക്കുന്നുമില്ല."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
@@ -8498,9 +8498,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "മാർഗദർശനം",
-            "ending": "യേശുവേ, എന്റെ തീരുമാനങ്ങളിൽ എന്നെ നയിക്കണമേ. സത്യവും നീതിയും സ്നേഹവും തിരഞ്ഞെടുക്കാൻ എനിക്ക് വിവേകം തരണമേ.",
+            "template": "verse-center",
+            "headline": "മത്തായി 13:13",
+            "ending": "ബൈബിൾ വചനം · മത്തായി 13:13",
             "durationSeconds": 12,
             "audio": "peaceful_17",
             "publishTime": "21:30"
@@ -8630,8 +8630,8 @@
           "language": "ml",
           "theme": "വിശ്രമം",
           "verse": {
-            "reference": "John 11:25",
-            "text": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live."
+            "reference": "ഉല്‍പത്തി 1:24",
+            "text": "ദൈവം വീണ്ടും അരുളിച്ചെയ്തു : ഭൂമി എല്ലാത്തരം ജീവ ജാലങ്ങളെയും കന്നുകാലികള്‍, ഇഴജന്തുക്കള്‍, കാട്ടുമൃഗങ്ങള്‍ എന്നിവയെ പുറപ്പെടുവിക്കട്ടെ. അങ്ങനെ സംഭവിച്ചു."
           },
           "devotional": {
             "text": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -8646,9 +8646,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്രമം",
-            "ending": "കർത്താവേ, ഇന്നത്തെ അധ്വാനവും ഭാരങ്ങളും അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കുന്നു. ശാന്തമായ മനസ്സോടെ വിശ്രമിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 1:24",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 1:24",
             "durationSeconds": 12,
             "audio": "peaceful_01",
             "publishTime": "21:30"
@@ -8778,8 +8778,8 @@
           "language": "ml",
           "theme": "സേവനം",
           "verse": {
-            "reference": "1 Peter 5:7",
-            "text": "Casting all your care upon him; for he careth for you."
+            "reference": "ഉല്‍പത്തി 21:23",
+            "text": "അതുകൊണ്ട് എന്നോടും എന്‍റെ സന്തതികളോടും അന്യായമായി പെരുമാറില്ലെന്ന്ദൈവത്തിന്‍റെ മുമ്പില്‍ ശപഥം ചെയ്യുക."
           },
           "devotional": {
             "text": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -8794,9 +8794,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സേവനം",
-            "ending": "യേശുവേ, സഹായം ആവശ്യമുള്ളവരെ സ്നേഹത്തോടെ സേവിക്കാൻ എന്നെ ഒരുക്കണമേ. പ്രതിഫലം പ്രതീക്ഷിക്കാതെ നന്മ ചെയ്യാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 21:23",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 21:23",
             "durationSeconds": 12,
             "audio": "peaceful_02",
             "publishTime": "21:30"
@@ -8926,8 +8926,8 @@
           "language": "ml",
           "theme": "സമാധാനം",
           "verse": {
-            "reference": "Psalm 23:4",
-            "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
+            "reference": "ഉല്‍പത്തി 4:11",
+            "text": "നിന്‍റെ കൈയില്‍നിന്നു നിന്‍റെ സഹോദരന്‍റെ രക്തം കുടിക്കാന്‍ വായ് പിളര്‍ന്ന ഭൂമിയില്‍ നീ ശപിക്കപ്പെട്ടവനായിരിക്കും."
           },
           "devotional": {
             "text": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -8942,9 +8942,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സമാധാനം",
-            "ending": "യേശുവേ, എന്റെ ഹൃദയത്തിൽ സമാധാനം നിറയ്ക്കണമേ. ആശങ്കകൾ അങ്ങയുടെ കരങ്ങളിൽ ഏൽപ്പിക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 4:11",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 4:11",
             "durationSeconds": 12,
             "audio": "peaceful_03",
             "publishTime": "21:30"
@@ -9074,8 +9074,8 @@
           "language": "ml",
           "theme": "സ്നേഹം",
           "verse": {
-            "reference": "Romans 8:37",
-            "text": "Nay, in all these things we are more than conquerors through him that loved us."
+            "reference": "ഉല്‍പത്തി 26:24",
+            "text": "ആ രാത്രിതന്നെ കര്‍ത്താവ് അവനു പ്രത്യക്ഷപ്പെട്ട് അരുളിച്ചെയ്തു: നിന്‍റെ പിതാവായ അബ്രാഹത്തിന്‍റെ ദൈവമാണു ഞാന്‍; നീ ഭയപ്പെടേണ്ടാ, ഞാന്‍ നിന്നോടുകൂടെയുണ്ട്. എന്‍റെ ദാസനായ അബ്രാഹത്തെപ്രതി ഞാന്‍ നിന്നെ അനുഗ്രഹിക്കും; നിന്‍റെ സന്തതികളെ വര്‍ധിപ്പിക്കുകയും ചെയ്യും"
           },
           "devotional": {
             "text": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
@@ -9090,9 +9090,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "സ്നേഹം",
-            "ending": "യേശുവേ, അങ്ങയുടെ സ്നേഹം എന്റെ വാക്കുകളിലും പ്രവൃത്തികളിലും തെളിയട്ടെ. ഇന്ന് കാണുന്ന ഓരോരുത്തരെയും കരുണയോടെ സ്വീകരിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 26:24",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 26:24",
             "durationSeconds": 12,
             "audio": "peaceful_05",
             "publishTime": "21:30"
@@ -9222,8 +9222,8 @@
           "language": "ml",
           "theme": "പ്രത്യാശ",
           "verse": {
-            "reference": "Isaiah 26:3",
-            "text": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee."
+            "reference": "ഉല്‍പത്തി 26:31",
+            "text": "രാവിലെ അവര്‍ എഴുന്നേറ്റ് അന്യോന്യം സത്യംചെയ്തു. ഇസഹാക്ക് അവരെയാത്രയാക്കി. അവര്‍ സമാധാനത്തോടെ അവനെ വിട്ടുപോയി."
           },
           "devotional": {
             "text": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
@@ -9238,9 +9238,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "പ്രത്യാശ",
-            "ending": "കർത്താവേ, പ്രയാസങ്ങളുടെ നടുവിലും പ്രത്യാശ കൈവിടാതിരിക്കാൻ എന്നെ സഹായിക്കണമേ. അങ്ങയുടെ സാന്നിധ്യം എനിക്ക് ധൈര്യമാകട്ടെ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 26:31",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 26:31",
             "durationSeconds": 12,
             "audio": "hopeful_01",
             "publishTime": "21:30"
@@ -9370,8 +9370,8 @@
           "language": "ml",
           "theme": "നന്ദി",
           "verse": {
-            "reference": "Philippians 1:6",
-            "text": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:"
+            "reference": "ഉല്‍പത്തി 6:3",
+            "text": "അപ്പോള്‍ ദൈവമായ കര്‍ത്താവു പറഞ്ഞു: എന്‍റെ ചൈതന്യം മനുഷ്യനില്‍ എന്നേക്കും നിലനില്‍ക്കുകയില്ല. അവന്‍ ജഡമാണ്. അവന്‍റെ ആയുസ്സ് നൂറ്റിയിരുപതു വര്‍ഷമായിരിക്കും."
           },
           "devotional": {
             "text": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
@@ -9386,9 +9386,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "നന്ദി",
-            "ending": "യേശുവേ, ഈ ദിവസത്തിനും എനിക്ക് നൽകിയ അനുഗ്രഹങ്ങൾക്കും നന്ദി. ചെറിയ സന്തോഷങ്ങളിലും അങ്ങയുടെ നന്മ തിരിച്ചറിയാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 6:3",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 6:3",
             "durationSeconds": 12,
             "audio": "prayer_01",
             "publishTime": "21:30"
@@ -9518,8 +9518,8 @@
           "language": "ml",
           "theme": "ക്ഷമ",
           "verse": {
-            "reference": "James 4:8",
-            "text": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded."
+            "reference": "ഉല്‍പത്തി 20:4",
+            "text": "അബിമെലക്ക് അവളെ സമീപിച്ചിട്ടില്ലായിരുന്നു. അവന്‍ ചോദിച്ചു: കര്‍ത്താവേ, നിരപരാധനെ അങ്ങു വധിക്കുമോ?"
           },
           "devotional": {
             "text": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
@@ -9534,9 +9534,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ക്ഷമ",
-            "ending": "കർത്താവേ, എന്നെ വേദനിപ്പിച്ചവരോട് ക്ഷമിക്കാൻ എനിക്ക് മനസ്സ് തരണമേ. എന്റെ തെറ്റുകൾ സമ്മതിച്ച് സ്നേഹത്തിൽ വളരാൻ എന്നെ നയിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 20:4",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 20:4",
             "durationSeconds": 12,
             "audio": "night_01",
             "publishTime": "21:30"
@@ -9666,8 +9666,8 @@
           "language": "ml",
           "theme": "വിശ്വാസം",
           "verse": {
-            "reference": "Isaiah 43:19",
-            "text": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert."
+            "reference": "ഉല്‍പത്തി 31:53",
+            "text": "അബ്രാഹത്തിന്‍റെയും നാഹോറിന്‍റെയും അവരുടെ പിതാവിന്‍റെയും ദൈവം നമുക്കു മധ്യേ വിധിയാളനായിരിക്കട്ടെ. യാക്കോബും തന്‍റെ പിതാവായ ഇസഹാക്കു ഭയപ്പെട്ടിരുന്ന ദൈവത്തിന്‍റെ നാമത്തില്‍ സത്യംചെയ്തു."
           },
           "devotional": {
             "text": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
@@ -9682,9 +9682,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിശ്വാസം",
-            "ending": "യേശുവേ, വഴി വ്യക്തമല്ലാത്തപ്പോഴും അങ്ങയിൽ ആശ്രയിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. ഓരോ ചുവടിലും അങ്ങയുടെ സ്നേഹം ഓർക്കാൻ എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 31:53",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 31:53",
             "durationSeconds": 12,
             "audio": "peaceful_04",
             "publishTime": "21:30"

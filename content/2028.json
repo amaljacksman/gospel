@@ -124,8 +124,8 @@
           "language": "ml",
           "theme": "കുടുംബം",
           "verse": {
-            "reference": "Isaiah 40:31",
-            "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint."
+            "reference": "മത്തായി 11:22",
+            "text": "വിധിദിനത്തില്‍ ടയിറിനും സീദോനും നിങ്ങളെക്കാള്‍ ആശ്വാസമുണ്ടാകുമെന്നു ഞാന്‍ നിങ്ങളോടുപറയുന്നു."
           },
           "devotional": {
             "text": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
@@ -140,9 +140,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "കുടുംബം",
-            "ending": "യേശുവേ, ഞങ്ങളുടെ കുടുംബത്തെ സ്നേഹത്തിൽ ഒന്നിപ്പിക്കണമേ. പരസ്പരം കേൾക്കാനും ക്ഷമിക്കാനും കരുതാനും ഞങ്ങളെ പഠിപ്പിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "മത്തായി 11:22",
+            "ending": "ബൈബിൾ വചനം · മത്തായി 11:22",
             "durationSeconds": 12,
             "audio": "peaceful_01",
             "publishTime": "21:30"
@@ -272,8 +272,8 @@
           "language": "ml",
           "theme": "ധൈര്യം",
           "verse": {
-            "reference": "Matthew 5:16",
-            "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+            "reference": "മത്തായി 21:32",
+            "text": "എന്തെന്നാല്‍, യോഹന്നാന്‍ നീതിയുടെ മാര്‍ഗത്തിലൂടെ നിങ്ങളെ സമീപിച്ചു; നിങ്ങള്‍ അവനില്‍ വിശ്വസിച്ചില്ല. എന്നാല്‍ ചുങ്കക്കാരും വേശ്യകളും അവനില്‍ വിശ്വസിച്ചു. നിങ്ങള്‍ അതു കണ്ടിട്ടും അവനില്‍ വിശ്വസിക്കത്തക്കവിധം അനുതപിച്ചില്ല."
           },
           "devotional": {
             "text": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
@@ -288,9 +288,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "ധൈര്യം",
-            "ending": "കർത്താവേ, ഭയം എന്നെ തളർത്തുമ്പോൾ അങ്ങയുടെ സാന്നിധ്യം ഓർക്കാൻ സഹായിക്കണമേ. നന്മ ചെയ്യാൻ എനിക്ക് ധൈര്യം തരണമേ.",
+            "template": "verse-center",
+            "headline": "മത്തായി 21:32",
+            "ending": "ബൈബിൾ വചനം · മത്തായി 21:32",
             "durationSeconds": 12,
             "audio": "peaceful_01",
             "publishTime": "21:30"
@@ -420,8 +420,8 @@
           "language": "ml",
           "theme": "വിനയം",
           "verse": {
-            "reference": "Philippians 4:19",
-            "text": "But my God shall supply all your need according to his riches in glory by Christ Jesus."
+            "reference": "ഉല്‍പത്തി 28:1",
+            "text": "ഇസഹാക്ക് യാക്കോബിനെ വിളിച്ച് അനുഗ്രഹിച്ചുകൊണ്ടു പറഞ്ഞു: കാനാന്യസ്ത്രീകളില്‍ ആരെയും നീ വിവാഹം കഴിക്കരുത്."
           },
           "devotional": {
             "text": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
@@ -436,9 +436,9 @@
           },
           "reel": {
             "enabled": true,
-            "template": "night-prayer",
-            "headline": "വിനയം",
-            "ending": "യേശുവേ, വിനയത്തോടെ ജീവിക്കാൻ എന്നെ പഠിപ്പിക്കണമേ. മറ്റുള്ളവരുടെ നന്മയിൽ സന്തോഷിക്കാനും സ്നേഹത്തോടെ സേവിക്കാനും എന്നെ സഹായിക്കണമേ.",
+            "template": "verse-center",
+            "headline": "ഉല്‍പത്തി 28:1",
+            "ending": "ബൈബിൾ വചനം · ഉല്‍പത്തി 28:1",
             "durationSeconds": 12,
             "audio": "peaceful_02",
             "publishTime": "21:30"

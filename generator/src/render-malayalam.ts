@@ -67,12 +67,17 @@ export function renderMalayalam(
   kind: 'story' | 'post' | 'reel',
 ): Buffer {
   const logicalHeight = (height * 1080) / width;
-  const lines = malayalamLines(day.devotional?.text ?? day.verse.text);
+  // Malayalam prayer posts keep their devotional copy, while Malayalam Reels
+  // publish the selected Bible verse from the categorized verse library.
+  const isVerseReel = kind === 'reel';
+  const lines = malayalamLines(
+    isVerseReel ? day.verse.text : (day.devotional?.text ?? day.verse.text),
+  );
   const boxHeight = lines.length * 72 + 160;
   const top = (logicalHeight - boxHeight) / 2;
   const body = lines.map((line, i) => textPaths(line, 44, top + 70 + i * 72, '#ffffff')).join('');
   const label = textPaths(
-    day.devotional?.label ?? day.verse.reference,
+    isVerseReel ? day.verse.reference : (day.devotional?.label ?? day.verse.reference),
     26,
     top + boxHeight - 35,
     '#f2d9ac',

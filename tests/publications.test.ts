@@ -22,7 +22,7 @@ describe('additional publication slots', () => {
     );
     expect(
       new Set([day.verse.reference, ...day.additional!.map((item) => item.verse.reference)]).size,
-    ).toBe(5);
+    ).toBe(6);
     expect(candidates.find((c) => c.slot === 'afternoon-verse')?.scheduledAt).toBe(
       '2027-01-01T11:00:00.000Z',
     );
@@ -63,6 +63,15 @@ describe('additional publication slots', () => {
 });
 
 it('includes exactly two distinct Malayalam prayer posts on every expanded date', async () => {
+  const categorized = JSON.parse(
+    await readFile('content/bible.malayalam.categories.json', 'utf8'),
+  ) as { categories: Record<string, Record<string, string>> };
+  const genealogy = new Set(Object.keys(categorized.categories.genealogy_and_records ?? {}));
+  const allowedVerses = new Map(
+    Object.entries(categorized.categories)
+      .filter(([category]) => category !== 'genealogy_and_records')
+      .flatMap(([, verses]) => Object.entries(verses)),
+  );
   for (const year of [2026, 2027, 2028]) {
     const doc = JSON.parse(await readFile(`content/${year}.json`, 'utf8')) as YearContent;
     for (const day of doc.content) {
@@ -75,6 +84,9 @@ it('includes exactly two distinct Malayalam prayer posts on every expanded date'
       expect(reels).toHaveLength(1);
       expect(reels[0]?.slot).toBe('malayalam-evening');
       expect(reels[0]?.reel?.publishTime).toBe('21:30');
+      expect(reels[0]?.reel?.template).toBe('verse-center');
+      expect(genealogy.has(reels[0]!.verse.reference)).toBe(false);
+      expect(allowedVerses.get(reels[0]!.verse.reference)).toBe(reels[0]!.verse.text);
       for (const item of items) {
         expect(item.devotional?.label).toBe('പ്രാർത്ഥന');
         expect(item.post?.caption).toContain(item.devotional!.text);
