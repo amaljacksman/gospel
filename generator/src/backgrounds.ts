@@ -40,9 +40,10 @@ const PUBLICATION_ORDER = [
   'afternoon-story:story',
   'malayalam-morning:post',
   'malayalam-evening:post',
+  'malayalam-evening:reel',
   'evening-story:story',
 ] as const;
-const PUBLICATION_OFFSETS = [0, 9, 18, 1, 2, 3, 4, 5, 6] as const;
+const PUBLICATION_OFFSETS = [0, 9, 18, 1, 2, 3, 4, 5, 7, 6] as const;
 
 function hash(value: string): number {
   let result = 2166136261;

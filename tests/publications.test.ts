@@ -8,12 +8,12 @@ async function calendar() {
   return JSON.parse(await readFile('content/2027.json', 'utf8')) as YearContent;
 }
 describe('additional publication slots', () => {
-  it('schedules nine distinct publications with independent media paths', async () => {
+  it('schedules ten distinct publications with independent media paths', async () => {
     const doc = await calendar();
     const day = doc.content[0]!;
     const candidates = dueCandidates(day, doc.timezone, new Date('2027-01-01T16:30Z'), 24 * 60);
-    expect(candidates).toHaveLength(9);
-    expect(new Set(candidates.map((c) => c.r2Key)).size).toBe(9);
+    expect(candidates).toHaveLength(10);
+    expect(new Set(candidates.map((c) => c.r2Key)).size).toBe(10);
     expect(candidates.find((c) => c.slot === 'morning-verse')?.scheduledAt).toBe(
       '2027-01-01T04:30:00.000Z',
     );
@@ -28,6 +28,9 @@ describe('additional publication slots', () => {
     );
     expect(candidates.find((c) => c.slot === 'evening-story')?.r2Key).toBe(
       'stories/2027/01/2027-01-01-evening-story.jpg',
+    );
+    expect(candidates.find((c) => c.slot === 'malayalam-evening' && c.type === 'reel')?.r2Key).toBe(
+      'reels/2027/01/2027-01-01-malayalam-evening.mp4',
     );
     expect(dueCandidates(day, doc.timezone, new Date('2027-01-01T11:01Z'), 5)).toHaveLength(1);
   });
@@ -68,6 +71,10 @@ it('includes exactly two distinct Malayalam prayer posts on every expanded date'
       if (!items.length) continue;
       expect(items.map((item) => item.post?.publishTime)).toEqual(['08:30', '19:00']);
       expect(new Set(items.map((item) => item.devotional?.text)).size).toBe(2);
+      const reels = items.filter((item) => item.reel?.enabled);
+      expect(reels).toHaveLength(1);
+      expect(reels[0]?.slot).toBe('malayalam-evening');
+      expect(reels[0]?.reel?.publishTime).toBe('21:30');
       for (const item of items) {
         expect(item.devotional?.label).toBe('പ്രാർത്ഥന');
         expect(item.post?.caption).toContain(item.devotional!.text);

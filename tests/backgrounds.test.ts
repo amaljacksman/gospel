@@ -51,6 +51,7 @@ it('uses distinct deterministic backgrounds for the expanded daily schedule', ()
     ['story', 'afternoon-story'],
     ['post', 'malayalam-morning'],
     ['post', 'malayalam-evening'],
+    ['reel', 'malayalam-evening'],
   ] as const;
   const selected = publications.map(([kind, slot]) => selectBackground(day, kind, slot));
   expect(new Set(selected).size).toBe(selected.length);

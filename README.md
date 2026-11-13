@@ -147,9 +147,9 @@ npx wrangler r2 bucket lifecycle add gospel-content expire-posts-after-15-days p
 
 Lifecycle rules are bucket settings, not HTTP cache TTLs; they require no AI calls or scheduled cleanup code. See [Cloudflare's lifecycle documentation](https://developers.cloudflare.com/r2/buckets/object-lifecycles/).
 
-## Nine daily publications
+## Ten daily publications
 
-Starting November 7, 2026, the authored calendar contains nine publications per day (Asia/Kolkata):
+Starting November 7, 2026, the authored calendar contains ten publications per day (Asia/Kolkata):
 
 | Time  | Format | Slot                |
 | ----- | ------ | ------------------- |
@@ -161,9 +161,10 @@ Starting November 7, 2026, the authored calendar contains nine publications per 
 | 18:00 | Story  | `afternoon-story`   |
 | 19:00 | Post   | `malayalam-evening` |
 | 20:30 | Reel   | Original            |
+| 21:30 | Reel   | `malayalam-evening` |
 | 22:00 | Story  | `evening-story`     |
 
-The four additional English items reuse exact KJV scripture and reviewed reflections from the existing library, with different references from the original daily verse and each other. Dates before November 7 retain their original schedule. Two additional Malayalam prayer posts rotate through 14 original prayers in `content/malayalam-prayers.json`. These are devotional compositions, not Bible quotations. Jesus illustration assets are not included.
+The four additional English items reuse exact KJV scripture and reviewed reflections from the existing library, with different references from the original daily verse and each other. Dates before November 7 retain their original schedule. Two additional Malayalam prayer posts rotate through 14 original prayers in `content/malayalam-prayers.json`; the evening Malayalam prayer also publishes a daily Reel at 21:30 using the same devotional text and licensed audio rotation. These are devotional compositions, not Bible quotations. Jesus illustration assets are not included.
 
 Each date may contain an `additional` array of up to seven entries. Each entry has its own `slot`, matching `date`, `theme`, `verse`, and optional `story`, `post`, or `reel` objects using the existing format. Slot IDs must be unique within the date and use lowercase letters, digits, and hyphens, beginning with a letter. Keep IDs stable after publication: changing one creates a new publication identity. Extra media filenames include the slot, for example `posts/2027/01/2027-01-01-afternoon-verse.jpg`. Original media paths remain unchanged. Date/range/year generation, format-specific generation, uploads, scheduling, and backfill all include additional slots.
 
@@ -173,6 +174,6 @@ Deploy this change in order:
 2. Deploy both publisher and scheduler Workers using their existing Wrangler configurations.
 3. Generate and upload the upcoming dates with the updated calendar and generator (or run the updated Generate Media workflow). Keep the existing rolling three-day generation window because images expire after 15 days.
 
-Buffer submissions remain just in time using `shareNow`; this change does not enqueue the entire calendar in Buffer or add queue-capacity detection. Buffer rejection/retry behavior remains unchanged. Nine daily publications also increase API status checks, so monitor usage and failed jobs before increasing further. Backfill still accepts up to three dates and now includes all enabled slots of the requested types; use preview first because three expanded dates can represent 27 publications.
+Buffer submissions remain just in time using `shareNow`; this change does not enqueue the entire calendar in Buffer or add queue-capacity detection. Buffer rejection/retry behavior remains unchanged. Ten daily publications also increase API status checks, so monitor usage and failed jobs before increasing further. Backfill still accepts up to three dates and now includes all enabled slots of the requested types; use preview first because three expanded dates can represent 30 publications.
 
 Malayalam publications use `language: "ml"` and a `devotional` object with `text` and `label`. The renderer displays the prayer and its label instead of the contextual `verse`; the English verse is retained only as context, not presented as a translation. Captions and hashtags are Malayalam, and hashtag validation supports Unicode letters and combining marks. HarfBuzz shapes Malayalam conjuncts and measures line widths, then resvg rasterizes glyph outlines using the bundled Noto Sans Malayalam font. This works without system font discovery. Edit dated entries in the yearly JSON to change scheduled content; the prayer library records the source rotation and does not automatically rewrite calendars.
